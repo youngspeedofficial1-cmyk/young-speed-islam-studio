@@ -1,0 +1,18 @@
+{
+ "0": {
+  "file": "00.mp3",
+  "text": "السلام علیکم۔ یہ ینگ اسپیڈ اسلام کی آواز کا ٹیسٹ ہے۔",
+  "voice": "ur-PK-AsadNeural",
+  "rate": "-6%",
+  "pitch": "+0Hz",
+  "hash": "a6816773c54bce6423a1d7ae7bf8b8d154e6f198"
+ },
+ "1": {
+  "file": "01.mp3",
+  "text": "نبی کریم صلی اللہ علیہ وسلم نے فرمایا: اعمال کا دارومدار نیتوں پر ہے۔",
+  "voice": "ur-PK-AsadNeural",
+  "rate": "-6%",
+  "pitch": "+0Hz",
+  "hash": "79c75e2cc00e766f7ec7d1eedb88267cdce52bcd"
+ }
+}
