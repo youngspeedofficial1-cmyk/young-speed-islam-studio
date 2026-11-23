@@ -1,0 +1,28 @@
+name: Urdu voice relay
+on:
+  push:
+    paths: ["scripts/**.json"]
+  workflow_dispatch:
+permissions:
+  contents: write
+concurrency:
+  group: tts
+  cancel-in-progress: false
+jobs:
+  tts:
+    runs-on: ubuntu-latest
+    timeout-minutes: 15
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with: { python-version: "3.11" }
+      - run: pip install edge-tts
+      - run: python tools/tts_relay.py
+      - name: Commit audio
+        run: |
+          git config user.name "voice-relay"
+          git config user.email "actions@users.noreply.github.com"
+          git add audio
+          git diff --cached --quiet || git commit -m "Voice clips [skip ci]"
+          git pull --rebase -q || true
+          git push
