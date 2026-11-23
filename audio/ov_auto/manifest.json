@@ -1,0 +1,24 @@
+{
+ "0": {
+  "file": "00.wav",
+  "text": "السلام علیکم۔ یہ ینگ اسپیڈ اسلام کی آواز کا ٹیسٹ ہے۔",
+  "engine": "omnivoice",
+  "hash": "18f8370bea829d6221687a73785fcec55d2b098f",
+  "ref": null,
+  "instruct": null,
+  "speed": null,
+  "seed": null,
+  "num_step": null
+ },
+ "1": {
+  "file": "01.wav",
+  "text": "نبی کریم صلی اللہ علیہ وسلم نے فرمایا: اعمال کا دارومدار نیتوں پر ہے۔",
+  "engine": "omnivoice",
+  "hash": "70e27b61c0894110595487ac340f96f4b9d707d0",
+  "ref": null,
+  "instruct": null,
+  "speed": null,
+  "seed": null,
+  "num_step": null
+ }
+}
