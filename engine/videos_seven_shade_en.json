@@ -1,0 +1,140 @@
+{
+  "videos": [
+    {
+      "name": "seven_shade_en",
+      "lang": "en",
+      "text2_lang": "ur",
+      "style": "explainer",
+      "hook_type": "number",
+      "topic": "seven shaded on the Day of Judgment",
+      "title": "7 People in Allah's Shade",
+      "title_en": "7 People Allah Will Shade When There Is No Shade",
+      "caption": "On a Day with no shade but His, Allah will shade 7 people 🤍 Which one are you working on? Comment 1 to 7 👇",
+      "hashtags": [
+        "#islamicreminder",
+        "#hadith",
+        "#dayofjudgment",
+        "#akhirah",
+        "#muslim",
+        "#deen"
+      ],
+      "sources": [
+        {
+          "ref": "Sahih al-Bukhari 660",
+          "url": "https://hadithunlocked.com/bukhari:660",
+          "grade": "sahih, agreed upon (Bukhari & Muslim); 'His Shade' explained by Ibn Hajar as the shade of His Throne (sunnah.global/hadeeth/en/show/66234)",
+          "wording": "faithful rendering of the English translation; item 5 phrased as 'refuses an invitation to sin' (the hadith: a woman of status and beauty)",
+          "checked": "2026-11-10"
+        }
+      ],
+      "lines": [
+        {
+          "text": "On a Day when there is {no shade} but His…",
+          "text2": "اُس دن جب اُس کے سائے کے سوا {کوئی سایہ} نہ ہوگا…",
+          "say": "On a Day | when there is no shade but His,",
+          "mood": "heavy",
+          "beat": "hook",
+          "hold": 3.0,
+          "scene": "seven_shade"
+        },
+        {
+          "text": "Allah will shade {7 people}.",
+          "text2": "اللہ {سات لوگوں} کو سایہ دے گا۔",
+          "say": "Allah will shade *seven* people.",
+          "mood": "firm",
+          "beat": "seven",
+          "scene": "seven_shade"
+        },
+        {
+          "text": "The Prophet ﷺ said:",
+          "text2": "نبی کریم ﷺ نے فرمایا:",
+          "say": "The Prophet, peace be upon him, said:",
+          "mood": "neutral",
+          "scene": "seven_shade"
+        },
+        {
+          "text": "A {just} ruler,",
+          "text2": "{انصاف} کرنے والا حکمران،",
+          "say": "A just ruler,",
+          "mood": "soft",
+          "beat": "s1",
+          "hold": 2.0,
+          "scene": "seven_shade"
+        },
+        {
+          "text": "a youth raised in the {worship} of Allah,",
+          "text2": "وہ نوجوان جو اللہ کی {عبادت} میں پلا بڑھا،",
+          "say": "a youth raised in the worship of Allah,",
+          "mood": "soft",
+          "beat": "s2",
+          "hold": 2.2,
+          "scene": "seven_shade"
+        },
+        {
+          "text": "one whose heart is attached to the {mosques},",
+          "text2": "وہ جس کا دل {مسجدوں} سے جڑا رہے،",
+          "say": "one whose heart is attached to the mosques,",
+          "mood": "soft",
+          "beat": "s3",
+          "hold": 2.2,
+          "scene": "seven_shade"
+        },
+        {
+          "text": "two who {love} each other for Allah’s sake,",
+          "text2": "دو لوگ جو اللہ کی خاطر ایک دوسرے سے {محبت} کریں،",
+          "say": "two who love each other | for Allah's sake,",
+          "mood": "soft",
+          "beat": "s4",
+          "hold": 2.2,
+          "scene": "seven_shade"
+        },
+        {
+          "text": "a man who refuses an invitation to sin, saying: {I fear Allah},",
+          "text2": "وہ جو گناہ کی دعوت ٹھکرا کر کہے: {میں اللہ سے ڈرتا ہوں}،",
+          "say": "a man who refuses an invitation to sin, | saying: I fear Allah,",
+          "mood": "firm",
+          "beat": "s5",
+          "hold": 2.4,
+          "scene": "seven_shade"
+        },
+        {
+          "text": "one who gives charity so {secretly} his left hand doesn’t know what his right gave,",
+          "text2": "وہ جو اتنا {چھپا کر} صدقہ دے کہ بائیں ہاتھ کو خبر نہ ہو کہ دائیں نے کیا دیا،",
+          "say": "one who gives charity so secretly, | his left hand doesn't know what his right gave,",
+          "mood": "soft",
+          "beat": "s6",
+          "hold": 2.4,
+          "scene": "seven_shade"
+        },
+        {
+          "text": "and one who remembers Allah alone, and his {eyes overflow}.",
+          "text2": "اور وہ جو تنہائی میں اللہ کو یاد کرے اور اُس کی {آنکھیں بہہ پڑیں}۔",
+          "sub": "(Sahih al-Bukhari 660)",
+          "say": "and one who remembers Allah alone, | and his eyes overflow with tears.",
+          "mood": "hope",
+          "beat": "s7",
+          "hold": 3.0,
+          "scene": "seven_shade"
+        },
+        {
+          "text": "That Day, {where} will you be standing?",
+          "text2": "اُس دن آپ {کہاں} کھڑے ہوں گے؟",
+          "say": "That Day, | where will you be standing?",
+          "mood": "question",
+          "beat": "reflect",
+          "hold": 2.6,
+          "scene": "seven_shade"
+        },
+        {
+          "text": "Which one are you working on? Comment {1 to 7}.",
+          "text2": "آپ کس پر کام کر رہے ہیں؟ {1 سے 7} لکھیں۔",
+          "say": "Which one are you working on? | Comment one to seven.",
+          "mood": "soft",
+          "beat": "cta",
+          "hold": 3.6,
+          "scene": "seven_shade"
+        }
+      ]
+    }
+  ]
+}

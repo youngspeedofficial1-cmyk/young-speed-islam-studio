@@ -1,0 +1,128 @@
+{
+  "videos": [
+    {
+      "name": "birds_rizq_en",
+      "lang": "en",
+      "text2_lang": "ur",
+      "style": "explainer",
+      "hook_type": "question",
+      "topic": "tawakkul and rizq: the birds",
+      "title": "Look at the Birds",
+      "title_en": "Worried About Rizq? Look at the Birds",
+      "caption": "They leave hungry and come back full, every single day 🕊️ Do your part and trust Allah with the rest. Comment Hasbiyallah 👇",
+      "hashtags": [
+        "#islamicreminder",
+        "#hadith",
+        "#tawakkul",
+        "#rizq",
+        "#trustallah",
+        "#muslim",
+        "#deen"
+      ],
+      "sources": [
+        {
+          "ref": "Jami' at-Tirmidhi 2344",
+          "url": "https://sunnah.com/tirmidhi:2344",
+          "grade": "hasan sahih (at-Tirmidhi); also Ibn Majah 4164, Ahmad",
+          "wording": "English per the translation at abuaminaelias.com (narrated by Umar ibn al-Khattab); Arabic: taghdu khimasan wa taruhu bitanan",
+          "checked": "2026-11-14"
+        }
+      ],
+      "lines": [
+        {
+          "text": "Worried about your {rizq}? Look at the birds.",
+          "text2": "اپنے {رزق} کی فکر ہے؟ پرندوں کو دیکھیں۔",
+          "say": "Worried about your rizq? | Look at the birds.",
+          "mood": "question",
+          "beat": "hook",
+          "hold": 2.4,
+          "claim": "interpretation",
+          "scene": "birds_provision"
+        },
+        {
+          "text": "The Prophet ﷺ said:",
+          "text2": "نبی کریم ﷺ نے فرمایا:",
+          "say": "The Prophet, peace be upon him, said:",
+          "mood": "neutral",
+          "beat": "said",
+          "scene": "birds_provision"
+        },
+        {
+          "text": "“If you were to {rely} upon Allah with reliance due to Him,",
+          "text2": "”اگر تم اللہ پر ویسا {توکل} کرو جیسا اس کا حق ہے،",
+          "say": "If you were to *rely* upon Allah | with reliance due to Him,",
+          "mood": "soft",
+          "beat": "rely",
+          "scene": "birds_provision"
+        },
+        {
+          "text": "He would provide for you just as He provides for the {birds}.",
+          "text2": "تو وہ تمہیں ویسے ہی رزق دے جیسے {پرندوں} کو دیتا ہے۔",
+          "say": "He would provide for you, | just as He provides for the birds.",
+          "mood": "hope",
+          "beat": "provide",
+          "scene": "birds_provision"
+        },
+        {
+          "text": "They go out in the morning with {empty} stomachs",
+          "text2": "وہ صبح {خالی} پیٹ نکلتے ہیں",
+          "say": "They go out in the morning | with *empty* stomachs,",
+          "mood": "soft",
+          "beat": "out",
+          "hold": 1.4,
+          "scene": "birds_provision"
+        },
+        {
+          "text": "and return {full}.”",
+          "text2": "اور شام کو {پیٹ بھر کر} لوٹتے ہیں۔“",
+          "say": "and return *full*.",
+          "mood": "hope",
+          "beat": "full",
+          "hold": 2.6,
+          "scene": "birds_provision"
+        },
+        {
+          "text": "تَغْدُو خِمَاصًا وَتَرُوحُ بِطَانًا",
+          "font": "arabic",
+          "sub": "(Jami' at-Tirmidhi 2344, graded hasan sahih)",
+          "say": "Reported by at-Tirmidhi.",
+          "mood": "soft",
+          "beat": "card",
+          "hold": 1.8,
+          "arabic_source": "hadith",
+          "hadith_ref": "Jami' at-Tirmidhi 2344",
+          "scene": "birds_provision"
+        },
+        {
+          "text": "The birds still {go out}. Do your part, and trust Allah with the rest.",
+          "text2": "پرندے پھر بھی {نکلتے} ہیں۔ اپنی کوشش کریں، باقی اللہ پر چھوڑ دیں۔",
+          "say": "The birds still go out. | Do your part, and trust Allah with the rest.",
+          "mood": "firm",
+          "beat": "notice",
+          "claim": "interpretation",
+          "scene": "birds_provision"
+        },
+        {
+          "label": "Allah says",
+          "text": "وَمَن يَتَوَكَّلْ عَلَى اللَّهِ فَهُوَ حَسْبُهُ",
+          "font": "arabic",
+          "sub": "“And whoever relies upon Allah - then He is sufficient for him.” (At-Talaq 65:3)",
+          "say": "And whoever relies upon Allah, | then He is sufficient for him.",
+          "mood": "soft",
+          "beat": "ayah",
+          "hold": 3.0,
+          "scene": "birds_provision"
+        },
+        {
+          "text": "Comment {Hasbiyallah} if you trust Him today.",
+          "text2": "اگر آج آپ اس پر بھروسہ کرتے ہیں تو {حسبی اللہ} لکھیں۔",
+          "say": "Comment Hasbiyallah | if you trust Him today.",
+          "mood": "soft",
+          "beat": "cta",
+          "hold": 3.4,
+          "scene": "birds_provision"
+        }
+      ]
+    }
+  ]
+}

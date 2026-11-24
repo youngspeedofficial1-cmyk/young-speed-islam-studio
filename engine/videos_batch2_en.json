@@ -1,0 +1,1271 @@
+{
+  "videos": [
+    {
+      "name": "anger_strong_en",
+      "hook_type": "question",
+      "topic": "controlling anger",
+      "title": "Who Is Really Strong?",
+      "caption": "Real strength isn't in your fists, it's in the moment you hold back 🤍 Send this to someone who needs it 👇",
+      "hashtags": [
+        "#islamicreminder",
+        "#hadith",
+        "#anger",
+        "#selfcontrol",
+        "#sunnah",
+        "#muslim",
+        "#deen"
+      ],
+      "sources": [
+        {
+          "ref": "Sahih al-Bukhari 6114",
+          "url": "https://hadithunlocked.com/bukhari:6114",
+          "grade": "sahih, agreed upon (Bukhari & Muslim)",
+          "wording": "English per hadithunlocked translation; narrated by Abu Hurayrah",
+          "checked": "2026-11-14",
+          "arabic": "حَدَّثَنَا عَبْدُ اللَّهِ بْنُ يُوسُفَ، أَخْبَرَنَا مَالِكٌ، عَنِ ابْنِ شِهَابٍ، عَنْ سَعِيدِ بْنِ الْمُسَيَّبِ، عَنْ أَبِي هُرَيْرَةَ ـ رضى الله عنه ـ أَنَّ رَسُولَ اللَّهِ صلى الله عليه وسلم قَالَ ‏ \"‏ لَيْسَ الشَّدِيدُ بِالصُّرَعَةِ، إِنَّمَا الشَّدِيدُ الَّذِي يَمْلِكُ نَفْسَهُ عِنْدَ الْغَضَبِ ‏\"‏‏.‏",
+          "arabic_source": "AhmedBaset/hadith-json (Bukhari/Muslim Arabic text)"
+        }
+      ],
+      "lines": [
+        {
+          "text": "Think you're {strong}? 🤔",
+          "text2": "سمجھتے ہیں آپ {طاقتور} ہیں؟",
+          "say": "Think you're strong?",
+          "mood": "question",
+          "beat": "hook",
+          "hold": 1.6,
+          "claim": "interpretation",
+          "scene": "anger_calm"
+        },
+        {
+          "text": "The Prophet ﷺ said:",
+          "text2": "نبی کریم ﷺ نے فرمایا:",
+          "say": "The Prophet, peace be upon him, said:",
+          "mood": "neutral",
+          "scene": "anger_calm"
+        },
+        {
+          "text": "“The strong is not the one who {overcomes} the people by his strength,",
+          "text2": "”طاقتور وہ نہیں جو لوگوں کو اپنی طاقت سے {پچھاڑ} دے،",
+          "say": "The strong is not the one | who overcomes the people by his strength,",
+          "mood": "soft",
+          "beat": "wrestle",
+          "hold": 1.0,
+          "scene": "anger_calm",
+          "text0": "لَيْسَ الشَّدِيدُ بِالصُّرَعَةِ",
+          "text0_ref": "Sahih al-Bukhari 6114"
+        },
+        {
+          "text": "but the strong is the one who {controls himself}",
+          "text2": "بلکہ طاقتور وہ ہے جو {اپنے آپ پر قابو} رکھے",
+          "say": "but the strong is the one who *controls himself*",
+          "mood": "firm",
+          "beat": "strong",
+          "hold": 0.8,
+          "scene": "anger_calm",
+          "text0": "إِنَّمَا الشَّدِيدُ الَّذِي يَمْلِكُ نَفْسَهُ",
+          "text0_ref": "Sahih al-Bukhari 6114"
+        },
+        {
+          "text": "while in {anger}.”",
+          "text2": "غصے کے {وقت}۔“",
+          "say": "while in anger.",
+          "mood": "soft",
+          "beat": "calm",
+          "hold": 2.6,
+          "scene": "anger_calm",
+          "text0": "عِنْدَ الْغَضَبِ",
+          "text0_ref": "Sahih al-Bukhari 6114"
+        },
+        {
+          "text": "إِنَّمَا الشَّدِيدُ الَّذِي يَمْلِكُ نَفْسَهُ عِنْدَ الْغَضَبِ",
+          "font": "arabic",
+          "sub": "(Sahih al-Bukhari 6114)",
+          "say": "Reported by al-Bukhari and Muslim.",
+          "mood": "soft",
+          "beat": "card",
+          "hold": 1.8,
+          "arabic_source": "hadith",
+          "hadith_ref": "Sahih al-Bukhari 6114",
+          "scene": "anger_calm"
+        },
+        {
+          "text": "Next time anger rises, {pause}. That pause is strength. 🤍",
+          "text2": "اگلی بار غصہ آئے تو {رک جائیں}۔ یہی رکنا طاقت ہے۔",
+          "say": "Next time anger rises, pause. | That pause is strength.",
+          "mood": "firm",
+          "beat": "reflect",
+          "claim": "interpretation",
+          "scene": "anger_calm"
+        },
+        {
+          "text": "وَالْكَاظِمِينَ الْغَيْظَ وَالْعَافِينَ عَنِ النَّاسِ وَاللَّهُ يُحِبُّ الْمُحْسِنِينَ",
+          "font": "arabic",
+          "sub": "“…who restrain anger and who pardon the people - and Allah loves the doers of good.” (Al-Imran 3:134)",
+          "say": "Who restrain anger, and who pardon the people, | and Allah loves the doers of good.",
+          "mood": "soft",
+          "beat": "ayah",
+          "hold": 3.0,
+          "label": "Allah says",
+          "scene": "anger_calm"
+        },
+        {
+          "text": "Who needs this reminder? {Send} it to them. 🤍",
+          "text2": "یہ یاددہانی کس کو چاہیے؟ انہیں {بھیجیں}۔",
+          "say": "Who needs this reminder? | Send it to them.",
+          "mood": "soft",
+          "beat": "cta",
+          "hold": 3.2,
+          "scene": "anger_calm"
+        }
+      ],
+      "lang": "en",
+      "text2_lang": "ur",
+      "style": "explainer",
+      "title_en": "Who Is Really Strong?"
+    },
+    {
+      "name": "charity_wealth_en",
+      "hook_type": "question",
+      "topic": "charity does not decrease wealth",
+      "title": "Charity Never Makes You Poorer",
+      "caption": "Afraid giving will leave you with less? The Prophet ﷺ said the opposite 🤍 Give something small today and comment done 👇",
+      "hashtags": [
+        "#islamicreminder",
+        "#hadith",
+        "#sadaqah",
+        "#charity",
+        "#rizq",
+        "#muslim",
+        "#deen"
+      ],
+      "sources": [
+        {
+          "ref": "Sahih Muslim 2588",
+          "url": "https://hadithunlocked.com/muslim:2588",
+          "grade": "sahih (Muslim)",
+          "wording": "English per hadithunlocked translation; narrated by Abu Hurayrah",
+          "checked": "2026-11-14",
+          "arabic": "حَدَّثَنَا يَحْيَى بْنُ أَيُّوبَ، وَقُتَيْبَةُ، وَابْنُ، حُجْرٍ قَالُوا حَدَّثَنَا إِسْمَاعِيلُ، - وَهُوَ ابْنُ جَعْفَرٍ - عَنِ الْعَلاَءِ، عَنْ أَبِيهِ، عَنْ أَبِي هُرَيْرَةَ، عَنْ رَسُولِ اللَّهِ صلى الله عليه وسلم قَالَ ‏ \"‏ مَا نَقَصَتْ صَدَقَةٌ مِنْ مَالٍ وَمَا زَادَ اللَّهُ عَبْدًا بِعَفْوٍ إِلاَّ عِزًّا وَمَا تَوَاضَعَ أَحَدٌ لِلَّهِ إِلاَّ رَفَعَهُ اللَّهُ ‏\"‏ ‏.‏",
+          "arabic_source": "AhmedBaset/hadith-json (Bukhari/Muslim Arabic text)"
+        }
+      ],
+      "lines": [
+        {
+          "text": "Afraid giving will make you {poorer}? 🤔",
+          "text2": "ڈر ہے کہ دینے سے آپ {غریب} ہو جائیں گے؟",
+          "say": "Afraid giving will make you poorer?",
+          "mood": "question",
+          "beat": "give",
+          "hold": 1.6,
+          "claim": "interpretation",
+          "scene": "charity_jar"
+        },
+        {
+          "text": "The Prophet ﷺ said:",
+          "text2": "نبی کریم ﷺ نے فرمایا:",
+          "say": "The Prophet, peace be upon him, said:",
+          "mood": "neutral",
+          "scene": "charity_jar"
+        },
+        {
+          "text": "“Charity does not {decrease} wealth,",
+          "text2": "”صدقہ مال میں {کمی} نہیں کرتا،",
+          "say": "Charity does not decrease wealth,",
+          "mood": "firm",
+          "beat": "same",
+          "hold": 1.2,
+          "scene": "charity_jar",
+          "text0": "مَا نَقَصَتْ صَدَقَةٌ مِنْ مَالٍ",
+          "text0_ref": "Sahih Muslim 2588"
+        },
+        {
+          "text": "no one forgives another except that Allah increases his {honor},",
+          "text2": "جو کسی کو معاف کرے، اللہ اس کی {عزت} بڑھا دیتا ہے،",
+          "say": "no one forgives another, | except that Allah increases his honor,",
+          "mood": "soft",
+          "beat": "forgive",
+          "hold": 1.0,
+          "scene": "charity_jar",
+          "text0": "وَمَا زَادَ اللَّهُ عَبْدًا بِعَفْوٍ إِلاَّ عِزًّا",
+          "text0_ref": "Sahih Muslim 2588"
+        },
+        {
+          "text": "and no one humbles himself for the sake of Allah except that Allah {raises} his status.”",
+          "text2": "اور جو اللہ کے لیے عاجزی کرے، اللہ اسے {بلند} کر دیتا ہے۔“",
+          "say": "and no one humbles himself for the sake of Allah, | except that Allah *raises* his status.",
+          "mood": "hope",
+          "beat": "humble",
+          "hold": 2.8,
+          "scene": "charity_jar",
+          "text0": "وَمَا تَوَاضَعَ أَحَدٌ لِلَّهِ إِلاَّ رَفَعَهُ اللَّهُ",
+          "text0_ref": "Sahih Muslim 2588"
+        },
+        {
+          "text": "مَا نَقَصَتْ صَدَقَةٌ مِنْ مَالٍ",
+          "font": "arabic",
+          "sub": "(Sahih Muslim 2588)",
+          "say": "Reported by Muslim.",
+          "mood": "soft",
+          "beat": "card",
+          "hold": 1.8,
+          "arabic_source": "hadith",
+          "hadith_ref": "Sahih Muslim 2588",
+          "scene": "charity_jar"
+        },
+        {
+          "text": "What you give for Allah is never {lost}. 🤍",
+          "text2": "جو اللہ کے لیے دیا، وہ کبھی {ضائع} نہیں ہوتا۔",
+          "say": "What you give for Allah | is never lost.",
+          "mood": "hope",
+          "beat": "reflect",
+          "claim": "interpretation",
+          "scene": "charity_jar"
+        },
+        {
+          "text": "وَمَا أَنفَقْتُم مِّن شَيْءٍ فَهُوَ يُخْلِفُهُ وَهُوَ خَيْرُ الرَّازِقِينَ",
+          "font": "arabic",
+          "sub": "“But whatever thing you spend [in His cause] - He will compensate it; and He is the best of providers.” (Saba 34:39)",
+          "say": "Whatever thing you spend, | He will compensate it, and He is the best of providers.",
+          "mood": "soft",
+          "beat": "ayah",
+          "hold": 3.0,
+          "label": "Allah says",
+          "scene": "charity_jar"
+        },
+        {
+          "text": "Give something small today, then comment {done}. 🤲",
+          "text2": "آج کچھ تھوڑا سا دیں، پھر {ہو گیا} لکھیں۔",
+          "say": "Give something small today, | then comment, done.",
+          "mood": "soft",
+          "beat": "cta",
+          "hold": 3.2,
+          "scene": "charity_jar"
+        }
+      ],
+      "lang": "en",
+      "text2_lang": "ur",
+      "style": "explainer",
+      "title_en": "Charity Never Makes You Poorer"
+    },
+    {
+      "name": "believer_affair_en",
+      "hook_type": "bold_claim",
+      "topic": "gratitude and patience: every affair is good",
+      "title": "Every Situation Is Good for a Believer",
+      "caption": "Good days: gratitude. Hard days: patience. Either way, it's good for you 🤍 Which one are you in today? 👇",
+      "hashtags": [
+        "#islamicreminder",
+        "#hadith",
+        "#sabr",
+        "#shukr",
+        "#patience",
+        "#muslim",
+        "#deen"
+      ],
+      "sources": [
+        {
+          "ref": "Sahih Muslim 2999",
+          "url": "https://hadithunlocked.com/muslim:2999",
+          "grade": "sahih (Muslim)",
+          "wording": "English per hadithunlocked translation; narrated by Suhayb ar-Rumi",
+          "checked": "2026-11-14",
+          "arabic": "حَدَّثَنَا هَدَّابُ بْنُ خَالِدٍ الأَزْدِيُّ، وَشَيْبَانُ بْنُ فَرُّوخَ، جَمِيعًا عَنْ سُلَيْمَانَ بْنِ الْمُغِيرَةِ، - وَاللَّفْظُ لِشَيْبَانَ - حَدَّثَنَا سُلَيْمَانُ، حَدَّثَنَا ثَابِتٌ، عَنْ عَبْدِ الرَّحْمَنِ بْنِ أَبِي لَيْلَى، عَنْ صُهَيْبٍ، قَالَ قَالَ رَسُولُ اللَّهِ صلى الله عليه وسلم ‏ \"‏ عَجَبًا لأَمْرِ الْمُؤْمِنِ إِنَّ أَمْرَهُ كُلَّهُ خَيْرٌ وَلَيْسَ ذَاكَ لأَحَدٍ إِلاَّ لِلْمُؤْمِنِ إِنْ أَصَابَتْهُ سَرَّاءُ شَكَرَ فَكَانَ خَيْرًا لَهُ وَإِنْ أَصَابَتْهُ ضَرَّاءُ صَبَرَ فَكَانَ خَيْرًا لَهُ ‏\"‏ ‏.‏",
+          "arabic_source": "AhmedBaset/hadith-json (Bukhari/Muslim Arabic text)"
+        }
+      ],
+      "lines": [
+        {
+          "text": "For a believer, {every} situation can be good. ✨",
+          "text2": "مومن کے لیے {ہر} حال خیر بن سکتا ہے۔",
+          "say": "For a believer, every situation can be good.",
+          "mood": "firm",
+          "beat": "hook",
+          "hold": 1.4,
+          "claim": "interpretation",
+          "scene": "believer_two"
+        },
+        {
+          "text": "The Prophet ﷺ said:",
+          "text2": "نبی کریم ﷺ نے فرمایا:",
+          "say": "The Prophet, peace be upon him, said:",
+          "mood": "neutral",
+          "scene": "believer_two"
+        },
+        {
+          "text": "“How wondrous is the affair of a believer, for there is {good} in every affair of his.",
+          "text2": "”مومن کا معاملہ بھی عجیب ہے، اس کے ہر معاملے میں {خیر} ہے۔",
+          "say": "How wondrous is the affair of a believer, | for there is good in every affair of his.",
+          "mood": "soft",
+          "scene": "believer_two",
+          "text0": "عَجَبًا لأَمْرِ الْمُؤْمِنِ إِنَّ أَمْرَهُ كُلَّهُ خَيْرٌ",
+          "text0_ref": "Sahih Muslim 2999"
+        },
+        {
+          "text": "If times of {ease} strike him,",
+          "text2": "اگر اسے {خوشی} ملے،",
+          "say": "If times of ease strike him,",
+          "mood": "hope",
+          "beat": "ease",
+          "hold": 0.6,
+          "scene": "believer_two",
+          "text0": "إِنْ أَصَابَتْهُ سَرَّاءُ",
+          "text0_ref": "Sahih Muslim 2999"
+        },
+        {
+          "text": "he is {grateful}, which is good for him.",
+          "text2": "تو وہ {شکر} کرتا ہے، اور یہ اس کے لیے بہتر ہے۔",
+          "say": "he is grateful, which is good for him.",
+          "mood": "soft",
+          "beat": "grateful",
+          "hold": 1.6,
+          "scene": "believer_two",
+          "text0": "شَكَرَ فَكَانَ خَيْرًا لَهُ",
+          "text0_ref": "Sahih Muslim 2999"
+        },
+        {
+          "text": "If times of {distress} strike him,",
+          "text2": "اور اگر اسے {تکلیف} پہنچے،",
+          "say": "If times of distress strike him,",
+          "mood": "heavy",
+          "beat": "distress",
+          "hold": 0.6,
+          "scene": "believer_two",
+          "text0": "وَإِنْ أَصَابَتْهُ ضَرَّاءُ",
+          "text0_ref": "Sahih Muslim 2999"
+        },
+        {
+          "text": "he is {patient}, which is also good for him.”",
+          "text2": "تو وہ {صبر} کرتا ہے، اور یہ بھی اس کے لیے بہتر ہے۔“",
+          "say": "he is patient, which is also good for him.",
+          "mood": "soft",
+          "beat": "patient",
+          "hold": 2.0,
+          "scene": "believer_two",
+          "text0": "صَبَرَ فَكَانَ خَيْرًا لَهُ",
+          "text0_ref": "Sahih Muslim 2999"
+        },
+        {
+          "text": "إِنَّ أَمْرَهُ كُلَّهُ خَيْرٌ",
+          "font": "arabic",
+          "sub": "(Sahih Muslim 2999)",
+          "say": "Reported by Muslim.",
+          "mood": "soft",
+          "beat": "both",
+          "hold": 1.8,
+          "arabic_source": "hadith",
+          "hadith_ref": "Sahih Muslim 2999",
+          "scene": "believer_two"
+        },
+        {
+          "text": "إِنَّ اللَّهَ مَعَ الصَّابِرِينَ",
+          "font": "arabic",
+          "sub": "“Indeed, Allah is with the patient.” (Al-Baqarah 2:153)",
+          "say": "Indeed, Allah is with the patient.",
+          "mood": "soft",
+          "beat": "ayah",
+          "hold": 2.6,
+          "label": "Allah says",
+          "scene": "believer_two"
+        },
+        {
+          "text": "Which one are you in today? Comment {ease} or {patience}. 🤍",
+          "text2": "آج آپ کس حال میں ہیں؟ {آسانی} یا {صبر} لکھیں۔",
+          "say": "Which one are you in today? | Comment ease, or patience.",
+          "mood": "soft",
+          "beat": "cta",
+          "hold": 3.2,
+          "scene": "believer_two"
+        }
+      ],
+      "lang": "en",
+      "text2_lang": "ur",
+      "style": "explainer",
+      "title_en": "Every Situation Is Good for a Believer"
+    },
+    {
+      "name": "your_mother_en",
+      "hook_type": "question",
+      "topic": "the right of the mother",
+      "title": "Your Mother, Your Mother, Your Mother",
+      "caption": "He asked who deserves his best treatment. The answer came three times 🤍 Write a dua for your mother below 👇",
+      "hashtags": [
+        "#islamicreminder",
+        "#hadith",
+        "#mother",
+        "#parents",
+        "#jannah",
+        "#muslim",
+        "#deen"
+      ],
+      "sources": [
+        {
+          "ref": "Sahih al-Bukhari 5971",
+          "url": "https://hadithunlocked.com/bukhari:5971",
+          "grade": "sahih, agreed upon (Bukhari & Muslim)",
+          "wording": "English per hadithunlocked translation ('Who is next?'); narrated by Abu Hurayrah",
+          "checked": "2026-11-14",
+          "arabic": "حَدَّثَنَا قُتَيْبَةُ بْنُ سَعِيدٍ، حَدَّثَنَا جَرِيرٌ، عَنْ عُمَارَةَ بْنِ الْقَعْقَاعِ بْنِ شُبْرُمَةَ، عَنْ أَبِي زُرْعَةَ، عَنْ أَبِي هُرَيْرَةَ ـ رضى الله عنه ـ قَالَ جَاءَ رَجُلٌ إِلَى رَسُولِ اللَّهِ صلى الله عليه وسلم فَقَالَ يَا رَسُولَ اللَّهِ مَنْ أَحَقُّ بِحُسْنِ صَحَابَتِي قَالَ ‏\"‏ أُمُّكَ ‏\"‏‏.‏ قَالَ ثُمَّ مَنْ قَالَ ‏\"‏ أُمُّكَ ‏\"‏‏.‏ قَالَ ثُمَّ مَنْ قَالَ ‏\"‏ أُمُّكَ ‏\"‏‏.‏ قَالَ ثُمَّ مَنْ قَالَ ‏\"‏ ثُمَّ أَبُوكَ ‏\"‏‏.‏ وَقَالَ ابْنُ شُبْرُمَةَ وَيَحْيَى بْنُ أَيُّوبَ حَدَّثَنَا أَبُو زُرْعَةَ مِثْلَهُ‏.‏",
+          "arabic_source": "AhmedBaset/hadith-json (Bukhari/Muslim Arabic text)"
+        }
+      ],
+      "lines": [
+        {
+          "text": "Who deserves your {best} treatment? 🤍",
+          "text2": "آپ کے بہترین سلوک کا {سب سے زیادہ} حق دار کون ہے؟",
+          "say": "Who deserves your best treatment?",
+          "mood": "question",
+          "beat": "hook",
+          "hold": 1.4,
+          "claim": "interpretation",
+          "scene": "mother_rank"
+        },
+        {
+          "text": "A man asked the Prophet ﷺ who most deserves his {best companionship}.",
+          "text2": "ایک شخص نے نبی ﷺ سے پوچھا: میرے {حسنِ سلوک} کا سب سے زیادہ حق دار کون ہے؟",
+          "say": "A man asked the Prophet, peace be upon him, | who most deserves his best companionship.",
+          "mood": "neutral",
+          "beat": "ask",
+          "scene": "mother_rank",
+          "text0": "مَنْ أَحَقُّ بِحُسْنِ صَحَابَتِي",
+          "text0_ref": "Sahih al-Bukhari 5971"
+        },
+        {
+          "text": "He said: “Your {mother}.”",
+          "text2": "آپ ﷺ نے فرمایا: ”تمہاری {ماں}۔“",
+          "say": "He said: | Your mother.",
+          "mood": "firm",
+          "beat": "m1",
+          "hold": 1.0,
+          "scene": "mother_rank",
+          "text0": "أُمُّكَ",
+          "text0_ref": "Sahih al-Bukhari 5971"
+        },
+        {
+          "text": "“Who is next?” “Your {mother}.”",
+          "text2": "”پھر کون؟“ ”تمہاری {ماں}۔“",
+          "say": "Who is next? | Your mother.",
+          "mood": "firm",
+          "beat": "m2",
+          "hold": 1.0,
+          "scene": "mother_rank",
+          "text0": "ثُمَّ مَنْ قَالَ أُمُّكَ",
+          "text0_ref": "Sahih al-Bukhari 5971"
+        },
+        {
+          "text": "“Who is next?” “Your {mother}.”",
+          "text2": "”پھر کون؟“ ”تمہاری {ماں}۔“",
+          "say": "Who is next? | Your mother.",
+          "mood": "heavy",
+          "beat": "m3",
+          "hold": 1.0,
+          "scene": "mother_rank",
+          "text0": "ثُمَّ مَنْ قَالَ أُمُّكَ",
+          "text0_ref": "Sahih al-Bukhari 5971"
+        },
+        {
+          "text": "“Who is next?” “Your {father}.”",
+          "text2": "”پھر کون؟“ ”تمہارا {باپ}۔“",
+          "say": "Who is next? | Your father.",
+          "mood": "soft",
+          "beat": "father",
+          "hold": 1.6,
+          "scene": "mother_rank",
+          "text0": "ثُمَّ مَنْ قَالَ ثُمَّ أَبُوكَ",
+          "text0_ref": "Sahih al-Bukhari 5971"
+        },
+        {
+          "text": "قَالَ أُمُّكَ قَالَ ثُمَّ مَنْ قَالَ أُمُّكَ",
+          "font": "arabic",
+          "sub": "(Sahih al-Bukhari 5971)",
+          "say": "Reported by al-Bukhari and Muslim.",
+          "mood": "soft",
+          "beat": "card",
+          "hold": 1.8,
+          "arabic_source": "hadith",
+          "hadith_ref": "Sahih al-Bukhari 5971",
+          "scene": "mother_rank"
+        },
+        {
+          "text": "Three times, {mother}. Call her today. ❤️",
+          "text2": "تین بار {ماں}۔ آج ہی انہیں فون کریں۔",
+          "say": "Three times, mother. | Call her today.",
+          "mood": "soft",
+          "beat": "reflect",
+          "claim": "interpretation",
+          "scene": "mother_rank"
+        },
+        {
+          "text": "حَمَلَتْهُ أُمُّهُ وَهْنًا عَلَىٰ وَهْنٍ",
+          "font": "arabic",
+          "sub": "“His mother carried him, [increasing her] in weakness upon weakness” (Luqman 31:14)",
+          "say": "His mother carried him, | in weakness upon weakness.",
+          "mood": "soft",
+          "beat": "ayah",
+          "hold": 3.0,
+          "label": "Allah says",
+          "scene": "mother_rank"
+        },
+        {
+          "text": "Write a dua for your {mother} in the comments. 🤲",
+          "text2": "کمنٹس میں اپنی {ماں} کے لیے دعا لکھیں۔",
+          "say": "Write a dua for your mother in the comments.",
+          "mood": "soft",
+          "beat": "cta",
+          "hold": 3.2,
+          "scene": "mother_rank"
+        }
+      ],
+      "lang": "en",
+      "text2_lang": "ur",
+      "style": "explainer",
+      "title_en": "Your Mother, Your Mother, Your Mother"
+    },
+    {
+      "name": "river_prayers_en",
+      "hook_type": "question",
+      "topic": "the five prayers wash away sins",
+      "title": "A River at Your Door",
+      "caption": "Five times a day, a river at your door that washes away sins 🤍 Which prayer is hardest for you? 👇",
+      "hashtags": [
+        "#islamicreminder",
+        "#hadith",
+        "#salah",
+        "#namaz",
+        "#prayer",
+        "#muslim",
+        "#deen"
+      ],
+      "sources": [
+        {
+          "ref": "Sahih al-Bukhari 528",
+          "url": "https://hadithunlocked.com/bukhari:528",
+          "grade": "sahih, agreed upon (Bukhari & Muslim)",
+          "wording": "English per hadithunlocked translation; narrated by Abu Hurayrah",
+          "checked": "2026-11-14",
+          "arabic": "حَدَّثَنَا إِبْرَاهِيمُ بْنُ حَمْزَةَ، قَالَ حَدَّثَنِي ابْنُ أَبِي حَازِمٍ، وَالدَّرَاوَرْدِيُّ، عَنْ يَزِيدَ، عَنْ مُحَمَّدِ بْنِ إِبْرَاهِيمَ، عَنْ أَبِي سَلَمَةَ بْنِ عَبْدِ الرَّحْمَنِ، عَنْ أَبِي هُرَيْرَةَ، أَنَّهُ سَمِعَ رَسُولَ اللَّهِ صلى الله عليه وسلم يَقُولُ ‏\"‏ أَرَأَيْتُمْ لَوْ أَنَّ نَهَرًا بِبَابِ أَحَدِكُمْ، يَغْتَسِلُ فِيهِ كُلَّ يَوْمٍ خَمْسًا، مَا تَقُولُ ذَلِكَ يُبْقِي مِنْ دَرَنِهِ ‏\"‏‏.‏ قَالُوا لاَ يُبْقِي مِنْ دَرَنِهِ شَيْئًا‏.‏ قَالَ ‏\"‏ فَذَلِكَ مِثْلُ الصَّلَوَاتِ الْخَمْسِ، يَمْحُو اللَّهُ بِهَا الْخَطَايَا ‏\"‏‏.‏",
+          "arabic_source": "AhmedBaset/hadith-json (Bukhari/Muslim Arabic text)"
+        }
+      ],
+      "lines": [
+        {
+          "text": "Imagine a {river} at your door… 💧",
+          "text2": "سوچیں، آپ کے دروازے پر ایک {دریا} ہو…",
+          "say": "Imagine a river | at your door.",
+          "mood": "soft",
+          "beat": "river",
+          "hold": 1.4,
+          "scene": "river_five"
+        },
+        {
+          "text": "The Prophet ﷺ said:",
+          "text2": "نبی کریم ﷺ نے فرمایا:",
+          "say": "The Prophet, peace be upon him, said:",
+          "mood": "neutral",
+          "beat": "dirt",
+          "scene": "river_five"
+        },
+        {
+          "text": "“If there was a river at the door of anyone of you and he took a bath in it {five times} a day,",
+          "text2": "”اگر تم میں سے کسی کے دروازے پر دریا ہو اور وہ اس میں دن میں {پانچ بار} نہائے،",
+          "say": "If there was a river at the door of anyone of you, | and he took a bath in it five times a day,",
+          "mood": "soft",
+          "beat": "five",
+          "scene": "river_five",
+          "text0": "لَوْ أَنَّ نَهَرًا بِبَابِ أَحَدِكُمْ يَغْتَسِلُ فِيهِ كُلَّ يَوْمٍ خَمْسًا",
+          "text0_ref": "Sahih al-Bukhari 528"
+        },
+        {
+          "text": "would you notice any {dirt} on him?”",
+          "text2": "تو کیا اس پر کوئی {میل} باقی رہے گا؟“",
+          "say": "would you notice any dirt on him?",
+          "mood": "question",
+          "hold": 0.8,
+          "scene": "river_five",
+          "text0": "مَا تَقُولُ ذَلِكَ يُبْقِي مِنْ دَرَنِهِ",
+          "text0_ref": "Sahih al-Bukhari 528"
+        },
+        {
+          "text": "They said: “Not a trace of dirt would be {left}.”",
+          "text2": "صحابہ نے کہا: ”ذرا سا میل بھی {باقی} نہیں رہے گا۔“",
+          "say": "They said: | Not a trace of dirt would be left.",
+          "mood": "soft",
+          "beat": "clean",
+          "hold": 1.0,
+          "scene": "river_five",
+          "text0": "لاَ يُبْقِي مِنْ دَرَنِهِ شَيْئًا",
+          "text0_ref": "Sahih al-Bukhari 528"
+        },
+        {
+          "text": "“That is the example of the {five prayers} with which Allah blots out evil deeds.”",
+          "text2": "”یہی مثال {پانچ نمازوں} کی ہے، جن سے اللہ گناہ مٹا دیتا ہے۔“",
+          "say": "That is the example of the *five prayers*, | with which Allah blots out evil deeds.",
+          "mood": "hope",
+          "beat": "prayers",
+          "hold": 2.2,
+          "scene": "river_five",
+          "text0": "فَذَلِكَ مِثْلُ الصَّلَوَاتِ الْخَمْسِ يَمْحُو اللَّهُ بِهَا الْخَطَايَا",
+          "text0_ref": "Sahih al-Bukhari 528"
+        },
+        {
+          "text": "فَذَلِكَ مِثْلُ الصَّلَوَاتِ الْخَمْسِ يَمْحُو اللَّهُ بِهَا الْخَطَايَا",
+          "font": "arabic",
+          "sub": "(Sahih al-Bukhari 528)",
+          "say": "Reported by al-Bukhari and Muslim.",
+          "mood": "soft",
+          "beat": "card",
+          "hold": 1.8,
+          "arabic_source": "hadith",
+          "hadith_ref": "Sahih al-Bukhari 528",
+          "scene": "river_five"
+        },
+        {
+          "text": "إِنَّ الْحَسَنَاتِ يُذْهِبْنَ السَّيِّئَاتِ",
+          "font": "arabic",
+          "sub": "“Indeed, good deeds do away with misdeeds.” (Hud 11:114)",
+          "say": "Indeed, good deeds | do away with misdeeds.",
+          "mood": "soft",
+          "beat": "ayah",
+          "hold": 2.6,
+          "label": "Allah says",
+          "scene": "river_five"
+        },
+        {
+          "text": "Which prayer is hardest for you? {Comment} it. 👇",
+          "text2": "آپ کے لیے کون سی نماز سب سے مشکل ہے؟ {کمنٹ} کریں۔",
+          "say": "Which prayer is hardest for you? | Comment it.",
+          "mood": "question",
+          "beat": "cta",
+          "hold": 3.2,
+          "scene": "river_five"
+        }
+      ],
+      "lang": "en",
+      "text2_lang": "ur",
+      "style": "explainer",
+      "title_en": "A River at Your Door"
+    },
+    {
+      "name": "speak_good_en",
+      "hook_type": "bold_claim",
+      "topic": "speak good or stay silent",
+      "title": "Speak Good or Stay Silent",
+      "caption": "Every word you say is written down. Speak good, or stay silent 🤍 Comment good if you'll try today 👇",
+      "hashtags": [
+        "#islamicreminder",
+        "#hadith",
+        "#tongue",
+        "#akhlaq",
+        "#manners",
+        "#muslim",
+        "#deen"
+      ],
+      "sources": [
+        {
+          "ref": "Sahih al-Bukhari 6018",
+          "url": "https://sunnah.com/bukhari:6018",
+          "grade": "sahih (Bukhari); also Muslim 47",
+          "wording": "English per sunnah.com translation; narrated by Abu Hurayrah; only the third sentence of the hadith is quoted",
+          "checked": "2026-11-14",
+          "arabic": "حَدَّثَنَا قُتَيْبَةُ بْنُ سَعِيدٍ، حَدَّثَنَا أَبُو الأَحْوَصِ، عَنْ أَبِي حَصِينٍ، عَنْ أَبِي صَالِحٍ، عَنْ أَبِي هُرَيْرَةَ، قَالَ قَالَ رَسُولُ اللَّهِ صلى الله عليه وسلم ‏ \"‏ مَنْ كَانَ يُؤْمِنُ بِاللَّهِ وَالْيَوْمِ الآخِرِ فَلاَ يُؤْذِ جَارَهُ، وَمَنْ كَانَ يُؤْمِنُ بِاللَّهِ وَالْيَوْمِ الآخِرِ فَلْيُكْرِمْ ضَيْفَهُ، وَمَنْ كَانَ يُؤْمِنُ بِاللَّهِ وَالْيَوْمِ الآخِرِ فَلْيَقُلْ خَيْرًا أَوْ لِيَصْمُتْ ‏\"‏‏.‏",
+          "arabic_source": "AhmedBaset/hadith-json (Bukhari/Muslim Arabic text)"
+        }
+      ],
+      "lines": [
+        {
+          "text": "Every word you say is {written}. 📖",
+          "text2": "آپ کا ہر لفظ {لکھا} جاتا ہے۔",
+          "say": "Every word you say is written.",
+          "mood": "firm",
+          "beat": "hook",
+          "hold": 1.4,
+          "claim": "interpretation",
+          "scene": "words_record"
+        },
+        {
+          "text": "The Prophet ﷺ said:",
+          "text2": "نبی کریم ﷺ نے فرمایا:",
+          "say": "The Prophet, peace be upon him, said:",
+          "mood": "neutral",
+          "scene": "words_record"
+        },
+        {
+          "text": "“Anybody who believes in Allah and the {Last Day}",
+          "text2": "”جو اللہ اور {آخرت} کے دن پر ایمان رکھتا ہے",
+          "say": "Anybody who believes in Allah | and the Last Day,",
+          "mood": "soft",
+          "hold": 0.6,
+          "scene": "words_record",
+          "text0": "مَنْ كَانَ يُؤْمِنُ بِاللَّهِ وَالْيَوْمِ الآخِرِ",
+          "text0_ref": "Sahih al-Bukhari 6018"
+        },
+        {
+          "text": "should talk what is {good}",
+          "text2": "وہ {اچھی} بات کہے",
+          "say": "should talk what is *good*,",
+          "mood": "hope",
+          "beat": "good",
+          "hold": 1.6,
+          "scene": "words_record",
+          "text0": "فَلْيَقُلْ خَيْرًا",
+          "text0_ref": "Sahih al-Bukhari 6018"
+        },
+        {
+          "text": "or keep {quiet}.”",
+          "text2": "یا {خاموش} رہے۔“",
+          "say": "or keep quiet.",
+          "mood": "firm",
+          "beat": "silent",
+          "hold": 2.2,
+          "scene": "words_record",
+          "text0": "أَوْ لِيَصْمُتْ",
+          "text0_ref": "Sahih al-Bukhari 6018"
+        },
+        {
+          "text": "فَلْيَقُلْ خَيْرًا أَوْ لِيَصْمُتْ",
+          "font": "arabic",
+          "sub": "(Sahih al-Bukhari 6018)",
+          "say": "Reported by al-Bukhari and Muslim.",
+          "mood": "soft",
+          "beat": "card",
+          "hold": 1.8,
+          "arabic_source": "hadith",
+          "hadith_ref": "Sahih al-Bukhari 6018",
+          "scene": "words_record"
+        },
+        {
+          "text": "Because every word is {recorded}. ✍️",
+          "text2": "کیونکہ ہر لفظ {محفوظ} ہو رہا ہے۔",
+          "say": "Because every word is recorded.",
+          "mood": "heavy",
+          "beat": "record",
+          "hold": 1.0,
+          "claim": "interpretation",
+          "scene": "words_record"
+        },
+        {
+          "text": "مَّا يَلْفِظُ مِن قَوْلٍ إِلَّا لَدَيْهِ رَقِيبٌ عَتِيدٌ",
+          "font": "arabic",
+          "sub": "“…utters no word except that with him is an observer prepared [to record].” (Qaf 50:18)",
+          "say": "He utters no word, | except that with him is an observer prepared to record.",
+          "mood": "heavy",
+          "beat": "ayah",
+          "hold": 3.0,
+          "label": "Allah says",
+          "scene": "words_record"
+        },
+        {
+          "text": "Before you speak, ask: is it {good}? Comment {good} if you'll try. 🤍",
+          "text2": "بولنے سے پہلے سوچیں: کیا یہ {اچھا} ہے؟ کوشش کریں گے تو {اچھا} لکھیں۔",
+          "say": "Before you speak, ask: is it good? | Comment good, if you'll try.",
+          "mood": "soft",
+          "beat": "cta",
+          "hold": 3.2,
+          "claim": "interpretation",
+          "scene": "words_record"
+        }
+      ],
+      "lang": "en",
+      "text2_lang": "ur",
+      "style": "explainer",
+      "title_en": "Speak Good or Stay Silent"
+    },
+    {
+      "name": "traveler_en",
+      "hook_type": "bold_claim",
+      "topic": "be in this world like a traveler",
+      "title": "Just Passing Through",
+      "caption": "This world is a road, not a home. Travel light 🤍 Save this for the days you forget 👇",
+      "hashtags": [
+        "#islamicreminder",
+        "#hadith",
+        "#dunya",
+        "#akhirah",
+        "#traveler",
+        "#muslim",
+        "#deen"
+      ],
+      "sources": [
+        {
+          "ref": "Sahih al-Bukhari 6416",
+          "url": "https://hadithunlocked.com/bukhari:6416",
+          "grade": "sahih (Bukhari)",
+          "wording": "English per hadithunlocked translation; narrated by Ibn Umar, including Ibn Umar's own statement after it",
+          "checked": "2026-11-14",
+          "arabic": "حَدَّثَنَا عَلِيُّ بْنُ عَبْدِ اللَّهِ، حَدَّثَنَا مُحَمَّدُ بْنُ عَبْدِ الرَّحْمَنِ أَبُو الْمُنْذِرِ الطُّفَاوِيُّ، عَنْ سُلَيْمَانَ الأَعْمَشِ، قَالَ حَدَّثَنِي مُجَاهِدٌ، عَنْ عَبْدِ اللَّهِ بْنِ عُمَرَ ـ رضى الله عنهما ـ قَالَ أَخَذَ رَسُولُ اللَّهِ صلى الله عليه وسلم بِمَنْكِبِي فَقَالَ ‏ \"‏ كُنْ فِي الدُّنْيَا كَأَنَّكَ غَرِيبٌ، أَوْ عَابِرُ سَبِيلٍ ‏\"‏‏.‏ وَكَانَ ابْنُ عُمَرَ يَقُولُ إِذَا أَمْسَيْتَ فَلاَ تَنْتَظِرِ الصَّبَاحَ، وَإِذَا أَصْبَحْتَ فَلاَ تَنْتَظِرِ الْمَسَاءَ، وَخُذْ مِنْ صِحَّتِكَ لِمَرَضِكَ، وَمِنْ حَيَاتِكَ لِمَوْتِكَ‏.‏",
+          "arabic_source": "AhmedBaset/hadith-json (Bukhari/Muslim Arabic text)"
+        }
+      ],
+      "lines": [
+        {
+          "text": "This world is not your {home}. 🌅",
+          "text2": "یہ دنیا آپ کا {گھر} نہیں۔",
+          "say": "This world is not your home.",
+          "mood": "firm",
+          "beat": "hook",
+          "hold": 1.4,
+          "claim": "interpretation",
+          "scene": "traveler_road"
+        },
+        {
+          "text": "The Prophet ﷺ took Ibn Umar by the shoulder and said:",
+          "text2": "نبی ﷺ نے ابن عمر رضی اللہ عنہ کا کندھا پکڑ کر فرمایا:",
+          "say": "The Prophet, peace be upon him, | took Ibn Umar by the shoulder and said:",
+          "mood": "neutral",
+          "scene": "traveler_road"
+        },
+        {
+          "text": "“Be in this world as though you were a {stranger}",
+          "text2": "”دنیا میں ایسے رہو جیسے تم ایک {اجنبی} ہو",
+          "say": "Be in this world as though you were a stranger",
+          "mood": "soft",
+          "beat": "stranger",
+          "hold": 0.6,
+          "scene": "traveler_road",
+          "text0": "كُنْ فِي الدُّنْيَا كَأَنَّكَ غَرِيبٌ",
+          "text0_ref": "Sahih al-Bukhari 6416"
+        },
+        {
+          "text": "or a {traveler} passing through.”",
+          "text2": "یا ایک {راہ گزر} مسافر۔“",
+          "say": "or a *traveler* passing through.",
+          "mood": "soft",
+          "beat": "traveler",
+          "hold": 1.6,
+          "scene": "traveler_road",
+          "text0": "أَوْ عَابِرُ سَبِيلٍ",
+          "text0_ref": "Sahih al-Bukhari 6416"
+        },
+        {
+          "text": "كُنْ فِي الدُّنْيَا كَأَنَّكَ غَرِيبٌ أَوْ عَابِرُ سَبِيلٍ",
+          "font": "arabic",
+          "sub": "(Sahih al-Bukhari 6416)",
+          "say": "Reported by al-Bukhari.",
+          "mood": "soft",
+          "beat": "card",
+          "hold": 1.8,
+          "arabic_source": "hadith",
+          "hadith_ref": "Sahih al-Bukhari 6416",
+          "scene": "traveler_road"
+        },
+        {
+          "text": "Ibn Umar used to say: “When you reach {evening}, do not wait for morning;",
+          "text2": "ابن عمر کہا کرتے تھے: ”جب {شام} ہو تو صبح کا انتظار نہ کرو،",
+          "say": "Ibn Umar used to say: | When you reach evening, do not wait for morning;",
+          "mood": "soft",
+          "beat": "evening",
+          "scene": "traveler_road",
+          "text0": "إِذَا أَمْسَيْتَ فَلاَ تَنْتَظِرِ الصَّبَاحَ",
+          "text0_ref": "Sahih al-Bukhari 6416"
+        },
+        {
+          "text": "when you reach {morning}, do not wait for evening.”",
+          "text2": "اور جب {صبح} ہو تو شام کا انتظار نہ کرو۔“",
+          "say": "when you reach morning, | do not wait for evening.",
+          "mood": "soft",
+          "beat": "morning",
+          "scene": "traveler_road",
+          "text0": "وَإِذَا أَصْبَحْتَ فَلاَ تَنْتَظِرِ الْمَسَاءَ",
+          "text0_ref": "Sahih al-Bukhari 6416"
+        },
+        {
+          "text": "Travel {light}. You're only passing through. 🎒",
+          "text2": "{ہلکا} سفر کریں۔ آپ بس گزر رہے ہیں۔",
+          "say": "Travel light. | You're only passing through.",
+          "mood": "soft",
+          "beat": "reflect",
+          "claim": "interpretation",
+          "scene": "traveler_road"
+        },
+        {
+          "text": "وَمَا الْحَيَاةُ الدُّنْيَا إِلَّا مَتَاعُ الْغُرُورِ",
+          "font": "arabic",
+          "sub": "“And what is the worldly life except the enjoyment of delusion.” (Al-Hadid 57:20)",
+          "say": "And what is the worldly life, | except the enjoyment of delusion.",
+          "mood": "heavy",
+          "beat": "ayah",
+          "hold": 3.0,
+          "label": "Allah says",
+          "scene": "traveler_road"
+        },
+        {
+          "text": "Save this for the days you {forget}. 🤍",
+          "text2": "یہ ان دنوں کے لیے محفوظ کر لیں جب آپ {بھول} جائیں۔",
+          "say": "Save this | for the days you forget.",
+          "mood": "soft",
+          "beat": "cta",
+          "hold": 3.2,
+          "scene": "traveler_road"
+        }
+      ],
+      "lang": "en",
+      "text2_lang": "ur",
+      "style": "explainer",
+      "title_en": "Just Passing Through"
+    },
+    {
+      "name": "yunus_dua_en",
+      "hook_type": "bold_claim",
+      "topic": "the dua of Yunus from the darknesses",
+      "title": "A Dua From Three Darknesses",
+      "caption": "He called out from the darkness of the night, the sea and the fish, and Allah answered 🤍 Say it in your hardest moment. Comment Ameen 👇",
+      "hashtags": [
+        "#islamicreminder",
+        "#quran",
+        "#dua",
+        "#prophetyunus",
+        "#hope",
+        "#muslim",
+        "#deen"
+      ],
+      "sources": [
+        {
+          "ref": "Tafsir Ibn Kathir on 21:87",
+          "url": "https://www.alim.org/quran/tafsir/ibn-kathir/surah/21/87/",
+          "grade": "tafsir",
+          "wording": "'darknesses' = the darkness of the belly of the fish, the sea and the night (Ibn Mas'ud, similar from Ibn Abbas and others)",
+          "checked": "2026-11-14"
+        }
+      ],
+      "lines": [
+        {
+          "text": "Trapped in {three} darknesses… 🌊",
+          "text2": "تین {اندھیروں} میں…",
+          "say": "Trapped in three darknesses…",
+          "mood": "heavy",
+          "beat": "hook",
+          "hold": 1.2,
+          "claim": "interpretation",
+          "scene": "three_darks"
+        },
+        {
+          "text": "the darkness of the {night},",
+          "text2": "رات کا {اندھیرا}،",
+          "say": "the darkness of the night,",
+          "mood": "soft",
+          "beat": "night",
+          "hold": 0.8,
+          "claim": "interpretation",
+          "scene": "three_darks"
+        },
+        {
+          "text": "the darkness of the {sea},",
+          "text2": "سمندر کا {اندھیرا}،",
+          "say": "the darkness of the sea,",
+          "mood": "soft",
+          "beat": "sea",
+          "hold": 0.8,
+          "claim": "interpretation",
+          "scene": "three_darks"
+        },
+        {
+          "text": "and the darkness inside the {fish}.",
+          "text2": "اور مچھلی کے پیٹ کا {اندھیرا}۔",
+          "say": "and the darkness inside the fish.",
+          "mood": "soft",
+          "beat": "fish",
+          "hold": 1.2,
+          "claim": "interpretation",
+          "sub": "(Ibn Kathir, from Ibn Mas'ud)",
+          "scene": "three_darks"
+        },
+        {
+          "text": "Prophet Yunus called out:",
+          "text2": "حضرت یونس علیہ السلام نے پکارا:",
+          "say": "Prophet Yunus, peace be upon him, | called out:",
+          "mood": "neutral",
+          "beat": "dua",
+          "scene": "three_darks",
+          "text0": "فَنَادَىٰ فِي الظُّلُمَاتِ",
+          "text0_quran": "21:87"
+        },
+        {
+          "text": "لَّا إِلَٰهَ إِلَّا أَنتَ سُبْحَانَكَ إِنِّي كُنتُ مِنَ الظَّالِمِينَ",
+          "font": "arabic",
+          "sub": "“There is no deity except You; exalted are You. Indeed, I have been of the wrongdoers.” (Al-Anbya 21:87)",
+          "say": "There is no deity except You; exalted are You. | Indeed, I have been of the wrongdoers.",
+          "mood": "soft",
+          "beat": "duacard",
+          "hold": 2.4,
+          "scene": "three_darks"
+        },
+        {
+          "text": "فَاسْتَجَبْنَا لَهُ وَنَجَّيْنَاهُ مِنَ الْغَمِّ وَكَذَٰلِكَ نُنجِي الْمُؤْمِنِينَ",
+          "font": "arabic",
+          "sub": "“So We responded to him and saved him from the distress. And thus do We save the believers.” (Al-Anbya 21:88)",
+          "say": "So We responded to him, and saved him from the distress. | And thus do We save the believers.",
+          "mood": "hope",
+          "beat": "answered",
+          "hold": 3.0,
+          "label": "Allah says",
+          "scene": "three_darks"
+        },
+        {
+          "text": "If He answered from {there}, He can answer you {here}. 🤍",
+          "text2": "اگر اُس نے {وہاں} سے سن لیا، تو آپ کی {یہاں} بھی سنے گا۔",
+          "say": "If He answered from there, | He can answer you here.",
+          "mood": "hope",
+          "beat": "reflect",
+          "claim": "interpretation",
+          "scene": "three_darks"
+        },
+        {
+          "text": "Say it in your hardest moment. Comment {Ameen}. 🤲",
+          "text2": "مشکل ترین لمحے میں یہ پڑھیں۔ {آمین} لکھیں۔",
+          "say": "Say it in your hardest moment. | Comment, Ameen.",
+          "mood": "soft",
+          "beat": "cta",
+          "hold": 3.2,
+          "scene": "three_darks"
+        }
+      ],
+      "lang": "en",
+      "text2_lang": "ur",
+      "style": "explainer",
+      "title_en": "A Dua From Three Darknesses"
+    },
+    {
+      "name": "with_hardship_ease_en",
+      "hook_type": "question",
+      "topic": "with hardship comes ease (94:5-6)",
+      "title": "With Hardship Comes Ease",
+      "caption": "Allah didn't say ease comes after hardship. He said it comes with it, and He said it twice 🤍 Comment Ameen if you need this today 👇",
+      "hashtags": [
+        "#islamicreminder",
+        "#quran",
+        "#hardship",
+        "#sabr",
+        "#hope",
+        "#muslim",
+        "#deen"
+      ],
+      "sources": [],
+      "lines": [
+        {
+          "text": "Going through something {hard}? 🌧️",
+          "text2": "کسی {مشکل} سے گزر رہے ہیں؟",
+          "say": "Going through something hard?",
+          "mood": "question",
+          "beat": "hook",
+          "hold": 1.2,
+          "claim": "interpretation",
+          "scene": "storm_clear"
+        },
+        {
+          "text": "Allah didn't only say ease comes {after} hardship.",
+          "text2": "اللہ نے صرف یہ نہیں فرمایا کہ آسانی مشکل کے {بعد} آتی ہے۔",
+          "say": "Allah didn't only say | ease comes after hardship.",
+          "mood": "soft",
+          "claim": "interpretation",
+          "scene": "storm_clear"
+        },
+        {
+          "text": "He said it comes {with} it.",
+          "text2": "فرمایا: مشکل کے {ساتھ} آسانی ہے۔",
+          "say": "He said it comes *with* it.",
+          "mood": "firm",
+          "claim": "interpretation",
+          "scene": "storm_clear",
+          "text0": "مَعَ الْعُسْرِ يُسْرًا",
+          "text0_quran": "94:5"
+        },
+        {
+          "text": "فَإِنَّ مَعَ الْعُسْرِ يُسْرًا",
+          "font": "arabic",
+          "sub": "“For indeed, with hardship [will be] ease.” (Ash-Sharh 94:5)",
+          "say": "For indeed, | with hardship will be ease.",
+          "mood": "soft",
+          "beat": "ayah",
+          "hold": 2.0,
+          "label": "Allah says",
+          "scene": "desert_rain"
+        },
+        {
+          "text": "إِنَّ مَعَ الْعُسْرِ يُسْرًا",
+          "font": "arabic",
+          "sub": "“Indeed, with hardship [will be] ease.” (Ash-Sharh 94:6)",
+          "say": "Indeed, | with hardship will be ease.",
+          "mood": "hope",
+          "beat": "ayah",
+          "hold": 2.0,
+          "scene": "desert_rain"
+        },
+        {
+          "text": "He said it {twice}.",
+          "text2": "اور یہ بات {دو بار} فرمائی۔",
+          "say": "He said it twice.",
+          "mood": "firm",
+          "hold": 1.0,
+          "claim": "interpretation",
+          "scene": "desert_rain"
+        },
+        {
+          "text": "Your hardship is not {alone}. Ease is already with it. 🌤️",
+          "text2": "آپ کی مشکل {اکیلی} نہیں، آسانی اس کے ساتھ ہے۔",
+          "say": "Your hardship is not alone. | Ease is already with it.",
+          "mood": "hope",
+          "claim": "interpretation",
+          "scene": "sunset"
+        },
+        {
+          "text": "Hold on. Make dua. {Keep going}. 🤲",
+          "text2": "ثابت قدم رہیں۔ دعا کریں۔ {چلتے رہیں}۔",
+          "say": "Hold on. Make dua. | Keep going.",
+          "mood": "firm",
+          "claim": "interpretation",
+          "scene": "sunset"
+        },
+        {
+          "text": "Comment {Ameen} if you need this today. 🤍",
+          "text2": "اگر آج آپ کو اس کی ضرورت ہے تو {آمین} لکھیں۔",
+          "say": "Comment Ameen, | if you need this today.",
+          "mood": "soft",
+          "beat": "cta",
+          "hold": 3.2,
+          "scene": "sunset"
+        }
+      ],
+      "lang": "en",
+      "text2_lang": "ur",
+      "style": "quran_focused",
+      "title_en": "With Hardship Comes Ease"
+    },
+    {
+      "name": "nearer_running_en",
+      "hook_type": "bold_claim",
+      "topic": "hadith qudsi: if he comes walking, I go running",
+      "title": "Take One Step Toward Allah",
+      "caption": "Take a step toward Allah. His answer is always more 🤍 Take your step today and comment Ya Allah 👇",
+      "hashtags": [
+        "#islamicreminder",
+        "#hadith",
+        "#hadithqudsi",
+        "#dhikr",
+        "#allahsmercy",
+        "#muslim",
+        "#deen"
+      ],
+      "sources": [
+        {
+          "ref": "Sahih al-Bukhari 7405",
+          "url": "https://hadithunlocked.com/bukhari:7405",
+          "grade": "sahih, agreed upon (Bukhari & Muslim); hadith qudsi",
+          "wording": "English per hadithunlocked translation; narrated by Abu Hurayrah; the middle part (remembering in a gathering) is omitted",
+          "checked": "2026-11-14",
+          "arabic": "حَدَّثَنَا عُمَرُ بْنُ حَفْصٍ، حَدَّثَنَا أَبِي، حَدَّثَنَا الأَعْمَشُ، سَمِعْتُ أَبَا صَالِحٍ، عَنْ أَبِي هُرَيْرَةَ ـ رضى الله عنه ـ قَالَ قَالَ النَّبِيُّ صلى الله عليه وسلم ‏ \"‏ يَقُولُ اللَّهُ تَعَالَى أَنَا عِنْدَ ظَنِّ عَبْدِي بِي، وَأَنَا مَعَهُ إِذَا ذَكَرَنِي، فَإِنْ ذَكَرَنِي فِي نَفْسِهِ ذَكَرْتُهُ فِي نَفْسِي، وَإِنْ ذَكَرَنِي فِي مَلأٍ ذَكَرْتُهُ فِي مَلأٍ خَيْرٍ مِنْهُمْ، وَإِنْ تَقَرَّبَ إِلَىَّ بِشِبْرٍ تَقَرَّبْتُ إِلَيْهِ ذِرَاعًا، وَإِنْ تَقَرَّبَ إِلَىَّ ذِرَاعًا تَقَرَّبْتُ إِلَيْهِ بَاعًا، وَإِنْ أَتَانِي يَمْشِي أَتَيْتُهُ هَرْوَلَةً ‏\"‏‏.‏",
+          "arabic_source": "AhmedBaset/hadith-json (Bukhari/Muslim Arabic text)"
+        }
+      ],
+      "lines": [
+        {
+          "text": "Take one step toward {Allah}… ✨",
+          "text2": "اللہ کی طرف ایک {قدم} بڑھائیں…",
+          "say": "Take one step | toward Allah.",
+          "mood": "soft",
+          "beat": "hook",
+          "hold": 1.2,
+          "claim": "interpretation",
+          "scene": "nearer_path"
+        },
+        {
+          "text": "The Prophet ﷺ said that Allah says:",
+          "text2": "نبی ﷺ نے فرمایا کہ اللہ تعالیٰ فرماتا ہے:",
+          "say": "The Prophet, peace be upon him, said that Allah says:",
+          "mood": "neutral",
+          "scene": "nearer_path",
+          "text0": "يَقُولُ اللَّهُ تَعَالَى",
+          "text0_ref": "Sahih al-Bukhari 7405"
+        },
+        {
+          "text": "“I am as My servant {expects} Me to be,",
+          "text2": "”میں اپنے بندے کے گمان کے {مطابق} ہوں،",
+          "say": "I am as My servant expects Me to be,",
+          "mood": "soft",
+          "beat": "expect",
+          "hold": 0.6,
+          "scene": "nearer_path",
+          "text0": "أَنَا عِنْدَ ظَنِّ عَبْدِي بِي",
+          "text0_ref": "Sahih al-Bukhari 7405"
+        },
+        {
+          "text": "and I am with him if he {remembers} Me.",
+          "text2": "اور جب وہ مجھے {یاد} کرتا ہے تو میں اس کے ساتھ ہوتا ہوں۔",
+          "say": "and I am with him if he remembers Me.",
+          "mood": "soft",
+          "beat": "remember",
+          "hold": 1.0,
+          "scene": "nearer_path",
+          "text0": "وَأَنَا مَعَهُ إِذَا ذَكَرَنِي",
+          "text0_ref": "Sahih al-Bukhari 7405"
+        },
+        {
+          "text": "If he comes one {span} nearer to Me, I go one cubit nearer to him.",
+          "text2": "اگر وہ ایک {بالشت} میرے قریب آئے، تو میں ایک ہاتھ اس کے قریب جاتا ہوں۔",
+          "say": "If he comes one span nearer to Me, | I go one cubit nearer to him.",
+          "mood": "soft",
+          "beat": "span",
+          "scene": "nearer_path",
+          "text0": "وَإِنْ تَقَرَّبَ إِلَىَّ بِشِبْرٍ تَقَرَّبْتُ إِلَيْهِ ذِرَاعًا",
+          "text0_ref": "Sahih al-Bukhari 7405"
+        },
+        {
+          "text": "If he comes one {cubit} nearer to Me, I go two outstretched arms nearer to him.",
+          "text2": "اگر وہ ایک ہاتھ قریب آئے، تو میں {دو بازوؤں} کے برابر قریب جاتا ہوں۔",
+          "say": "If he comes one cubit nearer to Me, | I go two outstretched arms nearer to him.",
+          "mood": "soft",
+          "beat": "cubit",
+          "scene": "nearer_path",
+          "text0": "وَإِنْ تَقَرَّبَ إِلَىَّ ذِرَاعًا تَقَرَّبْتُ إِلَيْهِ بَاعًا",
+          "text0_ref": "Sahih al-Bukhari 7405"
+        },
+        {
+          "text": "And if he comes to Me walking, I go to him {running}.”",
+          "text2": "اور اگر وہ میرے پاس چل کر آئے، تو میں اس کے پاس {دوڑ کر} جاتا ہوں۔“",
+          "say": "And if he comes to Me walking, | I go to him *running*.",
+          "mood": "hope",
+          "beat": "walk",
+          "hold": 2.6,
+          "scene": "nearer_path",
+          "text0": "وَإِنْ أَتَانِي يَمْشِي أَتَيْتُهُ هَرْوَلَةً",
+          "text0_ref": "Sahih al-Bukhari 7405"
+        },
+        {
+          "text": "وَإِنْ أَتَانِي يَمْشِي أَتَيْتُهُ هَرْوَلَةً",
+          "font": "arabic",
+          "sub": "(Sahih al-Bukhari 7405, hadith qudsi)",
+          "say": "Reported by al-Bukhari and Muslim.",
+          "mood": "soft",
+          "beat": "card",
+          "hold": 1.8,
+          "arabic_source": "hadith",
+          "hadith_ref": "Sahih al-Bukhari 7405",
+          "scene": "nearer_path"
+        },
+        {
+          "text": "فَاذْكُرُونِي أَذْكُرْكُمْ",
+          "font": "arabic",
+          "sub": "“So remember Me; I will remember you.” (Al-Baqarah 2:152)",
+          "say": "So remember Me; | I will remember you.",
+          "mood": "soft",
+          "beat": "ayah",
+          "hold": 2.6,
+          "label": "Allah says",
+          "scene": "nearer_path"
+        },
+        {
+          "text": "Take your step today. Comment {Ya Allah}. 🤲",
+          "text2": "آج اپنا قدم بڑھائیں۔ {یا اللہ} لکھیں۔",
+          "say": "Take your step today. | Comment, Ya Allah.",
+          "mood": "soft",
+          "beat": "cta",
+          "hold": 3.2,
+          "scene": "nearer_path"
+        }
+      ],
+      "lang": "en",
+      "text2_lang": "ur",
+      "style": "explainer",
+      "title_en": "Take One Step Toward Allah"
+    }
+  ]
+}

@@ -1,0 +1,76 @@
+{
+  "videos": [
+    {
+      "name": "CHANGE_ME",
+      "style": "explainer",
+      "hook_type": "number",
+      "topic": "",
+      "title": "",
+      "title_en": "",
+      "caption": "",
+      "hashtags": [
+        "#islamicreminder"
+      ],
+      "sources": [],
+      "lang": "en",
+      "lines": [
+        {
+          "text": "Number hook: {4 things}.",
+          "say": "Number hook: | *four* things.",
+          "mood": "firm",
+          "beat": "hook",
+          "scene": "four_questions"
+        },
+        {
+          "label": "Question 1",
+          "text": "...",
+          "say": "...",
+          "mood": "question",
+          "beat": "q1",
+          "scene": "four_questions"
+        },
+        {
+          "label": "Question 2",
+          "text": "...",
+          "say": "...",
+          "mood": "question",
+          "beat": "q2",
+          "scene": "four_questions"
+        },
+        {
+          "label": "Question 3",
+          "text": "...",
+          "say": "...",
+          "mood": "question",
+          "beat": "q3",
+          "scene": "four_questions"
+        },
+        {
+          "label": "Question 4",
+          "text": "...",
+          "sub": "(Collection 0000)",
+          "say": "...",
+          "mood": "question",
+          "beat": "q4",
+          "scene": "four_questions",
+          "hold": 2.6
+        },
+        {
+          "text": "The turn.",
+          "say": "The turn.",
+          "mood": "heavy",
+          "beat": "reflect",
+          "scene": "four_questions"
+        },
+        {
+          "text": "Comment {1, 2, 3 or 4}.",
+          "say": "Comment one, two, three or four.",
+          "mood": "soft",
+          "beat": "cta",
+          "scene": "four_questions",
+          "hold": 3.4
+        }
+      ]
+    }
+  ]
+}

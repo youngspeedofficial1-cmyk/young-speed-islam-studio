@@ -1,0 +1,52 @@
+{
+  "videos": [
+    {
+      "name": "test_light_theme",
+      "lang": "en",
+      "text2_lang": "ur",
+      "style": "premium_light",
+      "title": "Light theme test",
+      "lines": [
+        {
+          "text": "Feeling far from {Allah}? 🤍",
+          "text2": "کیا آپ اللہ سے {دور} محسوس کرتے ہیں؟",
+          "say": "Feeling far | from Allah?",
+          "mood": "question",
+          "scene": "soft_light",
+          "claim": "interpretation"
+        },
+        {
+          "text": "He is only one {remembrance} away.",
+          "text2": "وہ بس ایک {ذکر} کے فاصلے پر ہے۔",
+          "say": "He is only one | remembrance away.",
+          "mood": "soft",
+          "scene": "soft_light",
+          "claim": "interpretation"
+        },
+        {
+          "label": "Allah says",
+          "text": "فَاذْكُرُونِي أَذْكُرْكُمْ",
+          "font": "arabic",
+          "sub": "“So remember Me; I will remember you.” (Al-Baqarah 2:152)",
+          "say": "So remember Me; | I will remember you.",
+          "mood": "soft",
+          "scene": "light_sky",
+          "hold": 2.0
+        },
+        {
+          "text": "Say {SubhanAllah} right now. 🌿",
+          "text2": "ابھی {سبحان اللہ} کہیں۔",
+          "say": "Say SubhanAllah | right now.",
+          "mood": "hope",
+          "scene": "light_sky",
+          "hold": 2.4,
+          "claim": "interpretation"
+        }
+      ],
+      "sources": [],
+      "hashtags": [],
+      "thumb_title": "Feeling far from {Allah}?",
+      "thumb_title_ur": "کیا آپ اللہ سے دور ہیں؟"
+    }
+  ]
+}

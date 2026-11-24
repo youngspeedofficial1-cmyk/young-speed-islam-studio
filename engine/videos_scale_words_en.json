@@ -1,0 +1,140 @@
+{
+  "videos": [
+    {
+      "name": "scale_words_en",
+      "lang": "en",
+      "text2_lang": "ur",
+      "style": "explainer",
+      "hook_type": "bold_claim",
+      "topic": "two words heavy on the Scale",
+      "title": "2 Words Heavy on the Scale",
+      "title_en": "2 Words Light on the Tongue, Heavy on the Scale",
+      "caption": "Seconds to say, heavy on the Scale on the Day it matters most 🤍 Say them now and comment SubhanAllah 👇",
+      "hashtags": [
+        "#islamicreminder",
+        "#hadith",
+        "#dhikr",
+        "#subhanallah",
+        "#akhirah",
+        "#muslim",
+        "#deen"
+      ],
+      "sources": [
+        {
+          "ref": "Sahih al-Bukhari 6406",
+          "url": "https://sunnah.com/bukhari:6406",
+          "grade": "sahih, agreed upon (Bukhari & Muslim; HadeethEnc 5507)",
+          "wording": "English rendering of: kalimatani khafifatani 'ala al-lisan, thaqilatani fi al-mizan, habibatani ila ar-Rahman: subhan Allah al-'azim, subhan Allah wa bihamdih (6406 order)",
+          "checked": "2026-11-11"
+        }
+      ],
+      "lines": [
+        {
+          "text": "These {two phrases} take seconds to say…",
+          "text2": "یہ {دو کلمے} کہنے میں چند سیکنڈ لگتے ہیں…",
+          "say": "These two phrases | take seconds to say,",
+          "mood": "question",
+          "beat": "hook",
+          "hold": 2.6,
+          "claim": "interpretation",
+          "scene": "scale_of_words"
+        },
+        {
+          "text": "…yet they are {heavy} on the Scale.",
+          "text2": "…مگر ترازو میں یہ {بھاری} ہیں۔",
+          "say": "yet they are *heavy* on the Scale.",
+          "mood": "firm",
+          "claim": "interpretation",
+          "scene": "scale_of_words"
+        },
+        {
+          "text": "The Prophet ﷺ said:",
+          "text2": "نبی کریم ﷺ نے فرمایا:",
+          "say": "The Prophet, peace be upon him, said:",
+          "mood": "neutral",
+          "scene": "scale_of_words"
+        },
+        {
+          "text": "Two words are {light} on the tongue,",
+          "text2": "دو کلمے زبان پر {ہلکے} ہیں،",
+          "say": "Two words are *light* on the tongue,",
+          "mood": "soft",
+          "beat": "light",
+          "hold": 1.4,
+          "scene": "scale_of_words"
+        },
+        {
+          "text": "{heavy} on the Scale,",
+          "text2": "ترازو میں {بھاری} ہیں،",
+          "say": "heavy on the Scale,",
+          "mood": "firm",
+          "beat": "heavy",
+          "hold": 1.8,
+          "scene": "scale_of_words"
+        },
+        {
+          "text": "and {beloved} to the Most Merciful:",
+          "text2": "اور رحمٰن کو {محبوب} ہیں:",
+          "say": "and *beloved* to the Most Merciful:",
+          "mood": "hope",
+          "beat": "beloved",
+          "hold": 1.2,
+          "scene": "scale_of_words"
+        },
+        {
+          "text": "سُبْحَانَ اللَّهِ الْعَظِيمِ",
+          "font": "arabic",
+          "sub": "SubhanAllahil-'Azim — Glory be to Allah, the Most Great",
+          "say": "Glory be to Allah, the Most Great.",
+          "mood": "soft",
+          "beat": "w1",
+          "hold": 1.6,
+          "arabic_source": "hadith",
+          "hadith_ref": "Sahih al-Bukhari 6406",
+          "scene": "scale_of_words"
+        },
+        {
+          "text": "سُبْحَانَ اللَّهِ وَبِحَمْدِهِ",
+          "font": "arabic",
+          "sub": "SubhanAllahi wa bihamdihi — Glory be to Allah, and praise be to Him (Sahih al-Bukhari 6406)",
+          "say": "Glory be to Allah, | and praise be to Him.",
+          "mood": "soft",
+          "beat": "w2",
+          "hold": 1.8,
+          "arabic_source": "hadith",
+          "hadith_ref": "Sahih al-Bukhari 6406",
+          "scene": "scale_of_words"
+        },
+        {
+          "text": "Say them {now}, while you still have time.",
+          "text2": "ابھی {کہہ لیں}، جب تک وقت ہے۔",
+          "say": "Say them *now*, | while you still have time.",
+          "mood": "firm",
+          "beat": "now",
+          "claim": "interpretation",
+          "scene": "scale_of_words"
+        },
+        {
+          "label": "Allah says",
+          "text": "وَنَضَعُ الْمَوَازِينَ الْقِسْطَ لِيَوْمِ الْقِيَامَةِ",
+          "font": "arabic",
+          "sub": "“And We place the scales of justice for the Day of Resurrection” (Al-Anbya 21:47)",
+          "say": "And We place the scales of justice | for the Day of Resurrection.",
+          "mood": "heavy",
+          "beat": "ayah",
+          "hold": 3.0,
+          "scene": "scale_of_words"
+        },
+        {
+          "text": "Comment {SubhanAllah} when you've said them.",
+          "text2": "پڑھ لیں تو {سبحان اللہ} لکھیں۔",
+          "say": "Comment SubhanAllah | when you've said them.",
+          "mood": "soft",
+          "beat": "cta",
+          "hold": 3.4,
+          "scene": "scale_of_words"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,128 @@
+{
+  "videos": [
+    {
+      "name": "mercy_100_parts_en",
+      "lang": "en",
+      "title": "100 Parts of Mercy",
+      "title_en": "Allah Kept 99 Parts of His Mercy for You",
+      "caption": "Allah sent down only ONE part of His mercy… and kept 99 for His servants on the Day of Resurrection 🤍 Comment “Ya Rahman” 🤲",
+      "hashtags": [
+        "#islamicreminder",
+        "#mercy",
+        "#allah",
+        "#hadith",
+        "#hope",
+        "#muslim",
+        "#deen",
+        "#arrahman"
+      ],
+      "lines": [
+        {
+          "text": "Allah divided His mercy into {100 parts}.",
+          "say": "*Allah* divided His mercy | into one hundred parts.",
+          "mood": "firm",
+          "beat": "hook",
+          "scene": "mercy_grid"
+        },
+        {
+          "text": "He sent down just {one} to the earth.",
+          "say": "He sent down | just *one* | to the earth.",
+          "mood": "soft",
+          "beat": "light_one",
+          "scene": "mercy_grid",
+          "hold": 2.6
+        },
+        {
+          "label": "The one part",
+          "text": "Because of it, creatures are merciful to each other…",
+          "say": "Because of it, | creatures are merciful | to each other,",
+          "mood": "soft",
+          "beat": "mother",
+          "scene": "mercy_grid"
+        },
+        {
+          "label": "The one part",
+          "text": "{even} a mare lifts her hoof so she won’t hurt her foal.",
+          "sub": "(Sahih al-Bukhari 6000)",
+          "say": "*even* a mare | lifts her hoof | so she won't hurt her foal.",
+          "mood": "soft",
+          "beat": "mare",
+          "scene": "mercy_grid",
+          "hold": 3.4
+        },
+        {
+          "text": "So where are the other {99}?",
+          "say": "So where | are the other *ninety-nine*?",
+          "mood": "question",
+          "beat": "others",
+          "scene": "mercy_grid",
+          "hold": 2.4
+        },
+        {
+          "text": "He kept them with Him…",
+          "say": "He kept them | with Him,",
+          "mood": "soft",
+          "scene": "mercy_grid"
+        },
+        {
+          "label": "For you",
+          "text": "for His servants, on the {Day of Resurrection}.",
+          "sub": "(Sahih Muslim 2752)",
+          "say": "for His servants, | on the Day of *Resurrection*.",
+          "mood": "hope",
+          "beat": "light_99",
+          "scene": "mercy_grid",
+          "hold": 4.2
+        },
+        {
+          "text": "If {one} part is all the mercy in this world…",
+          "say": "If *one* part | is all the mercy in this world,",
+          "mood": "soft",
+          "scene": "mercy_grid"
+        },
+        {
+          "text": "imagine the {ninety-nine}.",
+          "say": "*imagine* | the ninety-nine.",
+          "mood": "hope",
+          "scene": "mercy_grid",
+          "hold": 2.2
+        },
+        {
+          "label": "Allah says",
+          "text": "لَا تَقْنَطُوا مِن رَّحْمَةِ اللَّهِ",
+          "font": "arabic",
+          "sub": "“Do not despair of the mercy of Allah.” (Az-Zumar 39:53)",
+          "say": "Do not despair | of the mercy of *Allah*.",
+          "mood": "firm",
+          "beat": "ayah",
+          "scene": "mercy_grid",
+          "hold": 3.4
+        },
+        {
+          "text": "Comment “{Ya Rahman}” if you need His mercy today.",
+          "say": "If you need His mercy today, | comment: | Ya Rahman.",
+          "mood": "soft",
+          "beat": "cta",
+          "scene": "mercy_grid",
+          "hold": 3.6
+        }
+      ],
+      "sources": [
+        {
+          "ref": "Sahih al-Bukhari 6000",
+          "url": "https://sunnah.com/bukhari:6000",
+          "grade": "sahih (Sahih al-Bukhari)",
+          "wording": "faithful rendering of the linked English translation",
+          "checked": "2026-11-06"
+        },
+        {
+          "ref": "Sahih Muslim 2752",
+          "url": "https://sunnah.com/muslim:2752c",
+          "grade": "sahih (Sahih Muslim); agreed upon per Riyad as-Salihin 420",
+          "wording": "faithful rendering of the linked English translation",
+          "checked": "2026-11-06"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,44 @@
+{
+  "videos": [
+    {
+      "name": "CHANGE_ME",
+      "style": "nature_narration",
+      "hook_type": "question",
+      "topic": "",
+      "title": "",
+      "title_en": "",
+      "caption": "",
+      "hashtags": [
+        "#islamicreminder"
+      ],
+      "sources": [],
+      "lang": "ur",
+      "lines": [
+        {
+          "text": "اردو ہُک {نمایاں لفظ} کے ساتھ؟",
+          "say_hi": "उर्दू हुक | *नुमायाँ* लफ़्ज़ के साथ?",
+          "mood": "question",
+          "scene": "rain"
+        },
+        {
+          "label": "اللہ فرماتا ہے",
+          "text": "ARABIC FROM verify.py --fix",
+          "font": "arabic",
+          "quran": "0:0",
+          "sub": "«جوناگڑھی ترجمہ لفظ بہ لفظ» (سورہ 0:0)",
+          "say_hi": "तर्जुमा।",
+          "mood": "soft",
+          "hold": 3.2,
+          "scene": "premium_gold"
+        },
+        {
+          "text": "اختتامی پیغام {عمل} کی دعوت۔",
+          "say_hi": "इख़्तितामी पैग़ाम।",
+          "mood": "firm",
+          "hold": 2.6,
+          "scene": "mosque"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,27 @@
+{
+  "videos": [
+    {
+      "name": "CHANGE_ME",
+      "style": "nature_narration",
+      "hook_type": "question",
+      "topic": "",
+      "title": "",
+      "title_en": "",
+      "caption": "",
+      "hashtags": [
+        "#islamicreminder"
+      ],
+      "sources": [],
+      "voice_lang": "en",
+      "text_lang": "ur",
+      "lines": [
+        {
+          "text": "اردو متن {نمایاں}",
+          "say": "English narration for this line.",
+          "mood": "soft",
+          "scene": "sea"
+        }
+      ]
+    }
+  ]
+}

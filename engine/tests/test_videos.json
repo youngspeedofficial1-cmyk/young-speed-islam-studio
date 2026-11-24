@@ -1,0 +1,171 @@
+{
+  "videos": [
+    {
+      "name": "test_en_quran",
+      "lang": "en",
+      "style": "quran_focused",
+      "hook_type": "question",
+      "topic": "Allah's mercy",
+      "title": "Do Not Despair",
+      "title_en": "Never Despair of Allah's Mercy",
+      "caption": "Allah forgives all sins 🤍",
+      "hashtags": [
+        "#islamicreminder",
+        "#mercy",
+        "#quran"
+      ],
+      "lines": [
+        {
+          "text": "Do you think your sins are too {many}?",
+          "say": "Do you think | your sins are too *many*?",
+          "mood": "question",
+          "scene": "rain"
+        },
+        {
+          "label": "Allah says",
+          "text": "“Do not despair of the mercy of Allah.”",
+          "sub": "(Az-Zumar 39:53)",
+          "say": "Do not despair | of the mercy of *Allah*.",
+          "mood": "hope",
+          "scene": "sea"
+        },
+        {
+          "text": "لَا تَقْنَطُوا مِن رَّحْمَةِ اللَّهِ",
+          "font": "arabic",
+          "sub": "“Indeed, Allah forgives all sins.” (Az-Zumar 39:53)",
+          "say": "Indeed, | Allah forgives *all* sins.",
+          "mood": "firm",
+          "hold": 3.0,
+          "scene": "premium_gold"
+        }
+      ]
+    },
+    {
+      "name": "test_ur_quran",
+      "lang": "ur",
+      "style": "premium_cinematic",
+      "hook_type": "question",
+      "topic": "اللہ کی رحمت",
+      "title": "ناامید نہ ہوں",
+      "title_en": "Never Lose Hope",
+      "caption": "اللہ سارے گناہ بخش دیتا ہے 🤍",
+      "hashtags": [
+        "#islamicreminder",
+        "#urdu"
+      ],
+      "lines": [
+        {
+          "text": "کیا آپ کو لگتا ہے آپ کے {گناہ} بہت زیادہ ہیں؟",
+          "say_hi": "क्या आपको लगता है | आपके *गुनाह* बहुत ज़्यादा हैं?",
+          "mood": "question",
+          "scene": "rain"
+        },
+        {
+          "label": "اللہ فرماتا ہے",
+          "text": "لَا تَقْنَطُوا مِن رَّحْمَةِ اللَّهِ",
+          "font": "arabic",
+          "sub": "«تم اللہ کی رحمت سے ناامید نہ ہو جاؤ» (الزمر 39:53)",
+          "say_hi": "तुम अल्लाह की रहमत से | नाउम्मीद न हो जाओ।",
+          "mood": "soft",
+          "hold": 3.2,
+          "scene": "premium_gold"
+        },
+        {
+          "text": "«بالیقین {اللہ تعالیٰ} سارے گناہوں کو بخش دیتا ہے»",
+          "sub": "(الزمر 39:53)",
+          "say_hi": "बिल-यक़ीन, | अल्लाह तआला | *सारे* गुनाहों को बख़्श देता है।",
+          "mood": "hope",
+          "scene": "storm_clear"
+        },
+        {
+          "text": "آج ہی اُس کی طرف {لوٹ آئیں}۔",
+          "say_hi": "आज ही | उसकी तरफ़ *लौट* आइए।",
+          "mood": "firm",
+          "hold": 2.6,
+          "scene": "mosque"
+        }
+      ]
+    },
+    {
+      "name": "test_bilingual_explainer",
+      "lang": "en",
+      "text2_lang": "ur",
+      "style": "explainer",
+      "hook_type": "number",
+      "topic": "100 parts of mercy",
+      "title": "100 Parts of Mercy",
+      "title_en": "Allah Kept 99 Parts of His Mercy",
+      "caption": "1 part sent down, 99 kept for the Day of Resurrection 🤍",
+      "hashtags": [
+        "#islamicreminder",
+        "#mercy",
+        "#hadith"
+      ],
+      "sources": [
+        {
+          "ref": "Sahih al-Bukhari 6000",
+          "url": "https://sunnah.com/bukhari:6000",
+          "grade": "sahih (Sahih al-Bukhari)",
+          "wording": "faithful rendering of the sunnah.com translation",
+          "checked": "2026-11-06"
+        },
+        {
+          "ref": "Sahih Muslim 2752",
+          "url": "https://sunnah.com/muslim:2752c",
+          "grade": "sahih (Sahih Muslim); agreed upon per Riyad as-Salihin 420",
+          "wording": "faithful rendering of the sunnah.com translation",
+          "checked": "2026-11-06"
+        }
+      ],
+      "lines": [
+        {
+          "text": "Allah divided His mercy into {100 parts}.",
+          "text2": "اللہ نے اپنی رحمت کے {سو حصے} کیے۔",
+          "say": "*Allah* divided His mercy | into one hundred parts.",
+          "mood": "firm",
+          "beat": "hook",
+          "scene": "mercy_grid"
+        },
+        {
+          "text": "He sent down just {one} to the earth.",
+          "text2": "اور صرف {ایک} حصہ زمین پر اتارا۔",
+          "sub": "(Sahih al-Bukhari 6000)",
+          "say": "He sent down | just *one* | to the earth.",
+          "mood": "soft",
+          "beat": "light_one",
+          "scene": "mercy_grid",
+          "hold": 2.6
+        },
+        {
+          "text": "So where are the other {99}?",
+          "text2": "تو باقی {ننانوے} کہاں ہیں؟",
+          "say": "So where | are the other *ninety-nine*?",
+          "mood": "question",
+          "beat": "others",
+          "scene": "mercy_grid",
+          "hold": 2.2
+        },
+        {
+          "label": "For you",
+          "text": "He kept them for His servants, for the {Day of Resurrection}.",
+          "text2": "اُس نے انہیں قیامت کے دن اپنے بندوں کے لیے {رکھ لیا}۔",
+          "sub": "(Sahih Muslim 2752)",
+          "say": "He kept them for His servants, | for the Day of *Resurrection*.",
+          "mood": "hope",
+          "beat": "light_99",
+          "scene": "mercy_grid",
+          "hold": 3.8
+        },
+        {
+          "text": "Comment “{Ya Rahman}” if you need His mercy.",
+          "text2": "اگر آپ کو اُس کی رحمت چاہیے تو {یا رحمٰن} لکھیں۔",
+          "say": "If you need His mercy, | comment: | Ya Rahman.",
+          "mood": "soft",
+          "beat": "cta",
+          "scene": "mercy_grid",
+          "hold": 3.0
+        }
+      ]
+    }
+  ]
+}

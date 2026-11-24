@@ -1,0 +1,30 @@
+{
+  "videos": [
+    {
+      "name": "CHANGE_ME",
+      "style": "nature_narration",
+      "hook_type": "question",
+      "topic": "",
+      "title": "",
+      "title_en": "",
+      "caption": "",
+      "hashtags": [
+        "#islamicreminder"
+      ],
+      "sources": [],
+      "lang": "en",
+      "text2_lang": "ur",
+      "lines": [
+        {
+          "text": "English main line {highlight}.",
+          "text2": "اردو ترجمہ {نمایاں}۔",
+          "say": "English main line.",
+          "mood": "soft",
+          "scene": "meadow"
+        }
+      ],
+      "thumb_title": "Short {Hook} Title",
+      "thumb_title_ur": "مختصر عنوان"
+    }
+  ]
+}

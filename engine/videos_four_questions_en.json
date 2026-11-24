@@ -1,0 +1,112 @@
+{
+  "videos": [
+    {
+      "name": "four_questions_en",
+      "lang": "en",
+      "title": "4 Questions",
+      "title_en": "4 Questions You Will Be Asked on the Day of Judgment",
+      "caption": "Your feet will not move on the Day of Judgment until you are asked about 4 things… Which one would you struggle with? Comment 1, 2, 3 or 4 👇",
+      "hashtags": [
+        "#islamicreminder",
+        "#dayofjudgment",
+        "#akhirah",
+        "#hadith",
+        "#qiyamah",
+        "#muslim",
+        "#deen",
+        "#reminder"
+      ],
+      "lines": [
+        {
+          "text": "On the Day of Judgment, {your feet will not move}…",
+          "say": "On the Day of Judgment, | your feet | will not *move*,",
+          "mood": "firm",
+          "beat": "hook",
+          "scene": "four_questions",
+          "hold": 3.2
+        },
+        {
+          "text": "until you are asked about {4 things}.",
+          "say": "until you are asked | about *four* things.",
+          "mood": "firm",
+          "scene": "four_questions"
+        },
+        {
+          "label": "Question 1",
+          "text": "Your {life}: how did you spend it?",
+          "say": "Your *life*: | how did you spend it?",
+          "mood": "question",
+          "beat": "q1",
+          "scene": "four_questions"
+        },
+        {
+          "label": "Question 2",
+          "text": "Your {knowledge}: what did you do with it?",
+          "say": "Your *knowledge*: | what did you do with it?",
+          "mood": "question",
+          "beat": "q2",
+          "scene": "four_questions"
+        },
+        {
+          "label": "Question 3",
+          "text": "Your {wealth}: where did you earn it, and where did you spend it?",
+          "say": "Your *wealth*: | where did you earn it, | and where did you spend it?",
+          "mood": "question",
+          "beat": "q3",
+          "scene": "four_questions"
+        },
+        {
+          "label": "Question 4",
+          "text": "Your {body}: how did you use it?",
+          "sub": "(Jami’ at-Tirmidhi 2417)",
+          "say": "Your *body*: | how did you use it?",
+          "mood": "question",
+          "beat": "q4",
+          "scene": "four_questions",
+          "hold": 2.6
+        },
+        {
+          "text": "Four questions. {No one} can answer them for you.",
+          "say": "Four questions. | *No one* | can answer them for you.",
+          "mood": "heavy",
+          "beat": "reflect",
+          "scene": "four_questions"
+        },
+        {
+          "text": "And your answers are being written {today}.",
+          "say": "And your answers | are being written | *today*.",
+          "mood": "firm",
+          "scene": "four_questions"
+        },
+        {
+          "label": "Allah says",
+          "text": "ثُمَّ لَتُسْأَلُنَّ يَوْمَئِذٍ عَنِ النَّعِيمِ",
+          "font": "arabic",
+          "sub": "“Then you will surely be asked that Day about pleasure.” (At-Takathur 102:8)",
+          "say": "Then you will surely be asked that Day | about *pleasure*.",
+          "mood": "heavy",
+          "beat": "ayah",
+          "scene": "four_questions",
+          "hold": 3.4
+        },
+        {
+          "text": "Which one would you struggle with? Comment {1, 2, 3 or 4}.",
+          "say": "Which one would you struggle with? | Comment | one, two, three, | or four.",
+          "mood": "soft",
+          "beat": "cta",
+          "scene": "four_questions",
+          "hold": 3.6
+        }
+      ],
+      "sources": [
+        {
+          "ref": "Jami’ at-Tirmidhi 2417",
+          "url": "https://hadithunlocked.com/tirmidhi:2417",
+          "grade": "hasan sahih (at-Tirmidhi), sahih (al-Albani); Zubair Ali Zai: da'if - graders differ",
+          "wording": "faithful rendering of the linked English translation",
+          "checked": "2026-11-06"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,130 @@
+{
+  "videos": [
+    {
+      "name": "last_third_en",
+      "lang": "en",
+      "text2_lang": "ur",
+      "style": "explainer",
+      "hook_type": "bold_claim",
+      "topic": "the last third of the night",
+      "title": "Every Night, the Last Third",
+      "title_en": "Who Is Calling Upon Me? The Last Third of the Night",
+      "caption": "Every night in the last third, Allah asks who is calling upon Him 🌙 Will you wake tonight? Comment In sha Allah 👇",
+      "hashtags": [
+        "#islamicreminder",
+        "#hadith",
+        "#tahajjud",
+        "#dua",
+        "#lastthirdofthenight",
+        "#muslim",
+        "#deen"
+      ],
+      "sources": [
+        {
+          "ref": "Sahih al-Bukhari 1145",
+          "url": "https://sunnah.com/bukhari:1145",
+          "grade": "sahih, agreed upon (Bukhari 1145, Muslim 758)",
+          "wording": "opening per sunnah.com; the three questions per the translation at abuaminaelias.com (Arabic: man yad'uni fa-astajiba lah, man yas'aluni fa-u'tiyah, man yastaghfiruni fa-aghfira lah)",
+          "checked": "2026-11-12"
+        }
+      ],
+      "lines": [
+        {
+          "text": "Every night, while the world {sleeps}…",
+          "text2": "ہر رات، جب دنیا {سو رہی} ہوتی ہے…",
+          "say": "Every night, | while the world sleeps,",
+          "mood": "soft",
+          "beat": "hook",
+          "hold": 2.4,
+          "claim": "interpretation",
+          "scene": "last_third"
+        },
+        {
+          "text": "The Prophet ﷺ said:",
+          "text2": "نبی کریم ﷺ نے فرمایا:",
+          "say": "The Prophet, peace be upon him, said:",
+          "mood": "neutral",
+          "beat": "said",
+          "scene": "last_third"
+        },
+        {
+          "text": "Our Lord descends every night to the lowest heaven, when the {last third} of the night remains, and says:",
+          "text2": "ہمارا رب ہر رات آسمانِ دنیا پر نزول فرماتا ہے، جب رات کا {آخری تہائی} حصہ باقی رہتا ہے، اور فرماتا ہے:",
+          "say": "Our Lord descends every night to the lowest heaven, | when the last third of the night remains, and says:",
+          "mood": "heavy",
+          "beat": "third",
+          "hold": 1.2,
+          "scene": "last_third"
+        },
+        {
+          "text": "“Who is calling upon Me, that I may {answer} him?”",
+          "text2": "”کون ہے جو مجھے پکارے کہ میں اس کی {دعا قبول} کروں؟“",
+          "say": "Who is calling upon Me, | that I may *answer* him?",
+          "mood": "soft",
+          "beat": "c1",
+          "hold": 1.0,
+          "scene": "last_third"
+        },
+        {
+          "text": "“Who is asking from Me, that I may {give} him?”",
+          "text2": "”کون ہے جو مجھ سے مانگے کہ میں اسے {عطا} کروں؟“",
+          "say": "Who is asking from Me, | that I may *give* him?",
+          "mood": "soft",
+          "beat": "c2",
+          "hold": 1.0,
+          "scene": "last_third"
+        },
+        {
+          "text": "“Who is seeking My forgiveness, that I may {forgive} him?”",
+          "text2": "”کون ہے جو مجھ سے بخشش مانگے کہ میں اسے {بخش} دوں؟“",
+          "say": "Who is seeking My forgiveness, | that I may *forgive* him?",
+          "mood": "hope",
+          "beat": "c3",
+          "hold": 1.2,
+          "scene": "last_third"
+        },
+        {
+          "text": "مَنْ يَسْتَغْفِرُنِي فَأَغْفِرَ لَهُ",
+          "font": "arabic",
+          "sub": "(Sahih al-Bukhari 1145, Sahih Muslim 758)",
+          "say": "Reported by al-Bukhari and Muslim.",
+          "mood": "soft",
+          "beat": "card",
+          "hold": 2.2,
+          "arabic_source": "hadith",
+          "hadith_ref": "Sahih al-Bukhari 1145",
+          "scene": "last_third"
+        },
+        {
+          "text": "He asks {every night}. Will you be awake to answer?",
+          "text2": "وہ {ہر رات} پوچھتا ہے۔ کیا آپ جواب دینے کو جاگیں گے؟",
+          "say": "He asks every night. | Will you be awake to answer?",
+          "mood": "question",
+          "beat": "reflect",
+          "claim": "interpretation",
+          "scene": "last_third"
+        },
+        {
+          "label": "Allah says",
+          "text": "فَإِنِّي قَرِيبٌ أُجِيبُ دَعْوَةَ الدَّاعِ إِذَا دَعَانِ",
+          "font": "arabic",
+          "sub": "“…indeed I am near. I respond to the invocation of the supplicant when he calls upon Me.” (Al-Baqarah 2:186)",
+          "say": "Indeed I am near. | I respond to the invocation of the supplicant when he calls upon Me.",
+          "mood": "soft",
+          "beat": "ayah",
+          "hold": 3.0,
+          "scene": "last_third"
+        },
+        {
+          "text": "Will you wake tonight? Comment {In sha Allah}.",
+          "text2": "کیا آج رات اٹھیں گے؟ {ان شاء اللہ} لکھیں۔",
+          "say": "Will you wake tonight? | Comment, In sha Allah.",
+          "mood": "soft",
+          "beat": "cta",
+          "hold": 3.4,
+          "scene": "last_third"
+        }
+      ]
+    }
+  ]
+}

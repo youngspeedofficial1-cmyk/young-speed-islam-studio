@@ -1,0 +1,161 @@
+{
+  "videos": [
+    {
+      "name": "gta_ruling_en",
+      "lang": "en",
+      "text2_lang": "ur",
+      "style": "explainer",
+      "hook_type": "question",
+      "topic": "is GTA 5 halal (video games ruling)",
+      "title": "Is GTA 5 Halal?",
+      "title_en": "Is GTA 5 Halal? A Saudi Scholar's Rule for Video Games",
+      "caption": "Is GTA 5 halal? 🎮 A Saudi scholar's rule for video games, applied to what GTA 5 actually contains 🤍 Send this to a gamer friend 👇",
+      "hashtags": [
+        "#islamicreminder",
+        "#gta5",
+        "#halal",
+        "#gaming",
+        "#fatwa",
+        "#muslim",
+        "#deen"
+      ],
+      "sources": [
+        {
+          "ref": "Dr. Saad al-Shathri, al-Musabaqat wa Ahkamuha",
+          "url": "https://islamqa.info/ar/2898",
+          "grade": "fatwa / fiqh (scholarly opinion)",
+          "wording": "IslamQA answer 2898 ('Are Video Games Haram?'), credited to Dr. Saad al-Shathri's book al-Musabaqat wa Ahkamuha fi al-Shari'ah al-Islamiyyah; English quotes from https://islamqa.info/en/answers/2898/are-video-games-haram",
+          "arabic": "والأصل في مثل هذه الألعاب الإباحة إذا لم تصدّ عن واجب شرعيّ كإقامة الصلاة وبرّ الوالدين وإذا لم تشتمل على أمر محرّم",
+          "checked": "2026-11-20"
+        },
+        {
+          "ref": "IslamQA 97681",
+          "url": "https://islamqa.info/en/answers/97681",
+          "grade": "fatwa (IslamQA)",
+          "wording": "'If you find these things or some of them in it, then it is not permissible to play it.'",
+          "checked": "2026-11-20"
+        },
+        {
+          "ref": "ESRB rating: Grand Theft Auto V",
+          "url": "https://www.esrb.org/ratings/36493/grand-theft-auto-v/",
+          "grade": "official content rating (M 17+)",
+          "wording": "Blood and Gore, Intense Violence, Mature Humor, Nudity, Strong Language, Strong Sexual Content, Use of Drugs and Alcohol",
+          "checked": "2026-11-20"
+        },
+        {
+          "ref": "Saad bin Nasser al-Shathri (Saudipedia)",
+          "url": "https://saudipedia.com/en/saad-bin-nasser-al-shathri",
+          "grade": "biography",
+          "wording": "member of the Council of Senior Scholars; adviser at the Royal Court",
+          "checked": "2026-11-20"
+        }
+      ],
+      "lines": [
+        {
+          "text": "Is {GTA 5} halal to play? 🎮",
+          "text2": "کیا {GTA 5} کھیلنا حلال ہے؟",
+          "say": "Is GTA 5 | halal to play?",
+          "mood": "question",
+          "scene": "gamer_room",
+          "beat": "hook",
+          "hold": 1.4,
+          "claim": "interpretation"
+        },
+        {
+          "text": "Saudi scholar Dr. Saad al-Shathri gave the {rule} for video games.",
+          "text2": "سعودی عالم ڈاکٹر سعد الشثری نے ویڈیو گیمز کا {اصول} بتایا۔",
+          "say": "Saudi scholar, Doctor Saad al-Shathri, | gave the rule for video games.",
+          "mood": "neutral",
+          "scene": "gamer_room",
+          "beat": "scholar",
+          "sub": "(Council of Senior Scholars, Saudi Arabia)"
+        },
+        {
+          "text": "In principle, such games are {permissible},",
+          "text2": "اصل میں ایسے کھیل {جائز} ہیں،",
+          "say": "In principle, | such games are permissible,",
+          "mood": "soft",
+          "scene": "gamer_room",
+          "beat": "rule",
+          "text0": "والأصل في مثل هذه الألعاب الإباحة",
+          "text0_ref": "Dr. Saad al-Shathri, al-Musabaqat wa Ahkamuha"
+        },
+        {
+          "text": "“so long as they do not get in the way of obligatory duties such as establishing {prayer}”",
+          "text2": "”بشرطیکہ وہ نماز جیسے {فرائض} سے نہ روکیں“",
+          "say": "so long as they do not get in the way of obligatory duties, | such as establishing prayer,",
+          "mood": "soft",
+          "scene": "gamer_room",
+          "text0": "إذا لم تصدّ عن واجب شرعيّ كإقامة الصلاة",
+          "text0_ref": "Dr. Saad al-Shathri, al-Musabaqat wa Ahkamuha"
+        },
+        {
+          "text": "“and so long as they do not include anything that is {haram}.”",
+          "text2": "”اور ان میں کوئی {حرام} چیز شامل نہ ہو۔“",
+          "say": "and so long as they do not include | anything that is haram.",
+          "mood": "firm",
+          "scene": "gamer_room",
+          "hold": 0.8,
+          "text0": "وإذا لم تشتمل على أمر محرّم",
+          "text0_ref": "Dr. Saad al-Shathri, al-Musabaqat wa Ahkamuha"
+        },
+        {
+          "text": "Forbidden in games: {nudity}, gambling, music, and getting used to violence and crime.",
+          "text2": "گیمز میں ممنوع: {عریانی}، جوا، موسیقی، اور تشدد و جرم کی عادت۔",
+          "say": "Forbidden in games: nudity, gambling, music, | and getting used to violence and crime.",
+          "mood": "soft",
+          "scene": "gamer_room",
+          "beat": "list",
+          "hold": 1.2
+        },
+        {
+          "text": "GTA 5's official rating lists {nudity}, strong sexual content and intense violence.",
+          "text2": "GTA 5 کی سرکاری ریٹنگ میں {عریانی}، فحش مواد اور شدید تشدد درج ہے۔",
+          "say": "GTA 5's official rating lists nudity, | strong sexual content, and intense violence.",
+          "mood": "heavy",
+          "scene": "gamer_room",
+          "beat": "esrb",
+          "hold": 1.6,
+          "sub": "(ESRB rating: M, Mature 17+)"
+        },
+        {
+          "text": "So by these conditions, GTA 5 does {not} pass.",
+          "text2": "تو ان شرائط کے مطابق GTA 5 {جائز نہیں} ٹھہرتا۔",
+          "say": "So by these conditions, | GTA 5 does not pass.",
+          "mood": "firm",
+          "scene": "gamer_room",
+          "beat": "verdict",
+          "hold": 1.0,
+          "claim": "interpretation"
+        },
+        {
+          "text": "IslamQA: “If you find these things or some of them in it, then it is not {permissible} to play it.”",
+          "text2": "اسلام سوال و جواب: ”اگر اس میں یہ چیزیں یا ان میں سے کچھ ہوں، تو اسے کھیلنا {جائز نہیں}۔“",
+          "say": "IslamQA says: | If you find these things or some of them in it, then it is not permissible to play it.",
+          "mood": "firm",
+          "scene": "gamer_room",
+          "sub": "(IslamQA, answer 97681)"
+        },
+        {
+          "text": "No game is worth missing {Salah} for. 🤲",
+          "text2": "کوئی گیم اس قابل نہیں کہ اس کے لیے {نماز} چھوڑی جائے۔",
+          "say": "No game is worth | missing Salah for.",
+          "mood": "soft",
+          "scene": "gamer_room",
+          "beat": "prayer",
+          "hold": 3.2,
+          "claim": "interpretation"
+        },
+        {
+          "text": "Send this to a gamer friend. 🤍",
+          "text2": "یہ کسی گیمر دوست کو بھیجیں۔",
+          "say": "Send this | to a gamer friend.",
+          "mood": "soft",
+          "scene": "gamer_room",
+          "beat": "cta",
+          "hold": 3.0
+        }
+      ]
+    }
+  ]
+}

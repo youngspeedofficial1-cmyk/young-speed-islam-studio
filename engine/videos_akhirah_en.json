@@ -1,0 +1,548 @@
+{
+  "videos": [
+    {
+      "name": "the_grave_en",
+      "lang": "en",
+      "title": "The Grave",
+      "title_en": "What Stays With You in the Grave",
+      "caption": "Your family and your wealth will walk away. Only your deeds will stay 🤍",
+      "hashtags": [
+        "#islamicreminder",
+        "#grave",
+        "#akhirah",
+        "#muslim",
+        "#hadith",
+        "#deen",
+        "#reminder",
+        "#islam"
+      ],
+      "lines": [
+        {
+          "text": "One day, they will carry you to your grave.",
+          "say": "One day, | they will carry you | to your *grave*.",
+          "mood": "heavy",
+          "scene": "graveyard"
+        },
+        {
+          "text": "Your family will walk with you…",
+          "say": "Your family will walk with you,",
+          "mood": "soft",
+          "scene": "grave_inside"
+        },
+        {
+          "text": "and then they will walk away.",
+          "say": "and then | they will walk away.",
+          "mood": "heavy",
+          "scene": "grave_inside"
+        },
+        {
+          "text": "The Prophet ﷺ said:",
+          "say": "The Prophet, peace be upon him, said:",
+          "mood": "neutral",
+          "scene": "candle"
+        },
+        {
+          "text": "Three follow the dead person to his grave:",
+          "say": "*Three* follow the dead person | to his grave:",
+          "mood": "neutral",
+          "scene": "candle"
+        },
+        {
+          "text": "his family, his wealth, and his deeds.",
+          "say": "his family, | his wealth, | and his deeds.",
+          "mood": "soft",
+          "scene": "candle"
+        },
+        {
+          "text": "Two return, and one remains with him:",
+          "say": "*Two* return, | and one remains with him:",
+          "mood": "heavy",
+          "scene": "grave_inside"
+        },
+        {
+          "text": "his deeds.",
+          "sub": "(Sahih al-Bukhari 6514)",
+          "say": "his *deeds*.",
+          "mood": "heavy",
+          "hold": 2.2,
+          "scene": "grave_inside"
+        },
+        {
+          "text": "And in the grave, you will be asked:",
+          "say": "And in the grave, | you will be asked:",
+          "mood": "firm",
+          "scene": "night_prayer"
+        },
+        {
+          "text": "Who is your Lord? What is your religion?",
+          "say": "Who is your *Lord*? | What is your religion?",
+          "mood": "question",
+          "scene": "night_prayer"
+        },
+        {
+          "text": "What do you say about the man who was sent among you?",
+          "sub": "(Sunan Abi Dawud 4753)",
+          "say": "What do you say | about the man | who was sent among you?",
+          "mood": "question",
+          "scene": "night_prayer"
+        },
+        {
+          "text": "Prepare your answer today.",
+          "say": "Prepare your answer | *today*.",
+          "mood": "firm",
+          "scene": "graveyard"
+        },
+        {
+          "text": "يُثَبِّتُ اللَّهُ الَّذِينَ آمَنُوا بِالْقَوْلِ الثَّابِتِ فِي الْحَيَاةِ الدُّنْيَا وَفِي الْآخِرَةِ",
+          "font": "arabic",
+          "sub": "“Allah keeps firm those who believe, with the firm word, in worldly life and in the Hereafter.” (Ibrahim 14:27)",
+          "say": "Allah keeps firm those who believe, | with the firm word, | in worldly life | and in the Hereafter.",
+          "mood": "soft",
+          "hold": 3.0,
+          "scene": "mosque"
+        }
+      ],
+      "sources": [
+        {
+          "ref": "Sahih al-Bukhari 6514",
+          "url": "https://sunnah.com/bukhari:6514",
+          "grade": "sahih (Sahih al-Bukhari)",
+          "wording": "faithful rendering of the linked English translation",
+          "checked": "2026-11-06"
+        },
+        {
+          "ref": "Sunan Abi Dawud 4753",
+          "url": "https://sunnah.com/abudawud:4753",
+          "grade": "sahih (al-Albani)",
+          "wording": "faithful rendering of the linked English translation",
+          "checked": "2026-11-06"
+        }
+      ]
+    },
+    {
+      "name": "qiyamah_en",
+      "lang": "en",
+      "title": "The Day of Judgment",
+      "title_en": "The Day No One Can Help You",
+      "caption": "On that Day a man will flee from his own brother… What will you have brought? 🤍",
+      "hashtags": [
+        "#islamicreminder",
+        "#qiyamah",
+        "#dayofjudgment",
+        "#akhirah",
+        "#quran",
+        "#muslim",
+        "#deen",
+        "#reminder"
+      ],
+      "lines": [
+        {
+          "text": "Imagine the Day the sky splits open.",
+          "say": "*Imagine* the Day | the sky splits open.",
+          "mood": "firm",
+          "scene": "sky_split"
+        },
+        {
+          "text": "“It is the Day when people will be like moths, dispersed,”",
+          "say": "It is the Day | when people will be like moths, | dispersed,",
+          "mood": "heavy",
+          "scene": "mountains_dust"
+        },
+        {
+          "text": "“and the mountains will be like wool, fluffed up.”",
+          "sub": "(Al-Qari’ah 101:4–5)",
+          "say": "and the mountains | will be like wool, | fluffed up.",
+          "mood": "heavy",
+          "scene": "mountains_dust"
+        },
+        {
+          "text": "“On the Day a man will flee from his brother,”",
+          "say": "On the Day | a man will flee | from his *brother*,",
+          "mood": "heavy",
+          "scene": "sun_near"
+        },
+        {
+          "text": "“and his mother and his father, and his wife and his children.”",
+          "sub": "(’Abasa 80:34–36)",
+          "say": "and his mother and his father, | and his wife and his children.",
+          "mood": "heavy",
+          "scene": "sun_near"
+        },
+        {
+          "text": "The Prophet ﷺ said:",
+          "say": "The Prophet, peace be upon him, said:",
+          "mood": "neutral",
+          "scene": "sun_near"
+        },
+        {
+          "text": "the sun will draw so close to the people",
+          "say": "the *sun* will draw so close | to the people",
+          "mood": "heavy",
+          "scene": "sun_near"
+        },
+        {
+          "text": "that only a mile will be left between them.",
+          "sub": "(Sahih Muslim 2864)",
+          "say": "that only a mile | will be left between them.",
+          "mood": "heavy",
+          "scene": "sun_near"
+        },
+        {
+          "text": "On that Day, what will you have brought?",
+          "say": "On that Day, | what will *you* have brought?",
+          "mood": "question",
+          "scene": "sky_split"
+        },
+        {
+          "text": "فَمَن يَعْمَلْ مِثْقَالَ ذَرَّةٍ خَيْرًا يَرَهُ وَمَن يَعْمَلْ مِثْقَالَ ذَرَّةٍ شَرًّا يَرَهُ",
+          "font": "arabic",
+          "sub": "“So whoever does an atom’s weight of good will see it, and whoever does an atom’s weight of evil will see it.” (Az-Zalzalah 99:7–8)",
+          "say": "So whoever does an atom's weight of good | will see it, | and whoever does an atom's weight of evil | will see it.",
+          "mood": "firm",
+          "hold": 3.0,
+          "scene": "mosque"
+        }
+      ],
+      "sources": [
+        {
+          "ref": "Sahih Muslim 2864",
+          "url": "https://sunnah.com/muslim:2864",
+          "grade": "sahih (Sahih Muslim)",
+          "wording": "faithful rendering of the linked English translation",
+          "checked": "2026-11-06"
+        }
+      ]
+    },
+    {
+      "name": "death_en",
+      "lang": "en",
+      "title": "Death",
+      "title_en": "Death Is Closer Than You Think",
+      "caption": "Death doesn't knock, and it won't wait until you're ready. Remember it often 🤍",
+      "hashtags": [
+        "#islamicreminder",
+        "#death",
+        "#akhirah",
+        "#quran",
+        "#hadith",
+        "#muslim",
+        "#deen",
+        "#reminder"
+      ],
+      "lines": [
+        {
+          "text": "Every day, your time runs out a little more.",
+          "say": "Every day, | your time runs out | a little more.",
+          "mood": "heavy",
+          "scene": "hourglass"
+        },
+        {
+          "text": "Death doesn’t knock.",
+          "say": "Death | doesn't knock.",
+          "mood": "firm",
+          "scene": "candle_out"
+        },
+        {
+          "text": "And it won’t wait until you’re ready.",
+          "say": "And it won't wait | until you're *ready*.",
+          "mood": "heavy",
+          "scene": "candle_out"
+        },
+        {
+          "text": "Allah says:",
+          "say": "*Allah* says:",
+          "mood": "soft",
+          "scene": "sunset"
+        },
+        {
+          "text": "“Indeed, the death from which you flee – indeed, it will meet you.”",
+          "sub": "(Al-Jumu’ah 62:8)",
+          "say": "Indeed, the death from which you flee, | indeed, | it will meet you.",
+          "mood": "heavy",
+          "scene": "sunset"
+        },
+        {
+          "text": "“Wherever you may be, death will overtake you,”",
+          "say": "Wherever you may be, | death will overtake you,",
+          "mood": "heavy",
+          "scene": "autumn"
+        },
+        {
+          "text": "“even if you should be within towers of lofty construction.”",
+          "sub": "(An-Nisa 4:78)",
+          "say": "even if you should be | within towers of lofty construction.",
+          "mood": "heavy",
+          "scene": "autumn"
+        },
+        {
+          "text": "The Prophet ﷺ said:",
+          "say": "The Prophet, peace be upon him, said:",
+          "mood": "neutral",
+          "scene": "hourglass"
+        },
+        {
+          "text": "Remember often the destroyer of pleasures – death.",
+          "sub": "(Jami’ at-Tirmidhi 2307)",
+          "say": "Remember often | the destroyer of pleasures: | *death*.",
+          "mood": "firm",
+          "scene": "hourglass"
+        },
+        {
+          "text": "So live for the life that never ends.",
+          "say": "So live | for the life | that never ends.",
+          "mood": "firm",
+          "scene": "night_prayer"
+        },
+        {
+          "text": "كُلُّ نَفْسٍ ذَائِقَةُ الْمَوْتِ",
+          "font": "arabic",
+          "sub": "“Every soul will taste death.” (Ali ’Imran 3:185)",
+          "say": "Every soul | will taste *death*.",
+          "mood": "soft",
+          "hold": 3.0,
+          "scene": "sunset"
+        }
+      ],
+      "sources": [
+        {
+          "ref": "Jami’ at-Tirmidhi 2307",
+          "url": "https://hadithunlocked.com/tirmidhi:2307",
+          "grade": "hasan (at-Tirmidhi)",
+          "wording": "faithful rendering of the linked English translation",
+          "checked": "2026-11-06"
+        }
+      ]
+    },
+    {
+      "name": "allah_mercy_en",
+      "lang": "en",
+      "title": "Allah's Mercy",
+      "title_en": "Never Lose Hope in Allah's Mercy",
+      "caption": "Do you think your sins are too many? Allah forgives all sins 🤍",
+      "hashtags": [
+        "#islamicreminder",
+        "#mercy",
+        "#allah",
+        "#tawbah",
+        "#quran",
+        "#hadith",
+        "#muslim",
+        "#hope"
+      ],
+      "lines": [
+        {
+          "text": "Do you think your sins are too many?",
+          "say": "Do you think | your sins | are too *many*?",
+          "mood": "question",
+          "scene": "storm_clear"
+        },
+        {
+          "text": "Listen to what Allah says:",
+          "say": "Listen | to what *Allah* says:",
+          "mood": "soft",
+          "scene": "storm_clear"
+        },
+        {
+          "text": "“O My servants who have transgressed against themselves,”",
+          "say": "O My servants | who have transgressed against themselves,",
+          "mood": "soft",
+          "scene": "storm_clear"
+        },
+        {
+          "text": "“do not despair of the mercy of Allah.”",
+          "say": "do not *despair* | of the mercy of Allah.",
+          "mood": "hope",
+          "scene": "storm_clear"
+        },
+        {
+          "text": "“Indeed, Allah forgives all sins.”",
+          "sub": "(Az-Zumar 39:53)",
+          "say": "Indeed, | Allah forgives *all* sins.",
+          "mood": "firm",
+          "scene": "storm_clear"
+        },
+        {
+          "text": "The Prophet ﷺ said:",
+          "say": "The Prophet, peace be upon him, said:",
+          "mood": "neutral",
+          "scene": "desert_rain"
+        },
+        {
+          "text": "Allah divided mercy into one hundred parts.",
+          "say": "Allah divided mercy | into one hundred parts.",
+          "mood": "soft",
+          "scene": "desert_rain"
+        },
+        {
+          "text": "He kept ninety-nine parts with Him,",
+          "say": "He kept *ninety-nine* parts | with Him,",
+          "mood": "soft",
+          "scene": "desert_rain"
+        },
+        {
+          "text": "and sent down one part to the earth.",
+          "sub": "(Sahih al-Bukhari 6000)",
+          "say": "and sent down | one part | to the earth.",
+          "mood": "soft",
+          "scene": "desert_rain"
+        },
+        {
+          "text": "Because of that one part, His creatures are merciful to each other.",
+          "say": "Because of that one part, | His creatures are merciful | to each other.",
+          "mood": "soft",
+          "scene": "mother_child"
+        },
+        {
+          "text": "Now imagine the ninety-nine.",
+          "say": "Now | *imagine* the ninety-nine.",
+          "mood": "hope",
+          "scene": "mother_child"
+        },
+        {
+          "text": "وَرَحْمَتِي وَسِعَتْ كُلَّ شَيْءٍ",
+          "font": "arabic",
+          "sub": "“My mercy encompasses all things.” (Al-A’raf 7:156)",
+          "say": "My mercy | encompasses all things.",
+          "mood": "hope",
+          "hold": 3.0,
+          "scene": "meadow"
+        }
+      ],
+      "sources": [
+        {
+          "ref": "Sahih al-Bukhari 6000",
+          "url": "https://sunnah.com/bukhari:6000",
+          "grade": "sahih (Sahih al-Bukhari)",
+          "wording": "faithful rendering of the linked English translation",
+          "checked": "2026-11-06"
+        }
+      ]
+    },
+    {
+      "name": "tawbah_en",
+      "lang": "en",
+      "title": "It's Not Too Late",
+      "title_en": "It's Not Too Late to Come Back to Allah",
+      "caption": "Even if your sins reached the clouds of the sky… come back to Him tonight 🤍",
+      "hashtags": [
+        "#islamicreminder",
+        "#tawbah",
+        "#repentance",
+        "#allah",
+        "#hadith",
+        "#muslim",
+        "#deen",
+        "#istighfar"
+      ],
+      "lines": [
+        {
+          "text": "It’s not too late to come back.",
+          "say": "It's not too late | to come *back*.",
+          "mood": "soft",
+          "scene": "night_prayer"
+        },
+        {
+          "text": "The Prophet ﷺ said:",
+          "say": "The Prophet, peace be upon him, said:",
+          "mood": "neutral",
+          "scene": "night_prayer"
+        },
+        {
+          "text": "Allah stretches out His Hand during the night",
+          "say": "Allah stretches out His Hand | during the night",
+          "mood": "soft",
+          "scene": "night_prayer"
+        },
+        {
+          "text": "so the one who sinned by day may repent,",
+          "say": "so the one who sinned by day | may repent,",
+          "mood": "soft",
+          "scene": "night_prayer"
+        },
+        {
+          "text": "and during the day, so the one who sinned by night may repent,",
+          "say": "and during the day, | so the one who sinned by night | may repent,",
+          "mood": "soft",
+          "scene": "sunset"
+        },
+        {
+          "text": "until the sun rises from the west.",
+          "sub": "(Sahih Muslim 2759)",
+          "say": "until the sun rises | from the *west*.",
+          "mood": "firm",
+          "scene": "sunset"
+        },
+        {
+          "text": "And in a hadith qudsi, Allah says:",
+          "say": "And in a hadith qudsi, | Allah says:",
+          "mood": "neutral",
+          "scene": "storm_clear"
+        },
+        {
+          "text": "“O son of Adam, were your sins to reach the clouds of the sky,”",
+          "say": "O son of Adam, | were your sins to reach | the clouds of the sky,",
+          "mood": "heavy",
+          "scene": "storm_clear"
+        },
+        {
+          "text": "“and you then asked My forgiveness, I would forgive you.”",
+          "sub": "(Jami’ at-Tirmidhi 3540)",
+          "say": "and you then asked My forgiveness, | I would *forgive* you.",
+          "mood": "hope",
+          "scene": "storm_clear"
+        },
+        {
+          "text": "But the door won’t stay open forever.",
+          "say": "But the door | won't stay open *forever*.",
+          "mood": "firm",
+          "scene": "candle_out"
+        },
+        {
+          "text": "Allah accepts a servant’s repentance until his soul reaches his throat.",
+          "sub": "(Jami’ at-Tirmidhi 3537)",
+          "say": "Allah accepts a servant's repentance | until his soul | reaches his throat.",
+          "mood": "heavy",
+          "scene": "candle_out"
+        },
+        {
+          "text": "So turn back to Him tonight.",
+          "say": "So turn back to Him | *tonight*.",
+          "mood": "firm",
+          "scene": "night_prayer"
+        },
+        {
+          "text": "إِنَّ اللَّهَ يُحِبُّ التَّوَّابِينَ",
+          "font": "arabic",
+          "sub": "“Indeed, Allah loves those who are constantly repentant.” (Al-Baqarah 2:222)",
+          "say": "Indeed, | Allah loves those | who are constantly repentant.",
+          "mood": "hope",
+          "hold": 3.0,
+          "scene": "mosque"
+        }
+      ],
+      "sources": [
+        {
+          "ref": "Sahih Muslim 2759",
+          "url": "https://sunnah.com/muslim:2759a",
+          "grade": "sahih (Sahih Muslim)",
+          "wording": "faithful rendering of the linked English translation",
+          "checked": "2026-11-06"
+        },
+        {
+          "ref": "Jami’ at-Tirmidhi 3540",
+          "url": "https://sunnah.com/tirmidhi:3540",
+          "grade": "hasan (at-Tirmidhi); also Nawawi 40 #42",
+          "wording": "faithful rendering of the linked English translation",
+          "checked": "2026-11-06"
+        },
+        {
+          "ref": "Jami’ at-Tirmidhi 3537",
+          "url": "https://en.tohed.com/hadith/tirmidhi/3537",
+          "grade": "hasan (at-Tirmidhi)",
+          "wording": "faithful rendering of the linked English translation",
+          "checked": "2026-11-06"
+        }
+      ]
+    }
+  ]
+}

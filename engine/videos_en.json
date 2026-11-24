@@ -1,0 +1,92 @@
+{
+  "videos": [
+    {
+      "name": "allah_knows_en",
+      "lang": "en",
+      "title": "Allah Knows",
+      "title_en": "Allah Knows What You're Going Through",
+      "caption": "He knows the tears you hid from everyone… leave every matter to Him 🤍",
+      "hashtags": [
+        "#islamicreminder",
+        "#allah",
+        "#muslim",
+        "#dua",
+        "#tawakkul",
+        "#islamicquotes",
+        "#deen",
+        "#reminder"
+      ],
+      "lines": [
+        {
+          "text": "Who knows you better than Allah?",
+          "say": "Who knows you | better than *Allah*?",
+          "mood": "question",
+          "scene": "sea"
+        },
+        {
+          "text": "He knows what your heart is carrying",
+          "say": "He knows | what your heart is carrying.",
+          "mood": "soft",
+          "scene": "rain"
+        },
+        {
+          "text": "He knows the tears",
+          "say": "He knows the *tears*,",
+          "mood": "heavy",
+          "scene": "town"
+        },
+        {
+          "text": "you hid from everyone",
+          "say": "you hid | from everyone.",
+          "mood": "heavy",
+          "scene": "town"
+        },
+        {
+          "text": "He hears the duas",
+          "say": "He hears the *duas*,",
+          "mood": "soft",
+          "scene": "room"
+        },
+        {
+          "text": "you never said out loud",
+          "say": "you never | said out loud.",
+          "mood": "soft",
+          "scene": "room"
+        },
+        {
+          "text": "If people don't understand you,",
+          "say": "If people don't understand you,",
+          "mood": "neutral",
+          "scene": "forest"
+        },
+        {
+          "text": "Allah does.",
+          "say": "*Allah* does!",
+          "mood": "hope",
+          "scene": "forest"
+        },
+        {
+          "text": "So lower your head in sujood",
+          "say": "So | lower your head in sujood,",
+          "mood": "soft",
+          "scene": "meadow"
+        },
+        {
+          "text": "and leave every matter to Him.",
+          "say": "and leave every matter | to Him.",
+          "mood": "firm",
+          "scene": "sea"
+        },
+        {
+          "text": "وَأُفَوِّضُ أَمْرِي إِلَى اللَّهِ",
+          "font": "arabic",
+          "sub": "“And I entrust my affair to Allah.”  (Ghafir 40:44)",
+          "say": "And I entrust my affair | to *Allah*.",
+          "mood": "soft",
+          "hold": 3.0,
+          "scene": "mosque"
+        }
+      ]
+    }
+  ]
+}

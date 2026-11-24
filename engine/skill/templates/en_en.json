@@ -1,0 +1,44 @@
+{
+  "videos": [
+    {
+      "name": "CHANGE_ME",
+      "style": "nature_narration",
+      "hook_type": "question",
+      "topic": "",
+      "title": "",
+      "title_en": "",
+      "caption": "",
+      "hashtags": [
+        "#islamicreminder"
+      ],
+      "sources": [],
+      "lang": "en",
+      "lines": [
+        {
+          "text": "Hook line with a {highlight}?",
+          "say": "Hook line | with a *highlight*?",
+          "mood": "question",
+          "scene": "sea"
+        },
+        {
+          "label": "Allah says",
+          "text": "“Exact Saheeh International wording.”",
+          "sub": "(Surah 0:0)",
+          "say": "Exact wording.",
+          "mood": "soft",
+          "scene": "rain"
+        },
+        {
+          "text": "ARABIC FROM verify.py --fix",
+          "font": "arabic",
+          "quran": "0:0",
+          "sub": "“Translation.” (Surah 0:0)",
+          "say": "Translation.",
+          "mood": "hope",
+          "hold": 3.0,
+          "scene": "premium_gold"
+        }
+      ]
+    }
+  ]
+}

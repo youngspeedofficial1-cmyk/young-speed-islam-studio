@@ -1,0 +1,127 @@
+{
+  "videos": [
+    {
+      "name": "three_after_death_en",
+      "lang": "en",
+      "text2_lang": "ur",
+      "style": "explainer",
+      "hook_type": "number",
+      "topic": "deeds that continue after death",
+      "title": "3 Deeds That Never Stop",
+      "title_en": "3 Deeds That Keep Counting After You Die",
+      "caption": "When you die, your deeds stop… except 3 🤍 Which one are you building? Comment 1, 2 or 3 👇",
+      "hashtags": [
+        "#islamicreminder",
+        "#sadaqahjariyah",
+        "#hadith",
+        "#akhirah",
+        "#muslim",
+        "#deen",
+        "#reminder",
+        "#death"
+      ],
+      "sources": [
+        {
+          "ref": "Sahih Muslim 1631",
+          "url": "https://hadithunlocked.com/muslim:1631",
+          "grade": "sahih (Sahih Muslim); also Riyad as-Salihin 1383 (sunnah.com/riyadussalihin:1383)",
+          "wording": "faithful rendering of the Riyad as-Salihin / Sahih Muslim English translation",
+          "checked": "2026-11-10"
+        }
+      ],
+      "lines": [
+        {
+          "text": "Right now, every good deed you do is being {written}.",
+          "text2": "ابھی آپ کی ہر نیکی {لکھی} جا رہی ہے۔",
+          "say": "Right now, | every good deed you do is being written.",
+          "mood": "neutral",
+          "beat": "life",
+          "scene": "three_after_death",
+          "claim": "interpretation"
+        },
+        {
+          "text": "But when you die, it {stops}.",
+          "text2": "لیکن جب آپ مریں گے تو یہ {رک جائے گا}۔",
+          "say": "But when you die, | it *stops*.",
+          "mood": "heavy",
+          "beat": "death",
+          "scene": "three_after_death",
+          "hold": 2.6
+        },
+        {
+          "text": "Except for {3 things}.",
+          "text2": "سوائے {تین چیزوں} کے۔",
+          "say": "Except for *three* things.",
+          "mood": "firm",
+          "beat": "except",
+          "scene": "three_after_death"
+        },
+        {
+          "text": "The Prophet ﷺ said:",
+          "text2": "نبی کریم ﷺ نے فرمایا:",
+          "say": "The Prophet, peace be upon him, said:",
+          "mood": "neutral",
+          "scene": "three_after_death"
+        },
+        {
+          "text": "{Ongoing charity},",
+          "text2": "{صدقہ جاریہ}،",
+          "say": "Ongoing charity,",
+          "mood": "soft",
+          "beat": "e1",
+          "scene": "three_after_death",
+          "hold": 2.2
+        },
+        {
+          "text": "{knowledge} that benefits others,",
+          "text2": "{فائدہ مند علم}،",
+          "say": "knowledge that benefits others,",
+          "mood": "soft",
+          "beat": "e2",
+          "scene": "three_after_death",
+          "hold": 2.2
+        },
+        {
+          "text": "or a {righteous child} who prays for you.",
+          "text2": "یا {نیک اولاد} جو آپ کے لیے دعا کرے۔",
+          "sub": "(Sahih Muslim 1631)",
+          "say": "or a righteous child | who prays for you.",
+          "mood": "hope",
+          "beat": "e3",
+          "scene": "three_after_death",
+          "hold": 2.8
+        },
+        {
+          "text": "These keep {adding} to your deeds, even in the grave.",
+          "text2": "یہ قبر میں بھی آپ کی نیکیوں میں {اضافہ} کرتے رہیں گے۔",
+          "say": "These keep adding to your deeds, | even in the grave.",
+          "mood": "hope",
+          "beat": "reflect",
+          "scene": "three_after_death",
+          "claim": "interpretation",
+          "hold": 2.4
+        },
+        {
+          "label": "Allah says",
+          "text": "إِنَّا نَحْنُ نُحْيِي الْمَوْتَىٰ وَنَكْتُبُ مَا قَدَّمُوا وَآثَارَهُمْ",
+          "font": "arabic",
+          "sub": "“Indeed, it is We who bring the dead to life and record what they have put forth and what they left behind.” (Ya-Sin 36:12)",
+          "say": "Indeed, it is We who bring the dead to life, | and record what they have put forth, and what they left behind.",
+          "mood": "soft",
+          "beat": "ayah",
+          "scene": "three_after_death",
+          "hold": 3.4
+        },
+        {
+          "text": "Which one are you building? Comment {1, 2 or 3}.",
+          "text2": "آپ کون سا بنا رہے ہیں؟ {1، 2 یا 3} لکھیں۔",
+          "say": "Which one are you building? | Comment one, two, or three.",
+          "mood": "soft",
+          "beat": "cta",
+          "scene": "three_after_death",
+          "hold": 3.4
+        }
+      ]
+    }
+  ]
+}

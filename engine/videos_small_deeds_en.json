@@ -1,0 +1,160 @@
+{
+  "videos": [
+    {
+      "name": "small_deeds_en",
+      "lang": "en",
+      "text2_lang": "ur",
+      "style": "explainer",
+      "hook_type": "question",
+      "topic": "consistent small deeds (Bukhari 6465)",
+      "title": "The Deeds Allah Loves Most",
+      "thumb_title": "The Deeds Allah {Loves} Most",
+      "thumb_title_ur": "اللہ کو سب سے پیارے اعمال",
+      "caption": "Not the biggest deeds, the most consistent ones 🌱 A little, every day. Which small deed will you keep? 👇",
+      "hashtags": [
+        "#islamicreminder",
+        "#hadith",
+        "#consistency",
+        "#smalldeeds",
+        "#sunnah",
+        "#muslim",
+        "#deen"
+      ],
+      "sfx": "dramatic",
+      "sources": [
+        {
+          "ref": "Sahih al-Bukhari 6465",
+          "url": "https://sunnah.com/bukhari:6465",
+          "grade": "sahih (Bukhari)",
+          "wording": "English per sunnah.com translation; narrated by Aisha",
+          "arabic": "حَدَّثَنِي مُحَمَّدُ بْنُ عَرْعَرَةَ، حَدَّثَنَا شُعْبَةُ، عَنْ سَعْدِ بْنِ إِبْرَاهِيمَ، عَنْ أَبِي سَلَمَةَ، عَنْ عَائِشَةَ ـ رضى الله عنها ـ أَنَّهَا قَالَتْ سُئِلَ النَّبِيُّ صلى الله عليه وسلم أَىُّ الأَعْمَالِ أَحَبُّ إِلَى اللَّهِ قَالَ ‏\"‏ أَدْوَمُهَا وَإِنْ قَلَّ ‏\"‏‏.‏ وَقَالَ ‏\"‏ اكْلَفُوا مِنَ الأَعْمَالِ مَا تُطِيقُونَ ‏\"‏‏.‏",
+          "arabic_source": "AhmedBaset/hadith-json (Bukhari Arabic text)",
+          "checked": "2026-11-20"
+        }
+      ],
+      "lines": [
+        {
+          "text": "Big deeds or small ones: which does Allah {love} most? 🌱",
+          "text2": "بڑے اعمال یا چھوٹے: اللہ کو کون سے {زیادہ} پسند ہیں؟",
+          "say": "Big deeds or small ones: | which does Allah love most?",
+          "mood": "question",
+          "scene": "seed_daily",
+          "beat": "hook",
+          "hold": 1.2,
+          "claim": "interpretation"
+        },
+        {
+          "text": "The Prophet ﷺ was asked:",
+          "text2": "نبی کریم ﷺ سے پوچھا گیا:",
+          "say": "The Prophet, peace be upon him, was asked:",
+          "mood": "neutral",
+          "scene": "seed_daily",
+          "beat": "asked"
+        },
+        {
+          "text": "“What deeds are loved {most} by Allah?”",
+          "text2": "”اللہ کو کون سے اعمال {سب سے زیادہ} محبوب ہیں؟“",
+          "say": "What deeds are loved most | by Allah?",
+          "mood": "question",
+          "scene": "seed_daily",
+          "text0": "أَىُّ الأَعْمَالِ أَحَبُّ إِلَى اللَّهِ",
+          "text0_ref": "Sahih al-Bukhari 6465"
+        },
+        {
+          "text": "He said: “The most {regular} constant deeds",
+          "text2": "آپ ﷺ نے فرمایا: ”جو {ہمیشہ} کیے جائیں",
+          "say": "He said: | The most *regular*, constant deeds,",
+          "mood": "soft",
+          "scene": "seed_daily",
+          "beat": "regular",
+          "hold": 0.6,
+          "text0": "أَدْوَمُهَا",
+          "text0_ref": "Sahih al-Bukhari 6465"
+        },
+        {
+          "text": "even though they may be {few}.”",
+          "text2": "چاہے {تھوڑے} ہی ہوں۔“",
+          "say": "even though they may be *few*.",
+          "mood": "hope",
+          "scene": "seed_daily",
+          "beat": "few",
+          "hold": 1.4,
+          "text0": "وَإِنْ قَلَّ",
+          "text0_ref": "Sahih al-Bukhari 6465"
+        },
+        {
+          "text": "He added: “Don't take upon yourselves, except the deeds which are within your {ability}.”",
+          "text2": "اور فرمایا: ”اتنے ہی اعمال اپناؤ جتنی تمہاری {طاقت} ہو۔“",
+          "say": "He added: | Don't take upon yourselves, except the deeds which are within your ability.",
+          "mood": "firm",
+          "scene": "seed_daily",
+          "beat": "ability",
+          "text0": "اكْلَفُوا مِنَ الأَعْمَالِ مَا تُطِيقُونَ",
+          "text0_ref": "Sahih al-Bukhari 6465"
+        },
+        {
+          "text": "أَدْوَمُهَا وَإِنْ قَلَّ",
+          "font": "arabic",
+          "sub": "(Sahih al-Bukhari 6465)",
+          "say": "Reported by al-Bukhari.",
+          "mood": "soft",
+          "beat": "card",
+          "hold": 1.6,
+          "arabic_source": "hadith",
+          "hadith_ref": "Sahih al-Bukhari 6465",
+          "scene": "seed_daily",
+          "sfx": "none"
+        },
+        {
+          "text": "A huge effort once, then nothing, {fades}.",
+          "text2": "ایک دم بہت زیادہ، پھر کچھ نہیں، {مرجھا} جاتا ہے۔",
+          "say": "A huge effort once, then nothing, | fades.",
+          "mood": "heavy",
+          "scene": "seed_daily",
+          "beat": "burst",
+          "hold": 2.4,
+          "claim": "interpretation"
+        },
+        {
+          "text": "A little, every day, {grows}. 🌿",
+          "text2": "روز تھوڑا تھوڑا، {پروان} چڑھتا ہے۔",
+          "say": "A little, every day, | grows.",
+          "mood": "hope",
+          "scene": "seed_daily",
+          "beat": "grow",
+          "hold": 2.0,
+          "claim": "interpretation"
+        },
+        {
+          "text": "Two rakat. One page. One dhikr. {Every day}.",
+          "text2": "دو رکعت۔ ایک صفحہ۔ ایک ذکر۔ {روزانہ}۔",
+          "say": "Two rakat. One page. One dhikr. | Every day.",
+          "mood": "firm",
+          "scene": "seed_daily",
+          "beat": "daily",
+          "claim": "interpretation"
+        },
+        {
+          "label": "Allah says",
+          "text": "فَمَن يَعْمَلْ مِثْقَالَ ذَرَّةٍ خَيْرًا يَرَهُ",
+          "font": "arabic",
+          "sub": "“So whoever does an atom's weight of good will see it.” (Az-Zalzalah 99:7)",
+          "say": "So whoever does an atom's weight of good | will see it.",
+          "mood": "soft",
+          "beat": "ayah",
+          "hold": 2.8,
+          "scene": "seed_daily"
+        },
+        {
+          "text": "Which small deed will you keep? Comment it. 🤍",
+          "text2": "کون سا چھوٹا عمل آپ روز کریں گے؟ کمنٹ کریں۔",
+          "say": "Which small deed will you keep? | Comment it.",
+          "mood": "soft",
+          "scene": "seed_daily",
+          "beat": "cta",
+          "hold": 3.2
+        }
+      ]
+    }
+  ]
+}
