@@ -62,3 +62,15 @@
 - QA warns above 90 s ("length for Reels/Shorts"); that is expected for long-form.
 - Running two long renders in parallel can kill one silently while mixing audio (memory): render long videos one at a time.
 - Lines with a long quote + Arabic row + Urdu can overflow the text zone (QA FAIL "text fits"): move the speaker tag ("They said:") to `say` only and trim the Arabic row to the core phrase.
+
+## Urdu cloned voice via GitHub relay (Nov 2026, user-approved)
+- Repo: youngspeedofficial1-cmyk/young-speed-islam-studio (private). The engine also lives in `engine/`.
+- Chosen voice: OmniVoice clone of the creator's own voice, reference `voices/me_c6.wav` with exact text in `me_c6.txt`
+  ("نبی کریم صلی اللہ علیہ وآلہ وسلم کا ارشاد گرامی ہے، نماز جنت کی کنجی ہے۔"). Plain spellings of اللہ / صلی اللہ علیہ وسلم are fine.
+- Flow: push `scripts_ov/<name>.json` ({"videos":[{"name","ref":"voices/me_c6.wav","takes":2,"lines":[{"say_ur"}]}]}) ->
+  workflow writes `audio/<name>/NN.wav` (~80 s per take on the free runner; best take by Whisper CER) -> pull ->
+  copy to `clips/<name>/line_NN.wav` (NN from 01) -> spec `"voice_engine":"clips","clips_dir":"clips","clip_mood_pitch":false`.
+- The reference transcript must be exact: a wrong ref_text caused mispronunciations and rushed speech.
+- Move finished scripts to `scripts_ov/done/` so the relay does not regenerate them; the workflow checks out `main`.
+- Licence: OmniVoice weights CC-BY-NC (non-commercial). For a monetized channel use the SPRING_F5 relay (Apache-2.0) or ElevenLabs.
+- Emoji regex now covers ⏳⌛ (U+231A-231B, U+23E9-23FA).
