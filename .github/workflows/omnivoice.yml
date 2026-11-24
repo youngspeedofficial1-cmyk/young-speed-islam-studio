@@ -19,7 +19,7 @@ jobs:
       - uses: actions/cache@v4
         with:
           path: ~/.cache/huggingface
-          key: hf-omnivoice-v1
+          key: hf-omnivoice-whisper-v2
       - run: |
           pip install torch torchaudio --index-url https://download.pytorch.org/whl/cpu
           pip install omnivoice==0.2.1 soundfile
