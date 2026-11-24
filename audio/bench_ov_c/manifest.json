@@ -1,0 +1,72 @@
+{
+ "0": {
+  "file": "00.wav",
+  "text": "اللہ بہت مہربان ہے۔",
+  "engine": "omnivoice",
+  "hash": "257a4eca210242a7d17fe93202727aaa05aabd0c",
+  "ref": "voices/me_c6.wav",
+  "instruct": null,
+  "speed": null,
+  "seed": null,
+  "num_step": null,
+  "takes": null,
+  "cer": 0.0,
+  "asr": ""
+ },
+ "1": {
+  "file": "01.wav",
+  "text": "رسول اللہ صلی اللہ علیہ وسلم نے فرمایا۔",
+  "engine": "omnivoice",
+  "hash": "eadf7a71361bda9d2b9b0a0dc53e307168f13170",
+  "ref": "voices/me_c6.wav",
+  "instruct": null,
+  "speed": null,
+  "seed": null,
+  "num_step": null,
+  "takes": null,
+  "cer": 0.0,
+  "asr": ""
+ },
+ "2": {
+  "file": "02.wav",
+  "text": "سبحان اللہ، الحمدللہ، اللہ اکبر۔",
+  "engine": "omnivoice",
+  "hash": "584af5111ff638f4102f39c62b80bce779ce1277",
+  "ref": "voices/me_c6.wav",
+  "instruct": null,
+  "speed": null,
+  "seed": null,
+  "num_step": null,
+  "takes": null,
+  "cer": 0.0,
+  "asr": ""
+ },
+ "3": {
+  "file": "03.wav",
+  "text": "استغفراللہ، ہم اللہ سے معافی مانگتے ہیں۔",
+  "engine": "omnivoice",
+  "hash": "74af81d8b44539ad4ecb8edef67bf4d2db0cdd3d",
+  "ref": "voices/me_c6.wav",
+  "instruct": null,
+  "speed": null,
+  "seed": null,
+  "num_step": null,
+  "takes": null,
+  "cer": 0.0,
+  "asr": ""
+ },
+ "4": {
+  "file": "04.wav",
+  "text": "ان شاء اللہ، ماشاء اللہ، جزاک اللہ۔",
+  "engine": "omnivoice",
+  "hash": "1e7cae1cf83b8c7aabf330e9bd6b49ee989b7f8b",
+  "ref": "voices/me_c6.wav",
+  "instruct": null,
+  "speed": null,
+  "seed": null,
+  "num_step": null,
+  "takes": null,
+  "cer": 0.0,
+  "asr": ""
+ }
+}
