@@ -22,9 +22,14 @@ jobs:
           key: hf-spring-f5-v1
       - run: |
           sudo apt-get install -y -qq ffmpeg > /dev/null
-          pip install torch torchaudio --index-url https://download.pytorch.org/whl/cpu
-          pip install git+https://github.com/ArigalaAdarsh/SPRING_F5.git soundfile
+          git clone -q --depth 1 https://github.com/ArigalaAdarsh/SPRING_F5.git /tmp/spring_f5
+          pip install torch==2.4.0 torchaudio==2.4.0 --index-url https://download.pytorch.org/whl/cpu
+          pip install "transformers==4.46.3" "numpy<=1.26.4" "scipy<1.12" accelerate safetensors soundfile librosa pydub \
+            vocos torchdiffeq x-transformers ema_pytorch einops einx hydra-core omegaconf cached_path \
+            indic_numtowords jieba rjieba pypinyin tomli unidecode tqdm huggingface_hub==0.36.2
       - run: python tools/f5_relay.py
+        env:
+          PYTHONPATH: /tmp/spring_f5
       - name: Commit audio
         run: |
           git config user.name "voice-relay"
