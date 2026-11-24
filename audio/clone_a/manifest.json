@@ -3,33 +3,42 @@
   "file": "00.wav",
   "text": "السلام علیکم۔ کیا آپ جانتے ہیں کہ ایک چھوٹی سی نیکی بھی اللہ کے ہاں ضائع نہیں ہوتی؟",
   "engine": "omnivoice",
-  "hash": "fccfa15dea828684cb5cccf805193d92e2c8c5fa",
+  "hash": "85dbe86a663c0d76f0eb0ef92f4bb2eeff53c6d3",
   "ref": "voices/me_a.wav",
   "instruct": null,
   "speed": null,
   "seed": null,
-  "num_step": null
+  "num_step": null,
+  "takes": null,
+  "cer": 0.0,
+  "asr": ""
  },
  "1": {
   "file": "01.wav",
   "text": "نبی کریم صلی اللہ علیہ وسلم نے فرمایا: اعمال کا دارومدار نیتوں پر ہے۔",
   "engine": "omnivoice",
-  "hash": "f164c41d66af5244c96af24719b14d1eb50598f2",
+  "hash": "a105acd1960d35098160f0af6aef77a09475e849",
   "ref": "voices/me_a.wav",
   "instruct": null,
   "speed": null,
   "seed": null,
-  "num_step": null
+  "num_step": null,
+  "takes": null,
+  "cer": 0.0,
+  "asr": ""
  },
  "2": {
   "file": "02.wav",
   "text": "تو آج سے اپنی نیت درست کر لیں، اور ہر کام اللہ کی رضا کے لیے کریں۔",
   "engine": "omnivoice",
-  "hash": "a08c4d4fca80033730d4dbf105891377e82c3062",
+  "hash": "34b34b578cf1a01407505b4627588cd887bca73b",
   "ref": "voices/me_a.wav",
   "instruct": null,
   "speed": null,
   "seed": null,
-  "num_step": null
+  "num_step": null,
+  "takes": null,
+  "cer": 0.0,
+  "asr": ""
  }
 }

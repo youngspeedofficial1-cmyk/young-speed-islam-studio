@@ -1,0 +1,44 @@
+{
+ "0": {
+  "file": "00.wav",
+  "text": "السلام علیکم۔ کیا آپ جانتے ہیں کہ ایک چھوٹی سی نیکی بھی اللہ کے ہاں ضائع نہیں ہوتی؟",
+  "engine": "omnivoice",
+  "hash": "a2f5f3b1b7720c350ac54183d046bd3b3e192972",
+  "ref": "voices/me_c6.wav",
+  "instruct": null,
+  "speed": null,
+  "seed": null,
+  "num_step": null,
+  "takes": 3,
+  "cer": 0.031,
+  "asr": "سلام علیکم کیا آپ جانتے ہیں کہ ایک چھوٹی سی نیکی بھی اللہ کے ہاں ضائع نہیں ہوتی"
+ },
+ "1": {
+  "file": "01.wav",
+  "text": "نبی کریم صلی اللہ علیہ وسلم نے فرمایا: اعمال کا دارومدار نیتوں پر ہے۔",
+  "engine": "omnivoice",
+  "hash": "380271e21595436425c92c1fd4ce457d134cbddd",
+  "ref": "voices/me_c6.wav",
+  "instruct": null,
+  "speed": null,
+  "seed": null,
+  "num_step": null,
+  "takes": 3,
+  "cer": 0.037,
+  "asr": "نبی کریم صلی اللہ علیہ وسلم نے فرمایا عمال کا دارمدار نیتوں پر ہے"
+ },
+ "2": {
+  "file": "02.wav",
+  "text": "تو آج سے اپنی نیت درست کر لیں، اور ہر کام اللہ کی رضا کے لیے کریں۔",
+  "engine": "omnivoice",
+  "hash": "336115a4bbc3911cb65f848bb90b0fdffddec7e1",
+  "ref": "voices/me_c6.wav",
+  "instruct": null,
+  "speed": null,
+  "seed": null,
+  "num_step": null,
+  "takes": 3,
+  "cer": 0.0,
+  "asr": "تو آج سے اپنی نیت درست کر لیں اور ہر کام اللہ کی رضا کے لئے کریں"
+ }
+}
