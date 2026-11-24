@@ -17,6 +17,20 @@ torch.set_num_threads(max(1, torch.get_num_threads()))
 def videos(d):
     return d["videos"] if isinstance(d, dict) and "videos" in d else (d if isinstance(d, list) else [d])
 
+_ASR = None
+def transcribe(path):
+    global _ASR
+    from transformers import pipeline
+    if _ASR is None:
+        _ASR = pipeline("automatic-speech-recognition", "openai/whisper-large-v3-turbo", device="cpu")
+    wav, sr = sf.read(str(path), dtype="float32")
+    if wav.ndim > 1: wav = wav.mean(1)
+    if sr != 16000:
+        import torchaudio
+        wav = torchaudio.functional.resample(torch.from_numpy(wav), sr, 16000).numpy()
+    out = _ASR({"raw": wav, "sampling_rate": 16000}, generate_kwargs={"language": "urdu", "task": "transcribe"})
+    return out["text"].strip()
+
 def main(paths):
     model = None
     for p in paths:
@@ -27,7 +41,12 @@ def main(paths):
             ref = v.get("ref"); ref_text = v.get("ref_text")
             if ref and not ref_text:
                 t = (ROOT / ref).with_suffix(".txt")
-                ref_text = t.read_text(encoding="utf-8").strip() if t.exists() else None
+                if t.exists():
+                    ref_text = t.read_text(encoding="utf-8").strip()
+                else:
+                    ref_text = transcribe(ROOT / ref)
+                    t.write_text(ref_text + "\n", encoding="utf-8")
+                print(f"ref {ref}: {ref_text}", flush=True)
             cfg = {k: v.get(k) for k in ("ref", "instruct", "speed", "seed", "num_step")}
             new = {}
             prompt = None
