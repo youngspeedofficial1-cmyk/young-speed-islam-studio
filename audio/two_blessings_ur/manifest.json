@@ -9,9 +9,7 @@
   "speed": null,
   "seed": null,
   "num_step": null,
-  "takes": 2,
-  "cer": 0.024,
-  "asr": "دو نیمتیں ایسی ہیں جن میں اکثر لوگ خسارے میں رہتے ہیں"
+  "takes": 2
  },
  "1": {
   "file": "01.wav",
@@ -24,8 +22,8 @@
   "seed": null,
   "num_step": null,
   "takes": 2,
-  "cer": 0.059,
-  "asr": "یہ نبی کریم صلی اللہ علیہ وسلم کے الفاظ ہے"
+  "cer": 0.0,
+  "asr": "یہ نبی کریم صلی اللہ علیہ وسلم کے الفاظ ہیں"
  },
  "2": {
   "file": "02.wav",
@@ -37,9 +35,7 @@
   "speed": null,
   "seed": null,
   "num_step": null,
-  "takes": 2,
-  "cer": 0.0,
-  "asr": "دو نعمتیں ایسی ہیں جن کے بارے میں بہت سے لوگ دھوکے میں ہیں"
+  "takes": 2
  },
  "3": {
   "file": "03.wav",
@@ -51,9 +47,7 @@
   "speed": null,
   "seed": null,
   "num_step": null,
-  "takes": 2,
-  "cer": 0.0,
-  "asr": "صحت اور فراغت"
+  "takes": 2
  },
  "4": {
   "file": "04.wav",
@@ -65,9 +59,7 @@
   "speed": null,
   "seed": null,
   "num_step": null,
-  "takes": 2,
-  "cer": 0.0,
-  "asr": "صحت یعنی آج کی آپ کی طاقت"
+  "takes": 2
  },
  "5": {
   "file": "05.wav",
@@ -79,9 +71,7 @@
   "speed": null,
   "seed": null,
   "num_step": null,
-  "takes": 2,
-  "cer": 0.0,
-  "asr": "فراغت یعنی وہ گھنٹے جو موبائل میں گزر جاتے ہیں"
+  "takes": 2
  },
  "6": {
   "file": "06.wav",
@@ -93,9 +83,7 @@
   "speed": null,
   "seed": null,
   "num_step": null,
-  "takes": 2,
-  "cer": 0.0,
-  "asr": "لیکن ایک دن طاقت کمزوری بن جائے گی اور فراغت مصروفیت"
+  "takes": 2
  },
  "7": {
   "file": "07.wav",
@@ -107,9 +95,7 @@
   "speed": null,
   "seed": null,
   "num_step": null,
-  "takes": 2,
-  "cer": 0.0,
-  "asr": "تو آج ہی انہیں استعمال کریں ایک نماز وقت پر قرآن کا ایک صفحہ"
+  "takes": 2
  },
  "8": {
   "file": "08.wav",
@@ -124,5 +110,19 @@
   "takes": 2,
   "cer": 0.044,
   "asr": "آپ کونسی نعمت ضائع کر رہے ہیں کمنٹ میں لکھے صحت یا فراغت"
+ },
+ "9": {
+  "file": "09.wav",
+  "text": "ایسی مزید یاد دہانیوں کے لیے، ینگ اسپیڈ اسلام کو فالو کریں۔",
+  "engine": "omnivoice",
+  "hash": "33ad6a3b12a0b956c1d6d0a1e0c900d24a435147",
+  "ref": "voices/me_c6.wav",
+  "instruct": null,
+  "speed": null,
+  "seed": null,
+  "num_step": null,
+  "takes": 2,
+  "cer": 0.022,
+  "asr": "ایسی مزید یاد دہانیوں کے لیے ینگ سپیڈ اسلام کو فالو کریں"
  }
 }
