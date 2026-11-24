@@ -1,0 +1,35 @@
+{
+ "0": {
+  "file": "00.wav",
+  "text": "السلام علیکم۔ کیا آپ جانتے ہیں کہ ایک چھوٹی سی نیکی بھی اللہ کے ہاں ضائع نہیں ہوتی؟",
+  "engine": "omnivoice",
+  "hash": "b485e27b59bf75f74d5a4ef288af2d281399a86d",
+  "ref": "voices/me_c.wav",
+  "instruct": null,
+  "speed": null,
+  "seed": null,
+  "num_step": null
+ },
+ "1": {
+  "file": "01.wav",
+  "text": "نبی کریم صلی اللہ علیہ وسلم نے فرمایا: اعمال کا دارومدار نیتوں پر ہے۔",
+  "engine": "omnivoice",
+  "hash": "b5b2dcf814a7ab6136897950be8ca5f742fa2d54",
+  "ref": "voices/me_c.wav",
+  "instruct": null,
+  "speed": null,
+  "seed": null,
+  "num_step": null
+ },
+ "2": {
+  "file": "02.wav",
+  "text": "تو آج سے اپنی نیت درست کر لیں، اور ہر کام اللہ کی رضا کے لیے کریں۔",
+  "engine": "omnivoice",
+  "hash": "28cd6cf5100bd4f2c66f720621ee166b13a19b95",
+  "ref": "voices/me_c.wav",
+  "instruct": null,
+  "speed": null,
+  "seed": null,
+  "num_step": null
+ }
+}
