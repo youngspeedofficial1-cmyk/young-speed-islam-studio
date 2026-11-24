@@ -1,0 +1,30 @@
+{
+ "0": {
+  "file": "00.wav",
+  "text": "السلام علیکم۔ کیا آپ جانتے ہیں کہ ایک چھوٹی سی نیکی بھی اللہ کے ہاں ضائع نہیں ہوتی؟",
+  "engine": "spring_f5",
+  "ref": "voices/me_c6.wav",
+  "hash": "7344fcf441cbf1e5e0f13d5ad050ad11627fcb3d"
+ },
+ "1": {
+  "file": "01.wav",
+  "text": "نبی کریم صلی اللہ علیہ وسلم نے فرمایا: اعمال کا دارومدار نیتوں پر ہے۔",
+  "engine": "spring_f5",
+  "ref": "voices/me_c6.wav",
+  "hash": "0163b63bd485b3181b1bd7f211c1adf0331356bd"
+ },
+ "2": {
+  "file": "02.wav",
+  "text": "تو آج سے اپنی نیت درست کر لیں، اور ہر کام اللہ کی رضا کے لیے کریں۔",
+  "engine": "spring_f5",
+  "ref": "voices/me_c6.wav",
+  "hash": "5d8b5cc5e2bd3d4551a85e4756e2a53bf40af0c5"
+ },
+ "3": {
+  "file": "03.wav",
+  "text": "اللہ بہت مہربان ہے، وہ ہماری ہر دعا سنتا ہے۔",
+  "engine": "spring_f5",
+  "ref": "voices/me_c6.wav",
+  "hash": "83ca9f3b3a1252e12e8f6bb5deba820a47d192eb"
+ }
+}

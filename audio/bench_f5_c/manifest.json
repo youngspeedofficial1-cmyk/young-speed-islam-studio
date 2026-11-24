@@ -1,0 +1,37 @@
+{
+ "0": {
+  "file": "00.wav",
+  "text": "اللہ بہت مہربان ہے۔",
+  "engine": "spring_f5",
+  "ref": "voices/me_c6.wav",
+  "hash": "9fadb3870527319de07038f84f966e085efffca5"
+ },
+ "1": {
+  "file": "01.wav",
+  "text": "رسول اللہ صلی اللہ علیہ وسلم نے فرمایا۔",
+  "engine": "spring_f5",
+  "ref": "voices/me_c6.wav",
+  "hash": "f5f1d02f0740f70c7e2901d58565b486649609ba"
+ },
+ "2": {
+  "file": "02.wav",
+  "text": "سبحان اللہ، الحمدللہ، اللہ اکبر۔",
+  "engine": "spring_f5",
+  "ref": "voices/me_c6.wav",
+  "hash": "fa50820c9b7fee89cf6dae5c7e741772c6c97eaf"
+ },
+ "3": {
+  "file": "03.wav",
+  "text": "استغفراللہ، ہم اللہ سے معافی مانگتے ہیں۔",
+  "engine": "spring_f5",
+  "ref": "voices/me_c6.wav",
+  "hash": "228d18f52dee47bbab7a90feb8062453938f0355"
+ },
+ "4": {
+  "file": "04.wav",
+  "text": "ان شاء اللہ، ماشاء اللہ، جزاک اللہ۔",
+  "engine": "spring_f5",
+  "ref": "voices/me_c6.wav",
+  "hash": "9dd6c03d1dcb330d2d6fef98a0a3dd4bdaf6735e"
+ }
+}
