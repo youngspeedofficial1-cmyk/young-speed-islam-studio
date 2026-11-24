@@ -74,3 +74,4 @@
 - Move finished scripts to `scripts_ov/done/` so the relay does not regenerate them; the workflow checks out `main`.
 - Licence: OmniVoice weights CC-BY-NC (non-commercial). For a monetized channel use the SPRING_F5 relay (Apache-2.0) or ElevenLabs.
 - Emoji regex now covers ⏳⌛ (U+231A-231B, U+23E9-23FA).
+- Cover title position: spec "thumb_y" (title centre as a fraction of height, default 0.47); pick "thumb_t" on a frame whose subject sits below the title.

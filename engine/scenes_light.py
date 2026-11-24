@@ -964,7 +964,8 @@ class TwoBlessings(LightStage):
         d.rectangle([0, gy, w, h], fill=(226, 208, 178, 255))
         d.line([(0, gy), (w, gy)], fill=(198, 176, 140, 255), width=max(2, int(3 * u)))
         # ---- the two blessings
-        appear = ease((t - 2.95) / 0.7)
+        appear = ease((t - 2.95) / 0.5)
+        pop = 1 + 0.18 * math.sin(math.pi * min(1.0, max(0.0, (t - 3.2) / 0.5)))
         hx, ix = self.icx; iy = self.icy - 16 * u * (1 - appear)
         beat = 1 + 0.10 * max(0, math.sin(t * (7.5 if t > T["health"] and t < T["free"] else 4.2))) ** 6
         if T["free"] < t < T["act"]:
@@ -974,7 +975,7 @@ class TwoBlessings(LightStage):
         heart_col = tuple(int(lerp(a, b, fade_h)) for a, b in zip(heart_col, (196, 160, 160)))
         g_gold = ease((t - T["words"]) / 0.8) * (1 - ease((t - T["health"]) / 1.2)) + ease((t - T["act"]) / 1.0)
         hglow = 60 + 70 * g_gold + (60 if T["health"] < t < T["free"] else 0)
-        self.heart(d, dg, hx, iy, 108 * u * beat * appear, heart_col + (int(255 * appear),), hglow * appear)
+        self.heart(d, dg, hx, iy, 108 * u * beat * appear * pop, heart_col + (int(255 * appear),), hglow * appear)
         # sand: full until "free", then pours fast; nearly empty in "old"; act refills a little with gold
         if t < T["free"]:
             level, flow = 1.0, (0.4 if t > T["words"] else 0.0)
@@ -986,7 +987,7 @@ class TwoBlessings(LightStage):
             level, flow = 0.08, 0.3
         sand = (214, 168, 92) if t < T["act"] else tuple(int(lerp(a, b, ease((t - T["act"]) / 1.0))) for a, b in zip((214, 168, 92), (232, 180, 60)))
         iglow = 60 + 70 * g_gold + (60 if T["free"] < t < T["old"] else 0)
-        self.hourglass(d, dg, ix, iy, 124 * u * max(0.05, appear), level, flow, t, sand + (int(255 * appear),), iglow * appear)
+        self.hourglass(d, dg, ix, iy, 124 * u * max(0.05, appear) * pop, level, flow, t, sand + (int(255 * appear),), iglow * appear)
         if t > T["words"]:
             k = max(0.0, min(1.0, ease(min(1.0, (t - T["words"]) / 0.6))))
             d.text((hx, iy + 140 * u), "health", font=self.f_lab, fill=(150, 60, 70, int(255 * k)), anchor="ma")
@@ -1031,7 +1032,7 @@ class TwoBlessings(LightStage):
             d.rounded_rectangle([px - 13 * u, py - 30 * u, px + 13 * u, py + 10 * u], radius=int(5 * u), fill=(40, 44, 60, int(255 * pk)))
             d.rounded_rectangle([px - 9 * u, py - 26 * u, px + 9 * u, py + 6 * u], radius=int(3 * u), fill=(160, 210, 255, int(255 * pk)))
             dg.ellipse([px - 90 * u, py - 120 * u, px + 90 * u, py + 40 * u], fill=int(110 * pk))
-            mins = int(max(0, t - T["free"] - 0.4) * 47)
+            mins = 92 + int(max(0, t - T["free"] - 0.4) * 43)
             txt = f"screen time  {mins // 60}h {mins % 60:02d}m"
             d.rounded_rectangle([hx - 205 * u, h * 0.648, hx + 205 * u, h * 0.648 + 62 * u], radius=int(26 * u), fill=(255, 255, 255, int(200 * pk)))
             d.text((hx, h * 0.648 + 31 * u), txt, font=self.f_cnt, fill=(60, 70, 100, int(255 * pk)), anchor="mm")

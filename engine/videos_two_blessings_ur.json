@@ -45,7 +45,8 @@
      "hold": 0.5,
      "claim": "interpretation",
      "say_ur": "دو نعمتیں ایسی ہیں، جن میں اکثر لوگ خسارے میں رہتے ہیں۔",
-     "scene": "two_blessings"
+     "scene": "two_blessings",
+     "sfx": "hit"
     },
     {
      "text": "These are the words of the Prophet ﷺ:",
@@ -53,7 +54,8 @@
      "beat": "said",
      "mood": "neutral",
      "say_ur": "یہ نبی کریم صلی اللہ علیہ وسلم کے الفاظ ہیں:",
-     "scene": "two_blessings"
+     "scene": "two_blessings",
+     "hold": 0.25
     },
     {
      "text": "“There are two blessings that many people are deceived into losing:",
@@ -83,7 +85,9 @@
      "mood": "neutral",
      "claim": "interpretation",
      "say_ur": "صحت، یعنی آج کی آپ کی طاقت۔",
-     "scene": "two_blessings"
+     "scene": "two_blessings",
+     "hold": 0.8,
+     "sfx": "heart"
     },
     {
      "text": "Free time: the hours that slip into your {phone}. 📱",
@@ -91,7 +95,7 @@
      "beat": "free",
      "mood": "neutral",
      "claim": "interpretation",
-     "hold": 0.4,
+     "hold": 0.7,
      "say_ur": "فراغت، یعنی وہ گھنٹے جو موبائل میں گزر جاتے ہیں۔",
      "scene": "two_blessings"
     },
@@ -101,7 +105,7 @@
      "beat": "old",
      "mood": "heavy",
      "claim": "interpretation",
-     "hold": 0.5,
+     "hold": 0.6,
      "say_ur": "لیکن ایک دن طاقت کمزوری بن جائے گی، اور فراغت مصروفیت۔",
      "scene": "two_blessings"
     },
@@ -112,18 +116,31 @@
      "mood": "hope",
      "claim": "interpretation",
      "say_ur": "تو آج ہی انہیں استعمال کریں: ایک نماز وقت پر، قرآن کا ایک صفحہ۔",
+     "scene": "two_blessings",
+     "hold": 0.4
+    },
+    {
+     "text": "Which are you wasting: {health} or {free time}? 👇",
+     "text2": "کمنٹ میں لکھیں: {صحت} یا {فراغت}؟",
+     "beat": "cta",
+     "mood": "question",
+     "hold": 0.5,
+     "say_ur": "آپ کون سی نعمت ضائع کر رہے ہیں؟ کمنٹ میں لکھیں: صحت یا فراغت۔",
      "scene": "two_blessings"
     },
     {
-     "text": "Which one are you wasting? Comment: {health} or {free time} 👇",
-     "text2": "آپ کون سی نعمت ضائع کر رہے ہیں؟ لکھیں: صحت یا فراغت",
-     "beat": "cta",
-     "mood": "question",
-     "hold": 1.2,
-     "say_ur": "آپ کون سی نعمت ضائع کر رہے ہیں؟ کمنٹ میں لکھیں: صحت یا فراغت۔",
-     "scene": "two_blessings"
+     "text": "Follow for a daily reminder 🤍",
+     "text2": "ایسی مزید یاد دہانیوں کے لیے فالو کریں",
+     "say_ur": "ایسی مزید یاد دہانیوں کے لیے، ینگ اسپیڈ اسلام کو فالو کریں۔",
+     "scene": "two_blessings",
+     "beat": "end",
+     "mood": "soft",
+     "hold": 1.0,
+     "claim": "interpretation"
     }
-   ]
+   ],
+   "thumb_t": 25.0,
+   "thumb_y": 0.35
   }
  ]
 }

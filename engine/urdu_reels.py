@@ -1498,7 +1498,7 @@ def make_cover(spec, img, path=None):
             break
     lh = int(size * 1.12)
     block = lh * len(rows) + (int(size * 0.75) if title_ur else 0)
-    y0 = int(H * 0.47 - block / 2)
+    y0 = int(H * float(spec.get("thumb_y", 0.47)) - block / 2)   # spec "thumb_y": title centre (fraction of height)
     shade = Image.new("L", (W, H), 0)
     ImageDraw.Draw(shade).rounded_rectangle([-200, y0 - 160, W + 200, y0 + block + 160], radius=300, fill=175 if THEME == "light" else 160)
     im.paste(TH("cover_shade"), (0, 0), shade.filter(ImageFilter.GaussianBlur(80)))
