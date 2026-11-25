@@ -749,7 +749,99 @@ def sfx_plan(lines, starts, durs):
             cues.append(("heart", st, durs[i]))
         if want in ("steps", "soil"):
             cues.append((want, st, durs[i]))
+        for bgv in ln.get("bg", []):                       # character voices in the scene
+            cues.append(("clip", st + float(bgv.get("at", 0.0)), os.path.join(HERE, bgv["clip"]),
+                         float(bgv.get("gain", BGV_DB)), float(bgv.get("pan", 0.0))))
+        for name in ln.get("amb", []):                      # real-life ambience bed for this line
+            cues.append(("amb", st, durs[i] + float(ln.get("amb_tail", 0.4)), name))
     return cues
+
+
+BGV_DB = -6.0          # character voices (per-line "bg"), relative to the narration peak
+AMB_BED_DB = -20.0     # per-line ambience beds ("amb": birds / street / murmur / wind), ducked under the voice
+MURMUR_CLIPS = []      # set per video from spec "murmur_clips": short voice clips mixed into a market murmur
+
+
+def _lowpass(x, k):
+    k = max(1, int(k)); return np.convolve(x, np.ones(k) / k, mode="same")
+
+
+def _pan(m, p):
+    p = max(-1.0, min(1.0, p)); return np.stack([m * math.sqrt((1 - p) / 2), m * math.sqrt((1 + p) / 2)], 1) * 1.41
+
+
+def amb_birds(dur, rng):
+    n = int(dur * SR); out = np.zeros((n, 2)); t = rng.uniform(0, 0.4)
+    while t < dur - 0.3:
+        f0, p = rng.uniform(2800, 5200), rng.uniform(-0.8, 0.8)
+        for _ in range(int(rng.integers(2, 6))):          # a little phrase of chirps
+            L = rng.uniform(0.05, 0.13); m = int(L * SR); tt = np.arange(m) / SR
+            sweep = f0 * (1 + rng.uniform(-0.25, 0.35) * tt / L) + 180 * np.sin(2 * np.pi * rng.uniform(25, 45) * tt)
+            ch = np.sin(2 * np.pi * np.cumsum(sweep) / SR) * np.sin(np.pi * tt / L) ** 2 * rng.uniform(0.3, 1.0)
+            i = int(t * SR)
+            if i + m < n:
+                out[i:i + m] += _pan(ch, p)
+            t += L + rng.uniform(0.02, 0.09)
+        t += rng.uniform(0.4, 1.6)
+    return out * 0.5
+
+
+def amb_street(dur, rng):
+    n = int(dur * SR)
+    w = rng.standard_normal(n); br = np.cumsum(w); br -= _lowpass(br, SR // 4); br /= np.abs(br).max() + 1e-9
+    rum = _lowpass(br, 40) * 0.6
+    out = np.stack([rum, np.roll(rum, 300)], 1)
+    t = rng.uniform(0.2, 1.0)
+    while t < dur - 0.5:                                  # distant cars passing (band noise swell, panning)
+        L = rng.uniform(1.8, 3.2); m = int(L * SR); i = int(t * SR)
+        if i + m < n:
+            car = _lowpass(rng.standard_normal(m), 30) - _lowpass(rng.standard_normal(m), 200) * 0.5
+            env = np.sin(np.pi * np.arange(m) / m) ** 2
+            pan = np.linspace(rng.choice([-0.9, 0.9]), 0, m)
+            car = car / (np.abs(car).max() + 1e-9) * env * rng.uniform(0.5, 0.9)
+            out[i:i + m, 0] += car * np.sqrt((1 - pan) / 2); out[i:i + m, 1] += car * np.sqrt((1 + pan) / 2)
+        t += L * rng.uniform(0.5, 1.2)
+    return out * 0.6
+
+
+def amb_murmur(dur, rng):
+    n = int(dur * SR); out = np.zeros((n, 2))
+    src = [trim(load_audio(c)) for c in MURMUR_CLIPS if os.path.exists(c)]
+    if not src:
+        return out
+    for layer in range(7):                                 # overlapping distant conversations
+        t, p, g = rng.uniform(-0.5, 0.6), rng.uniform(-0.9, 0.9), rng.uniform(0.4, 1.0)
+        while t < dur:
+            c = src[int(rng.integers(len(src)))]
+            a = int(rng.uniform(0, max(1, len(c) - SR)))
+            seg = c[a:a + int(rng.uniform(0.8, 2.0) * SR)]
+            seg = _lowpass(seg, 9) * g
+            i = int(max(0, t) * SR)
+            if i < n:
+                m = min(len(seg), n - i); out[i:i + m] += _pan(seg[:m], p)
+            t += len(seg) / SR + rng.uniform(0.05, 0.5)
+    out /= np.abs(out).max() + 1e-9
+    return out * 0.7
+
+
+def amb_wind(dur, rng):
+    n = int(dur * SR); w = _lowpass(rng.standard_normal(n), 60)
+    env = 0.6 + 0.4 * np.sin(2 * np.pi * np.arange(n) / SR * rng.uniform(0.08, 0.2) + rng.uniform(0, 6))
+    w = w / (np.abs(w).max() + 1e-9) * env
+    return np.stack([w, np.roll(w, 2000)], 1) * 0.6
+
+
+AMB_FUNCS = {"birds": amb_birds, "street": amb_street, "murmur": amb_murmur, "wind": amb_wind}
+
+
+def scene_voice(path, gain, pan, rng):
+    """A character's line placed in the scene: a little room reverb and band-limit so it sits behind the narrator."""
+    c = trim(load_audio(path))
+    c = c / (np.abs(c).max() + 1e-9) * 0.8 * db(gain)
+    m = int(0.18 * SR); ir = rng.standard_normal(m) * np.exp(-np.arange(m) / (0.05 * SR)) * 0.06; ir[0] = 1.0
+    wet = np.convolve(c, ir)[: len(c) + m]
+    wet = wet - _lowpass(wet, 160) * 0.6                   # thin the low end a little
+    return _pan(edge_fade(wet), pan)
 
 
 def build_audio(clips, starts, shots, total, path, breaths=(), cues=()):
@@ -804,12 +896,27 @@ def build_audio(clips, starts, shots, total, path, breaths=(), cues=()):
                     s_ = sfx_steps(c[2], rng) * db(STEPS_DB)
                 elif c[0] == "soil":
                     s_ = sfx_soil(c[2], rng) * db(SOIL_DB)
-                else:
+                elif c[0] == "heart":
                     s_ = sfx_heart(c[2], rng) * db(HEART_DB)
+                else:
+                    continue
                 i = int(max(0, c[1]) * SR)
                 if i < n:
                     sfx[i:i + len(s_)] += s_[: n - i, None]
+        for c in cues:
+            if c[0] == "amb" and c[3] in AMB_FUNCS:
+                bed = AMB_FUNCS[c[3]](c[2], rng)
+                m = len(bed); fd = min(m // 3, int(0.35 * SR))
+                env = np.ones(m); env[:fd] = np.linspace(0, 1, fd); env[m - fd:] = np.linspace(1, 0, fd)
+                i = int(max(0, c[1]) * SR)
+                if i < n:
+                    k = min(m, n - i); sfx[i:i + k] += bed[:k] * env[:k, None] * db(AMB_BED_DB)
         mix += sfx * duck
+    for c in cues:                                        # character voices sit in the gaps, not ducked
+        if c[0] == "clip" and os.path.exists(c[2]):
+            v = scene_voice(c[2], c[3], c[4], rng); i = int(max(0, c[1]) * SR)
+            if i < n:
+                k = min(len(v), n - i); mix[i:i + k] += v[:k]
     if BGM_FILE and os.path.exists(BGM_FILE):
         b = load_audio(BGM_FILE); b = np.tile(b, n // len(b) + 1)[:n]
         mix += b[:, None] * db(BGM_DB)
@@ -1199,6 +1306,8 @@ def render_video(spec, verification=None):
         CLIPS_DIR = os.path.join(HERE, spec["clips_dir"])
     CLIPS_TEMPO = float(spec.get("clips_tempo", CLIPS_TEMPO))
     CLIP_MOOD_PITCH = bool(spec.get("clip_mood_pitch", CLIP_MOOD_PITCH))
+    global MURMUR_CLIPS
+    MURMUR_CLIPS = [os.path.join(HERE, c) for c in spec.get("murmur_clips", [])]
     first_scene = SCENES.get(next((l.get("scene") for l in spec["lines"] if l.get("scene")), ""), None)
     THEME = spec.get("theme") or getattr(first_scene, "theme", "dark")
     global THUMB_ON

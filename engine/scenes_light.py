@@ -1053,3 +1053,220 @@ class TwoBlessings(LightStage):
 
 
 LIGHT_SCENES["two_blessings"] = TwoBlessings
+
+
+# ------------------------------------------------------------------ charity on every joint (Bukhari 2989)
+from scenes_explainer import draw_mare as _draw_mare, L_TH as _LTH, L_SH as _LSH  # noqa: E402
+
+_POSE_LIFT = {"hip": (0, 140), "torso": 84, "head": 6, "ua": (330, 320), "fa": (40, 30), "th": (262, 280), "sh": (268, 276)}
+_POSE_REACH = {"hip": (0, 120), "torso": 60, "head": -10, "ua": (300, 296), "fa": (282, 278), "th": (258, 292), "sh": (262, 284)}
+_POSE_POINT = {"hip": (0, 146), "torso": 90, "head": 6, "ua": (10, 262), "fa": (14, 268), "th": (266, 274), "sh": (270, 270)}
+_POSE_WAVE = {"hip": (0, 146), "torso": 90, "head": 4, "ua": (40, 266), "fa": (80, 270), "th": (266, 274), "sh": (270, 270)}
+
+
+class JointsCharity(LightStage):
+    """Bukhari 2989, 'guess the charity' in clues. One long sunrise street; the camera travels to a station per clue.
+    Station 0: a man whose joints light up one by one as the sun rises. 1: an elder and his mount - a young man lifts
+    the bag onto it. 2: two friends greet, speech bubbles glow. 3: a father and son walk to the masjid, every step
+    lights up. 4: a stone on the road, the child points, the man moves it aside.
+    Beats: hook, said, quote, guess, c1, r1, c2, r2, c3, r3, c4, r4, cta, end."""
+    ambience = "meadow"
+    text_y = 0.25
+    text_zone = (0.165, 0.40)
+    STATIONS = 5
+
+    def build(self):
+        w, h, u, rng = self.w, self.h, self.u, self.rng
+        self.base = vgrad(w, h, [(0, (214, 228, 242)), (0.45, (246, 238, 226)), (0.80, (250, 232, 206)), (1, (232, 214, 186))])
+        self.gy = h * 0.865
+        self.houses = []
+        x = -0.5 * w
+        while x < self.STATIONS * w * 1.5 * 0.62 + w:              # pastel houses (parallax 0.6)
+            bw = rng.uniform(150, 260) * u; bh = rng.uniform(300, 520) * u
+            col = PASTELS[int(rng.integers(len(PASTELS)))]
+            col = tuple(int(c * 0.92) for c in col)
+            self.houses.append((x, bw, bh, col, int(rng.integers(1, 3)), rng.uniform(0, 1)))
+            x += bw + rng.uniform(10, 50) * u
+        self.motes = Motes(rng, 26, (0, h * 0.42, w, h), color=(255, 248, 226), r=(1.0 * u, 2.2 * u), rise=5)
+        self.spark = [(rng.uniform(-1, 1), rng.uniform(0, 1), rng.uniform(0.6, 1.3)) for _ in range(18)]
+
+    # ---- helpers
+    def cam(self, t):
+        T = self._T
+        keys = [(T["hook"], 0), (T["c1"] - 0.2, 0), (T["c1"] + 1.0, 1), (T["c2"] - 0.2, 1), (T["c2"] + 1.0, 2),
+                (T["c3"] - 0.2, 2), (T["c3"] + 1.0, 3), (T["c4"] - 0.2, 3), (T["c4"] + 1.0, 4)]
+        st = 0.0
+        for (t0, a), (t1, b) in zip(keys, keys[1:]):
+            if t >= t1:
+                st = b
+            elif t >= t0:
+                st = lerp(a, b, ease((t - t0) / max(0.01, t1 - t0))); break
+        return st * self.w * 1.5
+
+    def joints(self, x, g, pose, s):
+        hx, hy = x + pose["hip"][0] * s, g - pose["hip"][1] * s
+        nx, ny = _pt(hx, hy, pose["torso"], _LT * s)
+        pts = [(hx, hy), (nx, ny)]
+        for i in (0, 1):
+            kx, ky = _pt(hx, hy, pose["th"][i], _LTH * s); fx, fy = _pt(kx, ky, pose["sh"][i], _LSH * s)
+            ex, ey = _pt(nx, ny + 8 * s, pose["ua"][i], _LUA * s); wx, wy = _pt(ex, ey, pose["fa"][i], _LFA * s)
+            pts += [(kx, ky), (fx, fy), (ex, ey), (wx, wy)]
+        pts.append((nx, ny + 8 * s))
+        return pts
+
+    def glow_dot(self, d, dg, x, y, r, a):
+        d.ellipse([x - r, y - r, x + r, y + r], fill=(246, 190, 70, int(255 * a)))
+        dg.ellipse([x - r * 3, y - r * 3, x + r * 3, y + r * 3], fill=int(120 * a))
+
+    def bubble(self, d, dg, x, y, r, a, heart=True):
+        if a <= 0:
+            return
+        d.ellipse([x - r, y - r * 0.75, x + r, y + r * 0.75], fill=(255, 255, 255, int(235 * a)), outline=(200, 170, 120, int(255 * a)), width=max(2, int(3 * self.u)))
+        d.polygon([(x - r * 0.3, y + r * 0.6), (x - r * 0.55, y + r * 1.05), (x, y + r * 0.7)], fill=(255, 255, 255, int(235 * a)))
+        if heart:
+            k = r * 0.38
+            pts = [(x + 16 * math.sin(q) ** 3 * k / 16, y - (13 * math.cos(q) - 5 * math.cos(2 * q) - 2 * math.cos(3 * q) - math.cos(4 * q)) * k / 16)
+                   for q in np.linspace(0, math.tau, 40)]
+            d.polygon(pts, fill=(222, 92, 104, int(255 * a)))
+        dg.ellipse([x - r * 1.4, y - r * 1.2, x + r * 1.4, y + r * 1.2], fill=int(60 * a))
+
+    def frame(self, t):
+        w, h, u = self.w, self.h, self.u
+        self._T = T = {k: self.bt(k) for k in ("hook", "said", "quote", "guess", "c1", "r1", "c2", "r2", "c3", "r3", "c4", "r4", "cta", "end")}
+        if T["hook"] > 1e8:
+            T["hook"] = 3.0
+        cam = self.cam(t)
+        im = to_img(self.base); d = ImageDraw.Draw(im, "RGBA")
+        glow = Image.new("L", (w, h), 0); dg = ImageDraw.Draw(glow)
+        gy = self.gy
+        # sun rises during the quote ("every day on which the sun rises") and stays
+        rise = ease((t - T["quote"]) / 3.0) if t > T["quote"] else 0.0
+        sx, sy = w * 0.80, lerp(gy - 40 * u, h * 0.47, rise)
+        dg.ellipse([sx - 260 * u, sy - 260 * u, sx + 260 * u, sy + 260 * u], fill=int(70 + 80 * rise))
+        d.ellipse([sx - 70 * u, sy - 70 * u, sx + 70 * u, sy + 70 * u], fill=(255, 236, 190, 255))
+        for hx_, bw, bh, col, win, ph in self.houses:          # houses, parallax 0.6
+            x0 = hx_ - cam * 0.6
+            if x0 > w or x0 + bw < 0:
+                continue
+            top = gy - 60 * u - bh
+            d.rectangle([x0, top, x0 + bw, gy - 60 * u], fill=col + (255,))
+            for k in range(win):
+                wx = x0 + bw * (0.3 + 0.4 * k) - 18 * u
+                d.rounded_rectangle([wx, top + 40 * u, wx + 36 * u, top + 90 * u], radius=int(8 * u), fill=(255, 246, 220, 220))
+        d.rectangle([0, gy - 60 * u, w, gy], fill=(214, 226, 200, 255))      # verge
+        d.rectangle([0, gy, w, h], fill=(222, 206, 178, 255))
+        d.line([(0, gy), (w, gy)], fill=(196, 176, 140, 255), width=max(2, int(3 * u)))
+        s = 1.6
+        X = lambda k: k * w * 1.5 + w * 0.5 - cam                      # station centre on screen
+        # ---- station 0: joints light up
+        x0 = X(0)
+        if -w < x0 < 2 * w:
+            pose = _mix(POSES["stand"], POSES["look_up"], ease((t - T["quote"]) / 1.0) * (1 - ease((t - T["guess"]) / 0.8)))
+            self.fig(im, x0, gy, pose, s, alpha=ease((t - T["hook"] + 0.1) / 0.5)); d = ImageDraw.Draw(im, "RGBA")
+            pts = self.joints(x0, gy, pose, s * u)
+            for j, (px, py) in enumerate(pts):
+                a = ease((t - T["hook"] - 0.25 - j * 0.12) / 0.3)
+                pul = 1 + 0.25 * math.sin(t * 5 + j)
+                self.glow_dot(d, dg, px, py, 13 * u * pul, a)
+        # ---- station 1: the elder, his mount and the bag
+        x1 = X(1)
+        if -w < x1 < 2 * w:
+            _draw_mare(d, x1 + 120 * u, gy, 0.75 * u, 0.0, (120, 96, 80, 255), t)
+            lift = ease((t - T["r1"] - 0.2) / 1.0) if t > T["r1"] else 0.0
+            bx = lerp(x1 - 120 * u, x1 + 110 * u, lift); by = lerp(gy - 40 * u, gy - 175 * u, lift) - 60 * u * math.sin(math.pi * lift)
+            d.rounded_rectangle([bx - 46 * u, by - 40 * u, bx + 46 * u, by + 40 * u], radius=int(14 * u), fill=(176, 134, 90, 255))
+            d.line([(bx - 30 * u, by - 40 * u), (bx + 30 * u, by - 40 * u)], fill=(140, 100, 64, 255), width=max(2, int(6 * u)))
+            self.fig(im, x1 - 400 * u, gy, _POSE_OLD, s * 0.95); d = ImageDraw.Draw(im, "RGBA")
+            ph = self.hand(x1 - 400 * u, gy, _POSE_OLD, s * 0.95 * u, idx=0)
+            d.line([ph, (ph[0] + 22 * u, gy)], fill=(120, 86, 56, 255), width=max(3, int(7 * u)))
+            walk = ease((t - T["c1"] - 0.6) / 1.2)
+            hxp = lerp(x1 - 700 * u, x1 - 130 * u, walk)
+            if t < T["r1"]:
+                pose = walk_pose((t - T["c1"]) * 7, 1 - walk) if walk < 1 else _mix(POSES["stand"], _POSE_REACH, ease((t - T["c1"] - 1.8) / 0.6))
+            else:
+                pose = _mix(_POSE_REACH, _POSE_LIFT, lift)
+                hxp = x1 - 130 * u + 110 * u * lift
+            self.fig(im, hxp, gy, pose, s, alpha=ease((t - T["c1"]) / 0.4)); d = ImageDraw.Draw(im, "RGBA")
+            if t > T["r1"] + 1.0:
+                self.sparkles(d, dg, x1 + 110 * u, gy - 220 * u, t - T["r1"] - 1.0)
+        # ---- station 2: greeting
+        x2 = X(2)
+        if -w < x2 < 2 * w:
+            appr = ease((t - T["c2"] - 0.0) / 0.85)
+            for k, sgn in ((0, -1), (1, 1)):
+                fx = x2 + sgn * lerp(420 * u, 150 * u, appr)
+                pose = walk_pose((t - T["c2"]) * 7 + k, 1 - appr) if appr < 1 else _mix(POSES["stand"], _POSE_WAVE, ease((t - T["c2"] - 1.0) / 0.4))
+                self.fig(im, fx, gy, pose, s, flip=(sgn > 0)); d = ImageDraw.Draw(im, "RGBA")
+            a1 = ease((t - T["c2"] - 0.95) / 0.3); a2 = ease((t - T["c2"] - 3.2) / 0.3)
+            gl = 1 + (0.15 * math.sin(t * 4) if t > T["r2"] else 0)
+            self.bubble(d, dg, x2 - 210 * u, gy - 560 * u, 70 * u * gl, a1)
+            self.bubble(d, dg, x2 + 210 * u, gy - 560 * u, 70 * u * gl, a2)
+            if t > T["r2"] + 0.3:
+                self.sparkles(d, dg, x2, gy - 480 * u, t - T["r2"] - 0.3)
+        # ---- station 3: walking to the masjid, each step lights up
+        x3 = X(3)
+        if -w < x3 < 2 * w:
+            mx = x3 + 330 * u                                    # masjid silhouette
+            mc, dome, edge = (250, 246, 236, 255), (232, 190, 112, 255), (196, 168, 120, 255)
+            d.rectangle([mx - 170 * u, gy - 330 * u, mx + 170 * u, gy], fill=mc, outline=edge, width=max(2, int(3 * u)))
+            d.chord([mx - 130 * u, gy - 480 * u, mx + 130 * u, gy - 220 * u], 180, 360, fill=dome)
+            d.line([(mx, gy - 480 * u), (mx, gy - 530 * u)], fill=dome, width=max(3, int(6 * u)))
+            d.ellipse([mx - 12 * u, gy - 552 * u, mx + 12 * u, gy - 528 * u], fill=dome)
+            d.rectangle([mx + 200 * u, gy - 600 * u, mx + 246 * u, gy], fill=mc, outline=edge, width=max(2, int(3 * u)))
+            d.chord([mx + 194 * u, gy - 650 * u, mx + 252 * u, gy - 570 * u], 180, 360, fill=dome)
+            for k in (-1, 1):
+                d.rounded_rectangle([mx + k * 105 * u - 22 * u, gy - 250 * u, mx + k * 105 * u + 22 * u, gy - 170 * u], radius=int(22 * u), fill=(250, 226, 170, 255))
+            d.rounded_rectangle([mx - 40 * u, gy - 170 * u, mx + 40 * u, gy], radius=int(40 * u), fill=(250, 214, 140, 255))
+            dg.ellipse([mx - 120 * u, gy - 260 * u, mx + 120 * u, gy + 20 * u], fill=110)
+            q = ease((t - T["c3"] - 0.4) / 5.2) if t > T["c3"] else 0.0
+            fx = lerp(x3 - 560 * u, x3 + 120 * u, q)
+            ph = (t - T["c3"]) * 7
+            self.fig(im, fx, gy, walk_pose(ph, 1.0 if q < 1 else 0.0), s)
+            self.fig(im, fx - 130 * u, gy, walk_pose(ph * 1.25 + 1, 1.0 if q < 1 else 0.0), s * 0.68); d = ImageDraw.Draw(im, "RGBA")
+            nsteps = int(q * 12)
+            for k in range(nsteps):                               # footprints along the path
+                px = lerp(x3 - 560 * u, x3 + 120 * u, k / 12) - 30 * u
+                lit = ease((t - T["r3"] - k * 0.08) / 0.3) if t > T["r3"] else 0.0
+                col = (int(lerp(190, 246, lit)), int(lerp(170, 190, lit)), int(lerp(140, 70, lit)), 255)
+                d.ellipse([px - 14 * u, gy + 14 * u + (k % 2) * 16 * u, px + 14 * u, gy + 28 * u + (k % 2) * 16 * u], fill=col)
+                if lit > 0:
+                    dg.ellipse([px - 34 * u, gy - 10 * u, px + 34 * u, gy + 50 * u], fill=int(90 * lit))
+        # ---- station 4: the stone in the road
+        x4 = X(4)
+        if -w < x4 < 2 * w:
+            mv = ease((t - T["r4"] - 0.5) / 1.0) if t > T["r4"] else 0.0
+            stx = lerp(x4 + 40 * u, x4 + 380 * u, mv); sty = lerp(gy + 46 * u, gy - 30 * u, mv) - 120 * u * math.sin(math.pi * mv)
+            d.polygon([(stx - 60 * u, sty + 26 * u), (stx - 40 * u, sty - 24 * u), (stx + 10 * u, sty - 36 * u), (stx + 58 * u, sty - 6 * u), (stx + 50 * u, sty + 28 * u)], fill=(140, 132, 126, 255))
+            self.fig(im, x4 - 330 * u, gy, _POSE_POINT if t > T["c4"] + 0.6 else POSES["stand"], s * 0.68); d = ImageDraw.Draw(im, "RGBA")
+            walk = ease((t - T["c4"] - 1.4) / 1.2)
+            mxp = lerp(x4 - 700 * u, x4 - 60 * u, walk)
+            if t < T["r4"]:
+                pose = walk_pose((t - T["c4"]) * 7, 1 - walk) if walk < 1 else POSES["stand"]
+            else:
+                k = ease((t - T["r4"]) / 0.5)
+                pose = _mix(_POSE_REACH, _POSE_LIFT, mv) if mv > 0 else _mix(POSES["stand"], _POSE_REACH, k)
+            self.fig(im, mxp, gy, pose, s); d = ImageDraw.Draw(im, "RGBA")
+            if mv >= 1:
+                pk = ease((t - T["r4"] - 1.5) / 0.8)
+                d.rectangle([x4 - 500 * u, gy + 4 * u, x4 + 300 * u, gy + 30 * u], fill=(250, 220, 140, int(160 * pk)))
+                dg.rectangle([x4 - 500 * u, gy - 20 * u, x4 + 300 * u, gy + 50 * u], fill=int(80 * pk))
+        if t > T["cta"]:                                          # every lit joint again at the end
+            for rx, rp, sp in self.spark:
+                q_ = (rp + (t - T["cta"]) * 0.25 * sp) % 1
+                mx_ = w * 0.5 + rx * 420 * u; my_ = lerp(gy - 40 * u, h * 0.46, q_)
+                a = math.sin(q_ * math.pi)
+                self.glow_dot(d, dg, mx_, my_, 5 * u, a)
+        return self.finish(im, glow, col=(255, 222, 160), blur=24, dust=self.motes, t=t)
+
+    def sparkles(self, d, dg, x, y, dt):
+        u = self.u
+        for k, (rx, rp, sp) in enumerate(self.spark[:10]):
+            q = min(1.0, dt * 0.6 * sp + rp * 0.3)
+            px = x + rx * 140 * u; py = y - q * 160 * u
+            a = math.sin(math.pi * q) if dt < 3 else 0.6 * math.sin(math.pi * q)
+            self.glow_dot(d, dg, px, py, 6 * u, max(0.0, a))
+
+    hand = TwoBlessings.hand
+
+
+LIGHT_SCENES["joints_charity"] = JointsCharity

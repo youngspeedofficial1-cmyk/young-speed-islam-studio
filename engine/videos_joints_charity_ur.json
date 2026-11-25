@@ -1,0 +1,270 @@
+{
+ "videos": [
+  {
+   "name": "joints_charity_ur",
+   "voice_lang": "ur",
+   "text_lang": "en",
+   "text2_lang": "ur",
+   "style": "explainer",
+   "hook_type": "bold_claim",
+   "topic": "charity on every joint: guess-the-deed clues (Bukhari 2989)",
+   "title": "Charity Without Money",
+   "thumb_title": "Charity Without {Money}?",
+   "thumb_title_ur": "پیسوں کے بغیر صدقہ؟ چار اشارے",
+   "thumb_t": 3.4,
+   "thumb_y": 0.36,
+   "voice_engine": "clips",
+   "clips_dir": "clips",
+   "clip_mood_pitch": false,
+   "sfx": "dramatic",
+   "murmur_clips": [
+    "clips/bg/bg_elder_01.wav",
+    "clips/bg/bg_young_02.wav",
+    "clips/bg/bg_middle_02.wav",
+    "clips/bg/bg_woman_00.wav",
+    "clips/bg/bg_woman_01.wav"
+   ],
+   "voice_note": "Narration: OmniVoice clone of the creator's voice. Characters: OmniVoice designed voices (background).",
+   "hashtags": [
+    "#islamicreminder",
+    "#hadith",
+    "#urdu",
+    "#sadaqah",
+    "#charity",
+    "#sunnah",
+    "#muslim"
+   ],
+   "sources": [
+    {
+     "ref": "Sahih al-Bukhari 2989",
+     "url": "https://sunnah.com/bukhari:2989",
+     "grade": "sahih (Bukhari; also Muslim 1009)",
+     "wording": "English per HadeethEnc translation (https://hadeethenc.com/en/browse/hadith/4568); narrated by Abu Huraira",
+     "arabic": "حَدَّثَنِي إِسْحَاقُ، أَخْبَرَنَا عَبْدُ الرَّزَّاقِ، أَخْبَرَنَا مَعْمَرٌ، عَنْ هَمَّامٍ، عَنْ أَبِي هُرَيْرَةَ ـ رضى الله عنه ـ قَالَ قَالَ رَسُولُ اللَّهِ صلى الله عليه وسلم ‏\n\"‏ كُلُّ سُلاَمَى مِنَ النَّاسِ عَلَيْهِ صَدَقَةٌ كُلَّ يَوْمٍ تَطْلُعُ فِيهِ الشَّمْسُ، يَعْدِلُ بَيْنَ الاِثْنَيْنِ صَدَقَةٌ، وَيُعِينُ الرَّجُلَ عَلَى دَابَّتِهِ، فَيَحْمِلُ عَلَيْهَا، أَوْ يَرْفَعُ عَلَيْهَا مَتَاعَهُ صَدَقَةٌ، وَالْكَلِمَةُ الطَّيِّبَةُ صَدَقَةٌ، وَكُلُّ خَطْوَةٍ يَخْطُوهَا إِلَى الصَّلاَةِ صَدَقَةٌ، وَيُمِيطُ الأَذَى عَنِ الطَّرِيقِ صَدَقَةٌ ‏\"‏‏.‏",
+     "arabic_source": "AhmedBaset/hadith-json (Bukhari Arabic text)",
+     "checked": "2026-11-25"
+    }
+   ],
+   "lines": [
+    {
+     "text": "A charity is due on every joint of your body. Every day. 😮",
+     "text2": "آپ کے جسم کے ہر جوڑ پر، ہر روز ایک {صدقہ} ہے",
+     "beat": "hook",
+     "mood": "question",
+     "sfx": "hit",
+     "amb": [
+      "birds"
+     ],
+     "claim": "interpretation",
+     "scene": "joints_charity",
+     "say_ur": "آپ کے جسم کے ہر جوڑ پر، ہر روز ایک صدقہ ہے۔"
+    },
+    {
+     "text": "The Prophet ﷺ said:",
+     "text2": "رسول اللہ ﷺ نے فرمایا:",
+     "beat": "said",
+     "amb": [
+      "birds"
+     ],
+     "scene": "joints_charity",
+     "say_ur": "رسول اللہ صلی اللہ علیہ وسلم نے فرمایا:"
+    },
+    {
+     "text": "“There is a charity to be given for each joint of the human body every day on which the sun {rises}”",
+     "text2": "”انسان کے ہر جوڑ پر، ہر اس دن صدقہ ہے جس میں {سورج} نکلتا ہے“",
+     "beat": "quote",
+     "mood": "soft",
+     "amb": [
+      "birds"
+     ],
+     "text0": "كُلُّ سُلاَمَى مِنَ النَّاسِ عَلَيْهِ صَدَقَةٌ كُلَّ يَوْمٍ تَطْلُعُ فِيهِ الشَّمْسُ",
+     "text0_ref": "Sahih al-Bukhari 2989",
+     "scene": "joints_charity",
+     "say_ur": "انسان کے ہر جوڑ پر، ہر اس دن صدقہ ہے جس میں سورج نکلتا ہے۔"
+    },
+    {
+     "text": "No money? Then how? 🤔 4 clues, guess first!",
+     "text2": "پیسوں کے بغیر کیسے؟ چار {اشارے}، پہلے اندازہ لگائیں",
+     "beat": "guess",
+     "mood": "question",
+     "claim": "interpretation",
+     "hold": 3.2,
+     "scene": "joints_charity",
+     "say_ur": "لیکن پیسوں کے بغیر… کیسے؟ چار اشارے دیکھیں، اور اندازہ لگائیں!"
+    },
+    {
+     "text": "Clue 1 🔍 What's the charity here?",
+     "text2": "اشارہ ۱: یہاں صدقہ کیا ہے؟",
+     "beat": "c1",
+     "speak": false,
+     "hold": 5.0,
+     "amb": [
+      "murmur",
+      "street"
+     ],
+     "bg": [
+      {
+       "clip": "clips/bg/bg_elder_00.wav",
+       "at": 0.2,
+       "pan": -0.5,
+       "gain": -6.0
+      },
+      {
+       "clip": "clips/bg/bg_young_00.wav",
+       "at": 2.85,
+       "pan": 0.4,
+       "gain": -6.0
+      }
+     ],
+     "scene": "joints_charity"
+    },
+    {
+     "text": "“helping a man with his mount… or lift his luggage on it is a {charity}”",
+     "text2": "”کسی کا سامان اٹھانے میں مدد کرنا {صدقہ} ہے“",
+     "beat": "r1",
+     "amb": [
+      "murmur"
+     ],
+     "text0": "أَوْ يَرْفَعُ عَلَيْهَا مَتَاعَهُ صَدَقَةٌ",
+     "text0_ref": "Sahih al-Bukhari 2989",
+     "scene": "joints_charity",
+     "say_ur": "کسی کا سامان اٹھانے میں مدد کرنا، صدقہ ہے۔"
+    },
+    {
+     "text": "Clue 2 🔍 What's the charity here?",
+     "text2": "اشارہ ۲: یہاں صدقہ کیا ہے؟",
+     "beat": "c2",
+     "speak": false,
+     "hold": 4.4,
+     "amb": [
+      "street"
+     ],
+     "bg": [
+      {
+       "clip": "clips/bg/bg_young_01.wav",
+       "at": 0.9,
+       "pan": -0.4,
+       "gain": -6.0
+      },
+      {
+       "clip": "clips/bg/bg_middle_00s.wav",
+       "at": 3.15,
+       "pan": 0.4,
+       "gain": -6.0
+      }
+     ],
+     "scene": "joints_charity"
+    },
+    {
+     "text": "“the good {word} is a charity”",
+     "text2": "”اچھی {بات} صدقہ ہے“",
+     "beat": "r2",
+     "amb": [
+      "street"
+     ],
+     "text0": "وَالْكَلِمَةُ الطَّيِّبَةُ صَدَقَةٌ",
+     "text0_ref": "Sahih al-Bukhari 2989",
+     "scene": "joints_charity",
+     "say_ur": "اچھی بات کہنا، صدقہ ہے۔"
+    },
+    {
+     "text": "Clue 3 🔍 What's the charity here?",
+     "text2": "اشارہ ۳: یہاں صدقہ کیا ہے؟",
+     "beat": "c3",
+     "speak": false,
+     "hold": 4.8,
+     "amb": [
+      "birds"
+     ],
+     "sfx": "steps",
+     "bg": [
+      {
+       "clip": "clips/bg/bg_middle_01.wav",
+       "at": 0.3,
+       "pan": -0.3,
+       "gain": -6.0
+      },
+      {
+       "clip": "clips/bg/bg_child_01.wav",
+       "at": 2.9,
+       "pan": -0.5,
+       "gain": -6.0
+      }
+     ],
+     "scene": "joints_charity"
+    },
+    {
+     "text": "“every {step} that one takes to the prayer is a charity”",
+     "text2": "”نماز کی طرف ہر {قدم} صدقہ ہے“",
+     "beat": "r3",
+     "amb": [
+      "birds"
+     ],
+     "sfx": "steps",
+     "text0": "وَكُلُّ خَطْوَةٍ يَخْطُوهَا إِلَى الصَّلاَةِ صَدَقَةٌ",
+     "text0_ref": "Sahih al-Bukhari 2989",
+     "scene": "joints_charity",
+     "say_ur": "نماز کی طرف اٹھنے والا ہر قدم، صدقہ ہے۔"
+    },
+    {
+     "text": "Clue 4 🔍 What's the charity here?",
+     "text2": "اشارہ ۴: یہاں صدقہ کیا ہے؟",
+     "beat": "c4",
+     "speak": false,
+     "hold": 3.6,
+     "amb": [
+      "street",
+      "birds"
+     ],
+     "bg": [
+      {
+       "clip": "clips/bg/bg_child_00.wav",
+       "at": 0.5,
+       "pan": -0.5,
+       "gain": -3.0
+      }
+     ],
+     "scene": "joints_charity"
+    },
+    {
+     "text": "“removing what is {harmful} from the way is a charity”",
+     "text2": "”راستے سے {تکلیف دہ} چیز ہٹانا صدقہ ہے“",
+     "beat": "r4",
+     "amb": [
+      "street"
+     ],
+     "sub": "(Sahih al-Bukhari 2989)",
+     "text0": "وَيُمِيطُ الأَذَى عَنِ الطَّرِيقِ صَدَقَةٌ",
+     "text0_ref": "Sahih al-Bukhari 2989",
+     "scene": "joints_charity",
+     "say_ur": "اور راستے سے تکلیف دہ چیز ہٹانا، صدقہ ہے۔"
+    },
+    {
+     "text": "Which one will you do today? 👇",
+     "text2": "آج آپ کون سا {صدقہ} کریں گے؟ کمنٹ میں بتائیں",
+     "beat": "cta",
+     "mood": "question",
+     "amb": [
+      "birds"
+     ],
+     "hold": 0.6,
+     "scene": "joints_charity",
+     "say_ur": "آج آپ ان میں سے کون سا صدقہ کریں گے؟ کمنٹ میں بتائیں۔"
+    },
+    {
+     "text": "Follow for a daily reminder 🤍",
+     "text2": "ایسی مزید یاد دہانیوں کے لیے فالو کریں",
+     "beat": "end",
+     "mood": "soft",
+     "hold": 1.0,
+     "claim": "interpretation",
+     "amb": [
+      "birds"
+     ],
+     "scene": "joints_charity",
+     "say_ur": "ایسی مزید یاد دہانیوں کے لیے، ینگ اسپیڈ اسلام کو فالو کریں۔"
+    }
+   ]
+  }
+ ]
+}

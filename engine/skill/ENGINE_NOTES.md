@@ -75,3 +75,14 @@
 - Licence: OmniVoice weights CC-BY-NC (non-commercial). For a monetized channel use the SPRING_F5 relay (Apache-2.0) or ElevenLabs.
 - Emoji regex now covers ⏳⌛ (U+231A-231B, U+23E9-23FA).
 - Cover title position: spec "thumb_y" (title centre as a fraction of height, default 0.47); pick "thumb_t" on a frame whose subject sits below the title.
+
+## Character voices, ambience beds and clue lines (Nov 2026)
+- Per line `"bg": [{"clip": "clips/bg/<voice>_NN.wav", "at": s, "pan": -1..1, "gain": dB}]` places a character's line in
+  the scene (light room reverb, panned, not ducked). Make them with the "OmniVoice background voices" workflow:
+  push `scripts_bg/<file>.json` with one video per voice and `"instruct"` (e.g. "male, elderly, low pitch", "male, child,
+  high pitch"), `"num_step": 16` (~4 min for 12 lines). Copy `audio/<voice>/NN.wav` to `clips/bg/<voice>_NN.wav`.
+- Per line `"amb": ["birds" | "street" | "murmur" | "wind"]` adds a synthesized real-life bed (ducked under narration).
+  `"murmur"` mixes the spec's `"murmur_clips"` into distant crowd chatter.
+- Clue lines: `"speak": false` + `"hold"` = the line's total length; time the `bg` voices inside it, and leave the narrator
+  silent so the characters are heard. Clues must come from the hadith text itself.
+- `"hold"` is a MINIMUM line length (max(hold, natural + 0.5)), not an extra pause.
