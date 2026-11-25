@@ -1,7 +1,7 @@
 name: OmniVoice Urdu relay
 on:
   push:
-    paths: ["scripts_ov/**.json", "voices/**"]
+    paths: ["scripts_ov/*.json"]
   workflow_dispatch:
 permissions:
   contents: write
@@ -11,7 +11,7 @@ concurrency:
 jobs:
   ov:
     runs-on: ubuntu-latest
-    timeout-minutes: 60
+    timeout-minutes: 120
     steps:
       - uses: actions/checkout@v4
         with: { ref: main }
@@ -24,7 +24,7 @@ jobs:
       - run: |
           pip install torch torchaudio --index-url https://download.pytorch.org/whl/cpu
           pip install omnivoice==0.2.1 soundfile
-      - run: python tools/ov_relay.py
+      - run: python tools/ov_relay.py scripts_ov/*.json
       - name: Commit audio
         run: |
           git config user.name "voice-relay"
@@ -32,4 +32,4 @@ jobs:
           git add audio
           git diff --cached --quiet || git commit -m "OmniVoice clips [skip ci]"
           git pull --rebase -q || true
-          git push
+          for i in 1 2 3; do git pull --rebase -q && git push && break; sleep 7; done

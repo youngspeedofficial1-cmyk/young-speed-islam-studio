@@ -1,0 +1,35 @@
+name: OmniVoice background voices
+on:
+  push:
+    paths: ["scripts_bg/*.json"]
+  workflow_dispatch:
+permissions:
+  contents: write
+concurrency:
+  group: omnivoice_bg
+  cancel-in-progress: false
+jobs:
+  ov:
+    runs-on: ubuntu-latest
+    timeout-minutes: 120
+    steps:
+      - uses: actions/checkout@v4
+        with: { ref: main }
+      - uses: actions/setup-python@v5
+        with: { python-version: "3.11" }
+      - uses: actions/cache@v4
+        with:
+          path: ~/.cache/huggingface
+          key: hf-omnivoice-whisper-v2
+      - run: |
+          pip install torch torchaudio --index-url https://download.pytorch.org/whl/cpu
+          pip install omnivoice==0.2.1 soundfile
+      - run: python tools/ov_relay.py scripts_bg/*.json
+      - name: Commit audio
+        run: |
+          git config user.name "voice-relay"
+          git config user.email "actions@users.noreply.github.com"
+          git add audio
+          git diff --cached --quiet || git commit -m "Background voices [skip ci]"
+          git pull --rebase -q || true
+          for i in 1 2 3; do git pull --rebase -q && git push && break; sleep 7; done

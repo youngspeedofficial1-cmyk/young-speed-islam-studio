@@ -51,6 +51,7 @@ def cer(ref, hyp):
     return d[len(b)] / len(a)
 
 def main(paths):
+    paths = [p for p in paths if pathlib.Path(p).exists()]
     model = None
     for p in paths:
         for v in videos(json.loads(pathlib.Path(p).read_text(encoding="utf-8"))):

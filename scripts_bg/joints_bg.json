@@ -1,0 +1,75 @@
+{
+ "videos": [
+  {
+   "name": "bg_elder",
+   "instruct": "male, elderly, low pitch",
+   "num_step": 16,
+   "lines": [
+    {
+     "say_ur": "بیٹا، ذرا یہ سامان اٹھوا دو۔"
+    },
+    {
+     "say_ur": "آج بازار میں بہت رش ہے۔"
+    }
+   ]
+  },
+  {
+   "name": "bg_young",
+   "instruct": "male, young adult, moderate pitch",
+   "num_step": 16,
+   "lines": [
+    {
+     "say_ur": "جی چاچا، ابھی لیں!"
+    },
+    {
+     "say_ur": "السلام علیکم بھائی! کیسے ہو؟"
+    },
+    {
+     "say_ur": "چلو جلدی کرو یار۔"
+    }
+   ]
+  },
+  {
+   "name": "bg_middle",
+   "instruct": "male, middle-aged, low pitch",
+   "num_step": 16,
+   "lines": [
+    {
+     "say_ur": "وعلیکم السلام، الحمدللہ۔ جزاک اللہ!"
+    },
+    {
+     "say_ur": "چلو بیٹا، نماز کا وقت ہو گیا۔"
+    },
+    {
+     "say_ur": "کتنے کا دیا بھائی؟"
+    }
+   ]
+  },
+  {
+   "name": "bg_child",
+   "instruct": "male, child, high pitch",
+   "num_step": 16,
+   "lines": [
+    {
+     "say_ur": "ابو! دیکھیں، راستے میں پتھر ہے!"
+    },
+    {
+     "say_ur": "جی ابو، آ رہا ہوں!"
+    }
+   ]
+  },
+  {
+   "name": "bg_woman",
+   "instruct": "female, middle-aged, moderate pitch",
+   "num_step": 16,
+   "lines": [
+    {
+     "say_ur": "ٹھیک ہے، یہ والا دے دیں۔"
+    },
+    {
+     "say_ur": "بہت شکریہ بیٹا۔"
+    }
+   ]
+  }
+ ]
+}
