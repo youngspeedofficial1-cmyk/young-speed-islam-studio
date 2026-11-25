@@ -1,0 +1,44 @@
+{
+ "0": {
+  "file": "00.wav",
+  "text": "جی چاچا، ابھی لیں!",
+  "engine": "omnivoice",
+  "hash": "08fdc1c9a90754fe8998822f4f250182c2ca96c5",
+  "ref": null,
+  "instruct": "male, young adult, moderate pitch",
+  "speed": null,
+  "seed": null,
+  "num_step": 16,
+  "takes": null,
+  "cer": 0.0,
+  "asr": ""
+ },
+ "1": {
+  "file": "01.wav",
+  "text": "السلام علیکم بھائی! کیسے ہو؟",
+  "engine": "omnivoice",
+  "hash": "012dcfbcba95a0feeb402e223dc389f96e67dc78",
+  "ref": null,
+  "instruct": "male, young adult, moderate pitch",
+  "speed": null,
+  "seed": null,
+  "num_step": 16,
+  "takes": null,
+  "cer": 0.0,
+  "asr": ""
+ },
+ "2": {
+  "file": "02.wav",
+  "text": "چلو جلدی کرو یار۔",
+  "engine": "omnivoice",
+  "hash": "8049a640a7a1b08c8fb0d394f1270627d0c4570c",
+  "ref": null,
+  "instruct": "male, young adult, moderate pitch",
+  "speed": null,
+  "seed": null,
+  "num_step": 16,
+  "takes": null,
+  "cer": 0.0,
+  "asr": ""
+ }
+}

@@ -1,0 +1,30 @@
+{
+ "0": {
+  "file": "00.wav",
+  "text": "ابو! دیکھیں، راستے میں پتھر ہے!",
+  "engine": "omnivoice",
+  "hash": "58f175b882dc5863f1af66bc011341783e5252b9",
+  "ref": null,
+  "instruct": "male, child, high pitch",
+  "speed": null,
+  "seed": null,
+  "num_step": 16,
+  "takes": null,
+  "cer": 0.0,
+  "asr": ""
+ },
+ "1": {
+  "file": "01.wav",
+  "text": "جی ابو، آ رہا ہوں!",
+  "engine": "omnivoice",
+  "hash": "6b7672ad94d185553234381d93688fedd218eaea",
+  "ref": null,
+  "instruct": "male, child, high pitch",
+  "speed": null,
+  "seed": null,
+  "num_step": 16,
+  "takes": null,
+  "cer": 0.0,
+  "asr": ""
+ }
+}

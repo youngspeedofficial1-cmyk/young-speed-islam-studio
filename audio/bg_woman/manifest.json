@@ -1,0 +1,30 @@
+{
+ "0": {
+  "file": "00.wav",
+  "text": "ٹھیک ہے، یہ والا دے دیں۔",
+  "engine": "omnivoice",
+  "hash": "8c3664840a21397962db027266a61005d28e2bd1",
+  "ref": null,
+  "instruct": "female, middle-aged, moderate pitch",
+  "speed": null,
+  "seed": null,
+  "num_step": 16,
+  "takes": null,
+  "cer": 0.0,
+  "asr": ""
+ },
+ "1": {
+  "file": "01.wav",
+  "text": "بہت شکریہ بیٹا۔",
+  "engine": "omnivoice",
+  "hash": "da4ddc580c88d61c6f48fa03d96fba69a18d6063",
+  "ref": null,
+  "instruct": "female, middle-aged, moderate pitch",
+  "speed": null,
+  "seed": null,
+  "num_step": 16,
+  "takes": null,
+  "cer": 0.0,
+  "asr": ""
+ }
+}

@@ -1,0 +1,30 @@
+{
+ "0": {
+  "file": "00.wav",
+  "text": "بیٹا، ذرا یہ سامان اٹھوا دو۔",
+  "engine": "omnivoice",
+  "hash": "53a4898f62b45eca28ebb5016250a9903d4494fb",
+  "ref": null,
+  "instruct": "male, elderly, low pitch",
+  "speed": null,
+  "seed": null,
+  "num_step": 16,
+  "takes": null,
+  "cer": 0.0,
+  "asr": ""
+ },
+ "1": {
+  "file": "01.wav",
+  "text": "آج بازار میں بہت رش ہے۔",
+  "engine": "omnivoice",
+  "hash": "2e644871cd7f54725e6c526ebaa2d2b4a8066e3f",
+  "ref": null,
+  "instruct": "male, elderly, low pitch",
+  "speed": null,
+  "seed": null,
+  "num_step": 16,
+  "takes": null,
+  "cer": 0.0,
+  "asr": ""
+ }
+}

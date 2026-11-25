@@ -1,0 +1,44 @@
+{
+ "0": {
+  "file": "00.wav",
+  "text": "وعلیکم السلام، الحمدللہ۔ جزاک اللہ!",
+  "engine": "omnivoice",
+  "hash": "ad2448c570935149bd21b9886de8ec046e3e22a3",
+  "ref": null,
+  "instruct": "male, middle-aged, low pitch",
+  "speed": null,
+  "seed": null,
+  "num_step": 16,
+  "takes": null,
+  "cer": 0.0,
+  "asr": ""
+ },
+ "1": {
+  "file": "01.wav",
+  "text": "چلو بیٹا، نماز کا وقت ہو گیا۔",
+  "engine": "omnivoice",
+  "hash": "ec151cc308d2695de514f79596ebb9ed3671e544",
+  "ref": null,
+  "instruct": "male, middle-aged, low pitch",
+  "speed": null,
+  "seed": null,
+  "num_step": 16,
+  "takes": null,
+  "cer": 0.0,
+  "asr": ""
+ },
+ "2": {
+  "file": "02.wav",
+  "text": "کتنے کا دیا بھائی؟",
+  "engine": "omnivoice",
+  "hash": "a5384b423afe04d74b30cafcfd6e805ff43c12d4",
+  "ref": null,
+  "instruct": "male, middle-aged, low pitch",
+  "speed": null,
+  "seed": null,
+  "num_step": 16,
+  "takes": null,
+  "cer": 0.0,
+  "asr": ""
+ }
+}
